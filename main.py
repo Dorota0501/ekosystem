@@ -9,17 +9,17 @@ value_cols = df.columns[1:]
 tab_weights = []
 
 
+
 def get_weight(col_name) -> float:
     if not isinstance(col_name, str):
         return 0
     if "R1" in col_name:
         return 1
     elif "R2" in col_name:
-        return 3
+        return 2
     elif "R3" in col_name:
-        return 5
+        return 3
     return 0
-
 
 def przedzialy(value, nazwa, wagi):
     value = [value]
@@ -217,9 +217,9 @@ def przedzialy(value, nazwa, wagi):
             value.append("slaby")
         elif 15 < value[0] <= 33:
             value.append("umiarkowany")
-        elif 44 < value[0] <= 38:
+        elif 33 < value[0] <= 47:
             value.append("dobry")
-        elif value[0] > 58:
+        elif value[0] > 47:
             value.append("bardzo dobry")
     elif nazwa == "bezkregowce_LS" and wagi == 531:
         if value[0] <= 46:
@@ -290,12 +290,11 @@ def przedzialy(value, nazwa, wagi):
 
     return value
 
-
 records = []
 for row_idx, row in df.iterrows():
     record_LS = []
     record_NL = []
-    record_name = [row['Name']]
+    record_name = row['Name']
     for col_name in value_cols:
         value = row[col_name]
         weight = get_weight(col_name)
@@ -304,14 +303,14 @@ for row_idx, row in df.iterrows():
                 record_LS.append(value * weight)
             elif col_name.__contains__("NL"):
                 record_NL.append(value * weight)
-    record_LS = record_name + record_LS
-    record_NL = record_name + record_NL
-    record_LS_suma = sum(record_LS[1:])
-    record_NL_suma = sum(record_NL[1:])
-    record_ls = przedzialy(record_LS_suma, "woda_LS", 531)
-    record_nl = przedzialy(record_NL_suma, "woda_NL", 531)
+    record_LS = [record_name,  record_LS]
+    record_NL = [record_name,  record_NL]
+    record_LS_suma = sum(record_LS[1])
+    record_NL_suma = sum(record_NL[1])
+    record_ls = przedzialy(record_LS_suma, "woda_LS", 321)
+    record_nl = przedzialy(record_NL_suma, "woda_NL", 321)
 
-    records.append([record_LS[0], record_ls, record_NL[0], record_nl])
+    records.append([record_LS[0], record_ls[0], record_ls[1], record_NL[0], record_nl[0], record_nl[1]])
     # Stworzenie nowej tabeli (DataFrame) z wszystkich danych
 
     # Utworzenie tabeli
@@ -319,7 +318,7 @@ tabela = pd.DataFrame(records)
 
 # Zapis do pliku CSV
 tabela.to_csv(
-"woda531.csv",
+"woda321.csv",
 index = False,
 encoding = "utf-8-sig",
 sep = ","
