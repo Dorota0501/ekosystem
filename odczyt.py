@@ -120,14 +120,14 @@ def oblicz_wynik(oczko, ls_nl, wagi):
         elif ls_nl == 'NL':
             suma = woda[1] + rosliny[1] + ptaki[1] + ssaki[1] + bezkregowce[1]
             wynik = przedzialy(suma, 'ekosystem_NL', 531)
-    return [oczko, wynik]
+    return [oczko, ls_nl, wynik[0], wynik[1]]
 
 
 wynik = []
 for key in LS_dict.keys():
     wynik.append(oblicz_wynik(key, LS_dict[key], 531))
 
-wyniki = pd.DataFrame(wynik)
+wyniki = pd.DataFrame(wynik, columns=["Name", "Rodzaj", "Suma", "Klasa"])
 wyniki.to_csv(
     "wyniki531.csv",
     index=False,
