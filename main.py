@@ -1,12 +1,13 @@
 import pandas as pd
 
 # Wczytanie danych
-df = pd.read_excel("dane.xlsx", sheet_name=1, engine="openpyxl")
+df = pd.read_excel("dane.xlsx", sheet_name=6, engine="openpyxl")
 
 id_col = df.columns[0]
 value_cols = df.columns[1:]
 
 tab_weights = []
+
 
 
 def get_weight(col_name) -> float:
@@ -19,7 +20,6 @@ def get_weight(col_name) -> float:
     elif "R3" in col_name:
         return 5
     return 0
-
 
 def przedzialy(value, nazwa, wagi):
     value = [value]
@@ -217,9 +217,9 @@ def przedzialy(value, nazwa, wagi):
             value.append("slaby")
         elif 15 < value[0] <= 33:
             value.append("umiarkowany")
-        elif 44 < value[0] <= 38:
+        elif 33 < value[0] <= 47:
             value.append("dobry")
-        elif value[0] > 58:
+        elif value[0] > 47:
             value.append("bardzo dobry")
     elif nazwa == "bezkregowce_LS" and wagi == 531:
         if value[0] <= 46:
@@ -287,15 +287,57 @@ def przedzialy(value, nazwa, wagi):
             value.append("dobry")
         elif value[0] > 544:
             value.append("bardzo dobry")
-
+    elif nazwa == "korytarze_LS" and wagi == 321:
+        if value[0] <= 95:
+            value.append("bardzo niski")
+        elif 95 < value[0] <= 109:
+            value.append("niski")
+        elif 109 < value[0] <= 117:
+            value.append("umiarkowany")
+        elif 117 < value[0] <= 126:
+            value.append("wysoki")
+        elif value[0] > 126:
+            value.append("bardzo wysoki")
+    elif nazwa == "korytarze_NL" and wagi == 321:
+        if value[0] <= 79:
+            value.append("bardzo niski")
+        elif 79 < value[0] <= 86:
+            value.append("niski")
+        elif 86 < value[0] <= 94:
+            value.append("umiarkowany")
+        elif 94 < value[0] <= 104:
+            value.append("wysoki")
+        elif value[0] > 104:
+            value.append("bardzo wysoki")
+    elif nazwa == "korytarze_LS" and wagi == 531:
+        if value[0] <= 143:
+            value.append("bardzo niski")
+        elif 143 < value[0] <= 162:
+            value.append("niski")
+        elif 162 < value[0] <= 176:
+            value.append("umiarkowany")
+        elif 176 < value[0] <= 189:
+            value.append("wysoki")
+        elif value[0] > 189:
+            value.append("bardzo wysoki")
+    elif nazwa == "korytarze_NL" and wagi == 531:
+        if value[0] <= 116:
+            value.append("bardzo niski")
+        elif 116 < value[0] <= 127:
+            value.append("niski")
+        elif 127 < value[0] <= 139:
+            value.append("umiarkowany")
+        elif 139 < value[0] <= 154:
+            value.append("wysoki")
+        elif value[0] > 154:
+            value.append("bardzo wysoki")
     return value
-
 
 records = []
 for row_idx, row in df.iterrows():
     record_LS = []
     record_NL = []
-    record_name = [row['Name']]
+    record_name = row['Name']
     for col_name in value_cols:
         value = row[col_name]
         weight = get_weight(col_name)
@@ -304,14 +346,14 @@ for row_idx, row in df.iterrows():
                 record_LS.append(value * weight)
             elif col_name.__contains__("NL"):
                 record_NL.append(value * weight)
-    record_LS = record_name + record_LS
-    record_NL = record_name + record_NL
-    record_LS_suma = sum(record_LS[1:])
-    record_NL_suma = sum(record_NL[1:])
-    record_ls = przedzialy(record_LS_suma, "woda_LS", 531)
-    record_nl = przedzialy(record_NL_suma, "woda_NL", 531)
+    record_LS = [record_name,  record_LS]
+    record_NL = [record_name,  record_NL]
+    record_LS_suma = sum(record_LS[1])
+    record_NL_suma = sum(record_NL[1])
+    record_ls = przedzialy(record_LS_suma, "korytarze_LS", 531)
+    record_nl = przedzialy(record_NL_suma, "korytarze_NL", 531)
 
-    records.append([record_LS[0], record_ls, record_NL[0], record_nl])
+    records.append([record_LS[0], record_ls[0], record_ls[1], record_NL[0], record_nl[0], record_nl[1]])
     # Stworzenie nowej tabeli (DataFrame) z wszystkich danych
 
     # Utworzenie tabeli
@@ -319,7 +361,7 @@ tabela = pd.DataFrame(records)
 
 # Zapis do pliku CSV
 tabela.to_csv(
-"woda531.csv",
+"korytarze531.csv",
 index = False,
 encoding = "utf-8-sig",
 sep = ","
