@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import math
 import re
 from dataclasses import dataclass
@@ -12,7 +13,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT_FILE = PROJECT_ROOT / "dane.xlsx"
-DEFAULT_FOREST_FILE = PROJECT_ROOT / "Udzial_lasu.xlsx"
+DEFAULT_FOREST_FILE = PROJECT_ROOT / "Udzial lasu.xlsx"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "results_knn_imputer"
 
 DatasetScope = Literal["ALL", "LS", "NL"]
@@ -34,12 +35,12 @@ class ImputationSummary:
     :param output_file: Name of the workbook generated for the scope.
     :param number_of_objects: Number of objects saved in the scope.
     :param number_of_features: Number of ecological features used by KNN.
-    :param missing_before: Number of missing cells before imputation in the
-        complete biological group.
-    :param imputed_values: Number of cells filled during imputation of the
-        complete biological group.
-    :param missing_after: Number of missing feature cells remaining in the
-        saved scope.
+    :param missing_before: Number of missing feature cells before imputation
+        within the saved scope.
+    :param imputed_values: Number of previously missing feature cells filled
+        by KNN within the saved scope.
+    :param missing_after: Number of missing feature cells remaining after
+        imputation within the saved scope.
     :param n_neighbors: Number of neighbours used by KNN.
     :param metric: Metric name recorded for the run.
     :param metric_direction: ``min`` when smaller metric values are better or
@@ -89,6 +90,10 @@ class KNNDataImputer:
     :type metric_direction: {"min", "max"}
     :param output_directory: Directory in which KNN result files are saved.
     :type output_directory: str or pathlib.Path
+    :param parameter_directory: Directory containing the shared
+        ``KNN_parameters.xlsx`` history file. When ``None``, parameters are
+        stored in ``output_directory``.
+    :type parameter_directory: str or pathlib.Path or None
     :raises ValueError: If ``n_neighbors`` or ``metric_direction`` is invalid.
     """
 
@@ -98,6 +103,7 @@ class KNNDataImputer:
             metric: str | MetricFunction = "euclidean",
             metric_direction: MetricDirection = "min",
             output_directory: str | Path = DEFAULT_OUTPUT_DIR,
+            parameter_directory: str | Path | None = None,
     ) -> None:
         if n_neighbors < 1:
             raise ValueError("n_neighbors must be >= 1")
@@ -109,6 +115,13 @@ class KNNDataImputer:
         self.metric_direction = metric_direction
         self.output_directory = Path(output_directory)
         self.output_directory.mkdir(parents=True, exist_ok=True)
+
+        self.parameter_directory = (
+            Path(parameter_directory)
+            if parameter_directory is not None
+            else self.output_directory
+        )
+        self.parameter_directory.mkdir(parents=True, exist_ok=True)
 
     @staticmethod
     def _create_run_signature(run_datetime: datetime) -> str:
@@ -270,7 +283,11 @@ class KNNDataImputer:
             result.loc[:, features] = numeric
             return result, 0
 
-        values = numeric.to_numpy(dtype=float)
+        values = numeric.to_numpy(dtype=float, copy=True)
+
+        if not values.flags.writeable:
+            values = values.copy()
+
         n_rows, _ = values.shape
 
         for row_idx in range(n_rows):
@@ -324,7 +341,11 @@ class KNNDataImputer:
 
     @staticmethod
     def _load_membership(forest_file: str | Path) -> pd.DataFrame:
-        """Load the ``Name -> LS/NL`` mapping Names of frames as forest(LS) or no forest(NL).
+        """Load the mapping between object names and LS/NL membership.
+
+        The membership file assigns every object identified by ``Name`` to
+        either the forest-related (``LS``) or non-forest-related (``NL``)
+        group.
 
         :param forest_file: Path to ``Udzial_lasu.xlsx`` or an equivalent file.
         :type forest_file: str or pathlib.Path
@@ -389,13 +410,16 @@ class KNNDataImputer:
             forest_file: str | Path | None,
             scopes: tuple[DatasetScope, ...],
             output_files: dict[DatasetScope, Path],
+            summaries: list[ImputationSummary],
     ) -> Path:
-        """Append run parameters to the shared ``KNN_parameters.xlsx`` file.
+        """Append run parameters and scope statistics to ``KNN_parameters.xlsx``.
 
-        The workbook is created only once. Every subsequent execution appends
-        one row for every generated output scope. The concrete output filename
-        contains the date/time signature, so every parameter row can be linked
-        directly to the generated imputed workbook.
+        One row is stored for every generated output scope. Missing-value
+        statistics are calculated independently for ``ALL``, ``LS`` and
+        ``NL`` objects, so the LS and NL rows describe only objects belonging
+        to the corresponding scope. In addition to aggregated counters, a JSON
+        field stores the same statistics separately for every biological
+        dataset and worksheet.
 
         :param run_datetime: Date and time at which the run started.
         :type run_datetime: datetime.datetime
@@ -407,6 +431,8 @@ class KNNDataImputer:
         :type scopes: tuple[DatasetScope, ...]
         :param output_files: Mapping from scope to generated workbook path.
         :type output_files: dict[DatasetScope, pathlib.Path]
+        :param summaries: Per-dataset statistics generated for all scopes.
+        :type summaries: list[ImputationSummary]
         :return: Path to the shared parameter workbook.
         :rtype: pathlib.Path
         """
@@ -426,10 +452,33 @@ class KNNDataImputer:
             "Keep_Real_Values",
             "Rounding",
             "k_Neighbour",
+            "Number_of_Datasets",
+            "Number_of_Objects",
+            "Missing_Before",
+            "Imputed_Values",
+            "Missing_After",
+            "Dataset_Statistics_JSON",
         ]
 
         records: list[dict[str, Any]] = []
         for scope, output_path in output_files.items():
+            scope_summaries = [
+                summary for summary in summaries if summary.scope == scope
+            ]
+
+            dataset_statistics = [
+                {
+                    "Dataset": summary.dataset,
+                    "Sheet_Name": summary.sheet_name,
+                    "Number_of_Objects": summary.number_of_objects,
+                    "Number_of_Features": summary.number_of_features,
+                    "Missing_Before": summary.missing_before,
+                    "Imputed_Values": summary.imputed_values,
+                    "Missing_After": summary.missing_after,
+                }
+                for summary in scope_summaries
+            ]
+
             records.append(
                 {
                     "Run_DateTime": run_datetime.strftime("%Y-%m-%d %H:%M:%S.%f"),
@@ -444,12 +493,29 @@ class KNNDataImputer:
                     **metric_data,
                     "Keep_Real_Values": True,
                     "Rounding": "none",
-                    # Number of nearest neighbours used during imputation.
+                    # Liczba najbliższych sąsiadów używana podczas imputacji.
                     "k_Neighbour": self.n_neighbors,
+                    "Number_of_Datasets": len(scope_summaries),
+                    "Number_of_Objects": sum(
+                        summary.number_of_objects for summary in scope_summaries
+                    ),
+                    "Missing_Before": sum(
+                        summary.missing_before for summary in scope_summaries
+                    ),
+                    "Imputed_Values": sum(
+                        summary.imputed_values for summary in scope_summaries
+                    ),
+                    "Missing_After": sum(
+                        summary.missing_after for summary in scope_summaries
+                    ),
+                    "Dataset_Statistics_JSON": json.dumps(
+                        dataset_statistics,
+                        ensure_ascii=False,
+                    ),
                 }
             )
 
-        parameter_path = self.output_directory / "KNN_parameters.xlsx"
+        parameter_path = self.parameter_directory / "KNN_parameters.xlsx"
         new_records = pd.DataFrame(records, columns=parameter_columns)
 
         if parameter_path.exists():
@@ -481,23 +547,35 @@ class KNNDataImputer:
             input_file: str | Path = DEFAULT_INPUT_FILE,
             forest_file: str | Path | None = DEFAULT_FOREST_FILE,
             scopes: Iterable[DatasetScope] = ("ALL", "LS", "NL"),
+            output_base_name: str | None = None,
     ) -> list[ImputationSummary]:
         """Impute ecological datasets and save project-compatible workbooks.
 
         Every biological sheet is imputed exactly once using all objects from
         that sheet. LS/NL workbooks are created afterwards by filtering the
-        completed data. One date/time signature is generated for the whole run
-        and appended to all output files produced by that run.
+        completed data. By default, a date/time signature is appended to output
+        file names. A custom ``output_base_name`` may be supplied by an external
+        runner to use a shorter project-specific naming convention.
 
-        Example file names for one run are::
+        Default example file names are::
 
             KNN_ALL_dane_20260906_223500_418327.xlsx
             KNN_LS_dane_20260906_223500_418327.xlsx
             KNN_NL_dane_20260906_223500_418327.xlsx
             KNN_parameters.xlsx
 
+        With ``output_base_name="Fill_missing_5_dane"`` the generated files are::
+
+            Fill_missing_5_dane_ALL.xlsx
+            Fill_missing_5_dane_LS.xlsx
+            Fill_missing_5_dane_NL.xlsx
+
+        If any file from the requested output set already exists, the same
+        numeric suffix is added to all generated files, e.g. ``_1``, ``_2``.
+
         ``KNN_parameters.xlsx`` is shared by all runs. New parameter rows are
         appended instead of creating a new parameter file for each execution.
+        Its location is controlled independently by ``parameter_directory``.
 
         :param input_file: Source Excel workbook containing ecological datasets.
         :type input_file: str or pathlib.Path
@@ -506,6 +584,10 @@ class KNNDataImputer:
         :type forest_file: str or pathlib.Path or None
         :param scopes: Output scopes to generate.
         :type scopes: Iterable[{"ALL", "LS", "NL"}]
+        :param output_base_name: Optional base name used for output workbooks.
+            The scope is appended automatically. When ``None``, the standard
+            timestamp-based KNN naming convention is used.
+        :type output_base_name: str or None
         :return: Summary records for all generated dataset/scope combinations.
         :rtype: list[ImputationSummary]
         :raises FileNotFoundError: If ``input_file`` does not exist.
@@ -538,7 +620,8 @@ class KNNDataImputer:
         }
 
         completed_sheets: dict[str, pd.DataFrame] = {}
-        per_sheet_info: dict[str, tuple[str, int, int, int, int]] = {}
+        original_feature_sheets: dict[str, pd.DataFrame] = {}
+        per_sheet_info: dict[str, tuple[str, int]] = {}
 
         for sheet_name, df in original_sheets.items():
             features = self.feature_columns(df)
@@ -561,13 +644,8 @@ class KNNDataImputer:
 
             dataset = self._dataset_name(sheet_name)
             completed_sheets[sheet_name] = completed
-            per_sheet_info[sheet_name] = (
-                dataset,
-                len(df),
-                len(features),
-                missing_before,
-                imputed_values,
-            )
+            original_feature_sheets[sheet_name] = df.copy(deep=True)
+            per_sheet_info[sheet_name] = (dataset, len(features))
 
             print(
                 f"[{dataset}] objects={len(df)}, features={len(features)}, "
@@ -579,9 +657,33 @@ class KNNDataImputer:
         output_files: dict[DatasetScope, Path] = {}
         stem = input_path.stem
 
+        if output_base_name is None:
+            for scope in scopes_tuple:
+                output_files[scope] = self.output_directory / (
+                    f"KNN_{scope}_{stem}_{run_signature}.xlsx"
+                )
+        else:
+            clean_base_name = Path(output_base_name).stem
+            suffix_number = 0
+
+            # Wszystkie pliki ALL/LS/NL z jednej imputacji otrzymują ten sam
+            # numer wersji, aby zachować jednoznaczne powiązanie między nimi.
+            while True:
+                suffix = "" if suffix_number == 0 else f"_{suffix_number}"
+                candidate_files = {
+                    scope: self.output_directory
+                    / f"{clean_base_name}_{scope}{suffix}.xlsx"
+                    for scope in scopes_tuple
+                }
+
+                if not any(path.exists() for path in candidate_files.values()):
+                    output_files = candidate_files
+                    break
+
+                suffix_number += 1
+
         for scope in scopes_tuple:
-            output_path = self.output_directory / (f"KNN_{scope}_{stem}_{run_signature}.xlsx")
-            output_files[scope] = output_path
+            output_path = output_files[scope]
 
             with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
                 for sheet_name in excel.sheet_names:
@@ -596,9 +698,40 @@ class KNNDataImputer:
                     output_df.to_excel(writer, sheet_name=sheet_name, index=False)
 
                     if features:
-                        dataset, _, number_of_features, missing_before, imputed_values = (per_sheet_info[sheet_name])
-                        missing_after = int(
-                            output_df[features].apply(pd.to_numeric, errors="coerce").isna().sum().sum())
+                        dataset, number_of_features = per_sheet_info[sheet_name]
+
+                        # Statystyki przed imputacją są liczone dla tego samego zakresu
+                        # ALL/LS/NL, który jest zapisywany do bieżącego pliku wynikowego.
+                        original_scope_df = self._filter_scope(
+                            original_feature_sheets[sheet_name],
+                            scope,
+                            membership,
+                        )
+                        original_scope_numeric = original_scope_df[features].apply(
+                            pd.to_numeric,
+                            errors="coerce",
+                        )
+                        output_scope_numeric = output_df[features].apply(
+                            pd.to_numeric,
+                            errors="coerce",
+                        )
+
+                        missing_before_scope = int(
+                            original_scope_numeric.isna().sum().sum()
+                        )
+                        missing_after_scope = int(
+                            output_scope_numeric.isna().sum().sum()
+                        )
+
+                        # Uzupełnione wartości to komórki brakujące przed imputacją,
+                        # które po wykonaniu KNN zawierają już wartość numeryczną.
+                        imputed_values_scope = int(
+                            (
+                                original_scope_numeric.isna()
+                                & output_scope_numeric.notna()
+                            ).sum().sum()
+                        )
+
                         summaries.append(
                             ImputationSummary(
                                 run_signature=run_signature,
@@ -609,9 +742,9 @@ class KNNDataImputer:
                                 output_file=output_path.name,
                                 number_of_objects=len(output_df),
                                 number_of_features=number_of_features,
-                                missing_before=missing_before,
-                                imputed_values=imputed_values,
-                                missing_after=missing_after,
+                                missing_before=missing_before_scope,
+                                imputed_values=imputed_values_scope,
+                                missing_after=missing_after_scope,
                                 n_neighbors=self.n_neighbors,
                                 metric=self._metric_name(),
                                 metric_direction=self.metric_direction,
@@ -626,6 +759,7 @@ class KNNDataImputer:
             forest_file=forest_file,
             scopes=scopes_tuple,
             output_files=output_files,
+            summaries=summaries,
         )
         print(f"Saved parameters: {parameter_path}")
 
