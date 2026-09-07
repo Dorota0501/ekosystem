@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 import time
 from datetime import datetime
 from pathlib import Path
@@ -11,14 +10,32 @@ from typing import Iterable, Optional
 import pandas as pd
 from skrebate import ReliefF
 
-from utils import prepare_all_datasets, prepare_forest_datasets
-
+try:
+    from .utils import prepare_all_datasets, prepare_forest_datasets
+except ImportError:
+    from utils import prepare_all_datasets, prepare_forest_datasets
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 EXCEL_PATH = PROJECT_ROOT / "dane.xlsx"
 FOREST_SHARE_PATH = PROJECT_ROOT / "Udzial lasu.xlsx"
-RESULTS_PATH = PROJECT_ROOT / "results"
-PREPARED_DATASETS_PATH = PROJECT_ROOT / "prepared_datasets"
+RESULTS_PATH = PROJECT_ROOT / "result_Relief"
+
+BIOLOGICAL_GROUPS = (
+    "woda",
+    "rosliny",
+    "ssaki",
+    "ptaki",
+    "bezkregowce",
+)
+
+RELIEF_FEATURE_COLUMNS = (
+    "R3W1_LS", "R3W2_LS", "R3W3_LS", "R3W4_LS", "R3W5_LS",
+    "R3W1_NL", "R3W2_NL", "R3W3_NL", "R3W4_NL", "R3W5_NL",
+    "R2W1_LS", "R2W2_LS", "R2W3_LS", "R2W4_LS", "R2W5_LS",
+    "R2W1_NL", "R2W2_NL", "R2W3_NL", "R2W4_NL", "R2W5_NL",
+    "R1W1_LS", "R1W2_LS", "R1W3_LS", "R1W4_LS", "R1W5_LS",
+    "R1W1_NL", "R1W2_NL", "R1W3_NL", "R1W4_NL", "R1W5_NL",
+)
 
 
 class ReliefFExperiment:
@@ -33,7 +50,7 @@ class ReliefFExperiment:
     :vartype y: pandas.Series
     :ivar names: Optional object identifiers corresponding to rows in ``X``.
     :vartype names: pandas.Series or None
-    :ivar dataframe_name: Name identifying the dataset and its result file.
+    :ivar dataframe_name: Name identifying the biological group and LS/NL subset.
     :vartype dataframe_name: str
     :ivar model: Trained ``skrebate.ReliefF`` model, or None before execution.
     :vartype model: ReliefF or None
@@ -46,16 +63,16 @@ class ReliefFExperiment:
     """
 
     def __init__(
-        self,
-        X: pd.DataFrame,
-        y: pd.Series,
-        dataframe_name: str,
-        names: Optional[pd.Series] = None,
-        n_neighbors: int = 10,
-        n_features_to_select: Optional[int] = None,
-        n_jobs: int = -1,
-        verbose: bool = True,
-        output_directory: str | Path = "results",
+            self,
+            X: pd.DataFrame,
+            y: pd.Series,
+            dataframe_name: str,
+            names: Optional[pd.Series] = None,
+            n_neighbors: int = 10,
+            n_features_to_select: Optional[int] = None,
+            n_jobs: int = -1,
+            verbose: bool = True,
+            output_directory: str | Path = "result_Relief",
     ):
         """Initialize a ReliefF experiment.
 
@@ -275,9 +292,7 @@ class ReliefFExperiment:
         print(self.weights_series)
         print("\nFeature ranking:")
 
-        for rank, (feature, weight) in enumerate(
-            self.weights_series.items(), start=1
-        ):
+        for rank, (feature, weight) in enumerate(self.weights_series.items(), start=1):
             print(f"{rank}. {feature}: {weight:.6f}")
 
     @staticmethod
@@ -313,26 +328,51 @@ class ReliefFExperiment:
 
         return value.strip().replace(" ", "_").replace("/", "_").replace("\\", "_")
 
+    @staticmethod
+    def create_run_directory(base_directory: str | Path) -> Path:
+        """Create and return a unique timestamped directory for one program run.
+
+        The basic directory name uses the ``YYYY-MM-DD_HH-MM-SS`` format. If
+        another run is started within the same second, a numeric suffix is
+        added so that results are never appended to a directory from an older
+        run. The directory is intended to contain both the ReliefF workbook
+        and datasets prepared by ``utils.py`` during the same execution.
+
+        :param base_directory: Parent directory for ReliefF result runs.
+        :type base_directory: str or pathlib.Path
+        :return: Newly created unique run directory.
+        :rtype: pathlib.Path
+        """
+
+        base_directory = Path(base_directory)
+        base_directory.mkdir(parents=True, exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        run_directory = base_directory / timestamp
+        suffix = 1
+
+        while run_directory.exists():
+            run_directory = base_directory / f"{timestamp}_{suffix:02d}"
+            suffix += 1
+
+        run_directory.mkdir(parents=False, exist_ok=False)
+        return run_directory
+
     def _get_output_file(self) -> Path:
-        """Return the result workbook path for the current dataset.
+        """Return the shared ReliefF workbook path for the current run.
 
-        ``woda`` creates ``results_ReliefF_woda.xlsx``, ``woda_LS`` creates
-        ``LS_results_ReliefF_woda.xlsx``, and ``woda_NL`` creates
-        ``NL_results_ReliefF_woda.xlsx``.
+        All datasets processed during one program execution use the same
+        ``output_directory`` and therefore the same workbook. For a run
+        directory named ``2026-09-07_12-31-45`` the workbook is named
+        ``result_relief_2026-09-07_12-31-45.xlsx``.
 
-        :return: Complete path to the dataset-specific result workbook.
+        :return: Complete path to the shared ReliefF result workbook.
         :rtype: pathlib.Path
         """
 
         self.output_directory.mkdir(parents=True, exist_ok=True)
-        forest_type, group_name = self._split_dataset_name(self.dataframe_name)
-        safe_group_name = self._safe_file_name(group_name)
-
-        if forest_type is None:
-            file_name = f"results_ReliefF_{safe_group_name}.xlsx"
-        else:
-            file_name = f"{forest_type}_results_ReliefF_{safe_group_name}.xlsx"
-
+        run_identifier = self._safe_file_name(self.output_directory.name)
+        file_name = f"result_relief_{run_identifier}.xlsx"
         return self.output_directory / file_name
 
     def _get_parameters(self) -> dict:
@@ -352,9 +392,13 @@ class ReliefFExperiment:
     def save_results(self) -> Path:
         """Save experiment results using the existing Excel layout.
 
-        Each experiment uses a weight row followed by a rank row. Feature
-        columns retain their input order. When the workbook already exists, a
-        completely empty row is inserted before the next experiment.
+        All experiments from one program execution are stored in one workbook.
+        Each experiment uses a weight row followed by a rank row. ``Data_group``
+        identifies the biological group (for example ``ptaki`` or ``ssaki``),
+        while ``Forest_type`` identifies ``LS``, ``NL`` or ``ALL``. Feature
+        columns retain their input order and ``Feature_order`` stores feature
+        names sorted from the highest to the lowest ReliefF weight. A completely
+        empty row separates consecutive experiments.
 
         :return: Path to the created or updated Excel workbook.
         :rtype: pathlib.Path
@@ -364,10 +408,13 @@ class ReliefFExperiment:
         self._check_if_executed()
         output_file = self._get_output_file()
 
+        forest_type, group_name = self._split_dataset_name(self.dataframe_name)
+        forest_type = forest_type or "ALL"
+
         base_result = {
-            "Dataset_Hash": self.dataset_hash,
             "Experiment_ID": self.experiment_id,
-            "DataFrame": self.dataframe_name,
+            "Data_group": group_name,
+            "Forest_type": forest_type,
             "Algorithm": "ReliefF",
             "Number_of_observations": len(self.X),
             "Number_of_features": self.X.shape[1],
@@ -383,17 +430,23 @@ class ReliefFExperiment:
         weight_row = base_result.copy()
         weight_row["Result_type"] = "Weight"
 
+        # Zapisz pełną kolejność cech od najsilniejszej do najsłabszej zgodnie z wagą ReliefF jako lista do pliku.
+        feature_order = self.weights_series.index.tolist()
+        weight_row["Feature_order"] = str(feature_order)
+
         rank_row = {column: None for column in base_result}
         rank_row["Experiment_ID"] = self.experiment_id
-        rank_row["DataFrame"] = self.dataframe_name
+        rank_row["Data_group"] = group_name
+        rank_row["Forest_type"] = forest_type
         rank_row["Result_type"] = "Rank"
+        rank_row["Feature_order"] = None
 
         feature_ranks = {
             feature: rank
             for rank, feature in enumerate(self.weights_series.index, start=1)
         }
 
-        # Preserve the exact feature order from the input DataFrame.
+        # Zachowaj dokładną kolejność cech z wejściowego obiektu DataFrame.
         for feature in self.X.columns:
             weight_row[feature] = self.weights_series[feature]
             rank_row[feature] = feature_ranks[feature]
@@ -419,27 +472,25 @@ class ReliefFExperiment:
                 ignore_index=True,
             )
 
-            # Insert one completely empty row before the new experiment.
-            # Reindexing avoids dtype warnings caused by concatenating an
-            # additional all-NA DataFrame.
+            # Wstaw jeden całkowicie pusty wiersz przed nowym eksperymentem.
+            # Ponowne indeksowanie pozwala uniknąć ostrzeżeń dotyczących typu danych (dtype) spowodowanych
+            # dołączeniem dodatkowego DataFrame’a zawierającego wyłącznie wartości NA.
             insertion_position = len(existing_results)
             rows_with_separator = (
-                list(range(insertion_position))
-                + ["__empty_row__"]
-                + list(range(insertion_position, len(final_results)))
+                    list(range(insertion_position))
+                    + ["__empty_row__"]
+                    + list(range(insertion_position, len(final_results)))
             )
-            final_results = final_results.reindex(rows_with_separator).reset_index(
-                drop=True
-            )
+            final_results = final_results.reindex(rows_with_separator).reset_index(drop=True)
         else:
             if self.verbose:
                 print(f"Creating a new results file: {output_file}")
             final_results = experiment_rows
 
         base_columns = [
-            "Dataset_Hash",
             "Experiment_ID",
-            "DataFrame",
+            "Data_group",
+            "Forest_type",
             "Algorithm",
             "Number_of_observations",
             "Number_of_features",
@@ -448,10 +499,15 @@ class ReliefFExperiment:
             "n_features_to_select",
             "n_jobs",
             "Parameters_JSON",
+            "Feature_order",
             "Result_type",
         ]
+
+        # Ułóż cechy w stałej kolejności zgodnej z plikiem dane.xlsx.
         feature_columns = [
-            column for column in self.X.columns if column in final_results.columns
+            column
+            for column in RELIEF_FEATURE_COLUMNS
+            if column in final_results.columns
         ]
         remaining_feature_columns = [
             column
@@ -459,9 +515,9 @@ class ReliefFExperiment:
             if column not in base_columns and column not in feature_columns
         ]
         ordered_columns = (
-            [column for column in base_columns if column in final_results.columns]
-            + feature_columns
-            + remaining_feature_columns
+                [column for column in base_columns if column in final_results.columns]
+                + feature_columns
+                + remaining_feature_columns
         )
 
         final_results = final_results[ordered_columns]
@@ -490,6 +546,106 @@ class ReliefFExperiment:
                 "The experiment has not been executed yet. Call run() before "
                 "accessing or saving results."
             )
+
+
+def save_forest_data_workbooks(
+        datasets: dict,
+        source_data_file: str | Path,
+        output_directory: str | Path,
+) -> dict[str, Path]:
+    """Save complete LS and NL observations in two Excel workbooks.
+
+    The function creates one workbook for LS observations and one workbook for
+    NL observations. Both workbooks follow the six-sheet structure of the
+    original ecological data workbook: the first sheet is ``INFO`` and the next
+    five sheets correspond to water, plants, mammals, birds and invertebrates.
+    Every biological worksheet contains ``Name``, all 30 conditional
+    attributes and ``Klasa`` for the selected forest type.
+
+    :param datasets: Flat LS/NL mapping returned by
+        :func:`prepare_forest_datasets`.
+    :type datasets: dict
+    :param source_data_file: Original ``dane.xlsx`` workbook used to copy the
+        INFO sheet and biological worksheet names.
+    :type source_data_file: str or pathlib.Path
+    :param output_directory: Directory created for the current ReliefF run.
+    :type output_directory: str or pathlib.Path
+    :return: Mapping containing paths to the generated ``LS`` and ``NL``
+        workbooks.
+    :rtype: dict[str, pathlib.Path]
+    :raises FileNotFoundError: If the source workbook does not exist.
+    :raises ValueError: If the source workbook has fewer than six worksheets or
+        a required LS/NL dataset is missing.
+    """
+
+    source_data_file = Path(source_data_file)
+    output_directory = Path(output_directory)
+
+    if not source_data_file.exists():
+        raise FileNotFoundError(
+            f"Source Excel file not found: {source_data_file}"
+        )
+
+    output_directory.mkdir(parents=True, exist_ok=True)
+
+    excel_file = pd.ExcelFile(source_data_file, engine="openpyxl")
+    source_sheet_names = excel_file.sheet_names
+
+    if len(source_sheet_names) < 6:
+        raise ValueError(
+            "The source ecological workbook must contain at least six "
+            "worksheets: INFO and five biological datasets."
+        )
+
+    # Odczytaj zawartość pierwszego arkusza bez interpretowania jego nagłówków.
+    info_df = pd.read_excel(
+        source_data_file,
+        sheet_name=0,
+        header=None,
+        engine="openpyxl",
+    )
+
+    # Zachowaj nazwy pięciu arkuszy biologicznych z oryginalnego dane.xlsx.
+    biological_sheet_names = dict(
+        zip(BIOLOGICAL_GROUPS, source_sheet_names[1:6])
+    )
+
+    run_identifier = ReliefFExperiment._safe_file_name(output_directory.name)
+    output_files = {
+        "LS": output_directory / f"data_LS_relief_{run_identifier}.xlsx",
+        "NL": output_directory / f"data_NL_relief_{run_identifier}.xlsx",
+    }
+
+    for forest_type, output_file in output_files.items():
+        with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
+            # Pierwszy arkusz ma zawsze nazwę INFO, zgodnie z plikiem źródłowym.
+            info_df.to_excel(
+                writer,
+                sheet_name="INFO",
+                index=False,
+                header=False,
+            )
+
+            for group_name in BIOLOGICAL_GROUPS:
+                dataset_name = f"{group_name}_{forest_type}"
+
+                if dataset_name not in datasets:
+                    raise ValueError(
+                        f"Required prepared dataset '{dataset_name}' is missing."
+                    )
+
+                prepared_df = datasets[dataset_name]["df"].copy()
+
+                # Zapisz Name, komplet 30 atrybutów i klasę bez zmiany kolejności kolumn.
+                prepared_df.to_excel(
+                    writer,
+                    sheet_name=biological_sheet_names[group_name],
+                    index=False,
+                )
+
+        print(f"Prepared {forest_type} workbook saved: {output_file}")
+
+    return output_files
 
 
 def basic_run_example() -> ReliefFExperiment:
@@ -524,15 +680,9 @@ def basic_run_example() -> ReliefFExperiment:
     return experiment
 
 
-def run_relief_for_dataset(
-    datasets: dict,
-    dataset_name: str,
-    n_neighbors: int = 10,
-    n_features_to_select: Optional[int] = None,
-    n_jobs: int = -1,
-    verbose: bool = True,
-    output_directory: str | Path = "results",
-) -> ReliefFExperiment:
+def run_relief_for_dataset(datasets: dict, dataset_name: str, n_neighbors: int = 10,
+                           n_features_to_select: Optional[int] = None, n_jobs: int = -1, verbose: bool = True,
+                           output_directory: str | Path = "result_Relief", ) -> ReliefFExperiment:
     """Run and save ReliefF for one prepared dataset.
 
     :param datasets: Mapping returned by ``prepare_all_datasets`` or
@@ -550,7 +700,7 @@ def run_relief_for_dataset(
     :type n_jobs: int
     :param verbose: Whether progress and results should be printed.
     :type verbose: bool
-    :param output_directory: Directory for result workbooks.
+    :param output_directory: Run directory containing the shared result workbook.
     :type output_directory: str or pathlib.Path
     :return: Executed and saved ReliefF experiment.
     :rtype: ReliefFExperiment
@@ -581,15 +731,9 @@ def run_relief_for_dataset(
     return experiment
 
 
-def run_relief_for_datasets(
-    datasets: dict,
-    dataset_names: Optional[Iterable[str]] = None,
-    n_neighbors: int = 10,
-    n_features_to_select: Optional[int] = None,
-    n_jobs: int = -1,
-    verbose: bool = True,
-    output_directory: str | Path = "results",
-) -> dict[str, ReliefFExperiment]:
+def run_relief_for_datasets(datasets: dict, dataset_names: Optional[Iterable[str]] = None, n_neighbors: int = 10,
+                            n_features_to_select: Optional[int] = None, n_jobs: int = -1, verbose: bool = True,
+                            output_directory: str | Path = "result_Relief", ) -> dict[str, ReliefFExperiment]:
     """Run ReliefF for all or selected prepared datasets.
 
     :param datasets: Mapping returned by ``prepare_all_datasets`` or
@@ -606,7 +750,7 @@ def run_relief_for_datasets(
     :type n_jobs: int
     :param verbose: Whether progress and results should be printed.
     :type verbose: bool
-    :param output_directory: Directory for result workbooks.
+    :param output_directory: Run directory containing the shared result workbook.
     :type output_directory: str or pathlib.Path
     :return: Mapping from dataset names to completed experiment objects.
     :rtype: dict[str, ReliefFExperiment]
@@ -631,23 +775,30 @@ def run_relief_for_datasets(
 
 
 if __name__ == "__main__":
-    # Set True to run 10 separate LS/NL experiments.
-    # Set False to retain the original 5 complete-dataset experiments.
+    # Ustaw wartość „True”, aby przeprowadzić 10 oddzielnych eksperymentów LS/NL.
+    # Ustaw wartość „False”, aby zachować 5 eksperymentów na pełnym zbiorze danych.
     USE_FOREST_SPLIT = True
+
+    # Jeden katalog odpowiada dokładnie jednemu uruchomieniu programu.
+    # Trafiają do niego zarówno plik wynikowy ReliefF, jak i pliki danych
+    # przygotowane przez utils.py podczas tego samego uruchomienia.
+    current_run_results_path = ReliefFExperiment.create_run_directory(
+        RESULTS_PATH
+    )
 
     if USE_FOREST_SPLIT:
         datasets = prepare_forest_datasets(
             data_file=EXCEL_PATH,
             classes_dir=PROJECT_ROOT,
             forest_file=FOREST_SHARE_PATH,
-            output_dir=PREPARED_DATASETS_PATH,
+            output_dir=None,
             output_format="xlsx",
         )
 
-        # Available names include woda_LS, woda_NL, rosliny_LS, rosliny_NL,
-        # ssaki_LS, ssaki_NL, ptaki_LS, ptaki_NL, bezkregowce_LS and
-        # bezkregowce_NL.
-        datasets_to_run = None  # None means: run every available dataset.
+        # Dostępne nazwy: woda_LS, woda_NL, rosliny_LS, rosliny_NL,
+        # ssaki_LS, ssaki_NL, ptaki_LS, ptaki_NL, bezkregowce_LS
+        # i bezkregowce_NL.
+        datasets_to_run = None  # None oznacza: uruchom wszystkie dostępne zbiory.
     else:
         datasets = prepare_all_datasets(
             data_file=EXCEL_PATH,
@@ -662,5 +813,13 @@ if __name__ == "__main__":
         n_features_to_select=None,
         n_jobs=-1,
         verbose=True,
-        output_directory=RESULTS_PATH,
+        output_directory=current_run_results_path,
     )
+
+    if USE_FOREST_SPLIT:
+        # Po zakończeniu ReliefF utwórz dwa zbiorcze pliki danych: LS i NL.
+        save_forest_data_workbooks(
+            datasets=datasets,
+            source_data_file=EXCEL_PATH,
+            output_directory=current_run_results_path,
+        )
