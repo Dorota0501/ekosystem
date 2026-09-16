@@ -11,6 +11,10 @@ from sklearn.metrics import confusion_matrix, classification_report, accuracy_sc
 df_dane = pd.read_csv("dane_do_uczenia.csv")
 dane_np = df_dane.to_numpy()
 
+#podziel dane tak, aby były podzielone na dwa zbiory: LS
+
+
+
 klasy = dane_np[:, -1].astype(np.int32)
 dane_np = dane_np[:, 1:-1].astype(np.float32)
 
