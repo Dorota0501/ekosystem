@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 
 # --- wczytanie danych ---
-df_dane_LS = pd.read_csv("dane_NL.csv")
+df_dane_LS = pd.read_csv("dane_do_uczenia.csv")
 dane_np_LS = df_dane_LS.to_numpy()
 
 klasy_LS = dane_np_LS[:, -1].astype(np.int32)
@@ -40,12 +40,12 @@ def wagi_probek(y, liczebnosci):
 
 
 def zbuduj_model(liczba_cech, liczba_progow):
-    l2 = regularizers.l2(0.05)
+    l2 = regularizers.l2(0.001)
     model = Sequential([
         Dense(64, activation='relu', input_shape=(liczba_cech,), kernel_regularizer=l2),
-        Dropout(0.3),
-        Dense(32, activation='relu', kernel_regularizer=l2),
         Dropout(0.2),
+        Dense(32, activation='relu', kernel_regularizer=l2),
+        Dropout(0.1),
         Dense(liczba_progow, activation='sigmoid')
     ])
     model.compile(

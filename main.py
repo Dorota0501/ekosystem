@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Wczytanie danych
-df = pd.read_excel("dane.xlsx", sheet_name=6, engine="openpyxl")
+df = pd.read_excel("dane.xlsx", sheet_name=5, engine="openpyxl")
 
 id_col = df.columns[0]
 value_cols = df.columns[1:]
@@ -350,8 +350,8 @@ for row_idx, row in df.iterrows():
     record_NL = [record_name,  record_NL]
     record_LS_suma = sum(record_LS[1])
     record_NL_suma = sum(record_NL[1])
-    record_ls = przedzialy(record_LS_suma, "korytarze_LS", 531)
-    record_nl = przedzialy(record_NL_suma, "korytarze_NL", 531)
+    record_ls = przedzialy(record_LS_suma, "bezkregowce_LS", 531)
+    record_nl = przedzialy(record_NL_suma, "bezkregowce_NL", 531)
 
     records.append([record_LS[0], record_ls[0], record_ls[1], record_NL[0], record_nl[0], record_nl[1]])
     # Stworzenie nowej tabeli (DataFrame) z wszystkich danych
@@ -361,7 +361,7 @@ tabela = pd.DataFrame(records)
 
 # Zapis do pliku CSV
 tabela.to_csv(
-"korytarze531.csv",
+"bezkregowce531.csv",
 index = False,
 encoding = "utf-8-sig",
 sep = ","

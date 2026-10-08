@@ -44,7 +44,7 @@ tabela = pd.DataFrame(records)
 
 # Zapis do pliku CSV
 tabela.to_csv(
-    "turystyka.csv",
+    "turystyka1.csv",
     index=False,
     encoding="utf-8-sig",
     sep=","
