@@ -1,215 +1,7392 @@
-﻿0,1
-FF3794,"[112, 'bardzo niski']"
-FF4704,"[118, 'niski']"
-FF4714,"[121, 'niski']"
-FF3783,"[101, 'bardzo niski']"
-FF3793,"[104, 'bardzo niski']"
-FF4703,"[126, 'niski']"
-FF4713,"[121, 'niski']"
-FF4723,"[124, 'niski']"
-FF4733,"[137, 'umiarkowany']"
-FF3762,"[143, 'bardzo niski']"
-FF3772,"[135, 'umiarkowany']"
-FF3782,"[117, 'niski']"
-FF3792,"[127, 'niski']"
-FF4702,"[163, 'bardzo wysoki']"
-FF4712,"[160, 'niski']"
-FF4722,"[148, 'wysoki']"
-FF4732,"[135, 'umiarkowany']"
-FF4742,"[132, 'umiarkowany']"
-FF3761,"[182, 'wysoki']"
-FF3771,"[167, 'umiarkowany']"
-FF3781,"[182, 'wysoki']"
-FF3791,"[176, 'umiarkowany']"
-FF4701,"[192, 'bardzo wysoki']"
-FF4711,"[179, 'wysoki']"
-FF4721,"[124, 'niski']"
-FF4731,"[136, 'umiarkowany']"
-FF4741,"[141, 'wysoki']"
-FF4751,"[117, 'niski']"
-FF3760,"[160, 'niski']"
-FF3770,"[188, 'wysoki']"
-FF3780,"[189, 'wysoki']"
-FF3790,"[193, 'bardzo wysoki']"
-FF4700,"[190, 'bardzo wysoki']"
-FF4710,"[180, 'wysoki']"
-FF4720,"[178, 'wysoki']"
-FF4730,"[174, 'umiarkowany']"
-FF4740,"[135, 'umiarkowany']"
-FF4750,"[151, 'wysoki']"
-FF4760,"[112, 'bardzo niski']"
-FF3679,"[157, 'bardzo wysoki']"
-FF3689,"[179, 'wysoki']"
-FF3699,"[194, 'bardzo wysoki']"
-FF4609,"[187, 'wysoki']"
-FF4619,"[188, 'wysoki']"
-FF4629,"[177, 'wysoki']"
-FF4639,"[189, 'wysoki']"
-FF4649,"[177, 'wysoki']"
-FF4659,"[149, 'wysoki']"
-FF4669,"[122, 'niski']"
-FF4679,"[138, 'bardzo niski']"
-FF3678,"[154, 'wysoki']"
-FF3688,"[179, 'wysoki']"
-FF3698,"[194, 'bardzo wysoki']"
-FF4608,"[167, 'bardzo wysoki']"
-FF4618,"[141, 'wysoki']"
-FF4628,"[175, 'umiarkowany']"
-FF4638,"[186, 'wysoki']"
-FF4648,"[183, 'wysoki']"
-FF4658,"[142, 'wysoki']"
-FF4668,"[133, 'umiarkowany']"
-FF4678,"[111, 'bardzo niski']"
-FF3565,"[122, 'niski']"
-FF3575,"[137, 'bardzo niski']"
-FF3576,"[157, 'niski']"
-FF3585,"[112, 'bardzo niski']"
-FF3586,"[132, 'umiarkowany']"
-FF3595,"[111, 'bardzo niski']"
-FF3596,"[131, 'umiarkowany']"
-FF4505,"[103, 'bardzo niski']"
-FF4506,"[116, 'bardzo niski']"
-FF4516,"[115, 'bardzo niski']"
-FF4526,"[109, 'bardzo niski']"
-FF4536,"[121, 'niski']"
-FF4546,"[135, 'umiarkowany']"
-FF4556,"[145, 'wysoki']"
-FF3677,"[179, 'wysoki']"
-FF3687,"[131, 'umiarkowany']"
-FF3697,"[165, 'bardzo wysoki']"
-FF4607,"[158, 'bardzo wysoki']"
-FF4617,"[131, 'umiarkowany']"
-FF4627,"[130, 'umiarkowany']"
-FF4637,"[156, 'niski']"
-FF4647,"[168, 'umiarkowany']"
-FF4657,"[123, 'niski']"
-FF4667,"[133, 'umiarkowany']"
-FF4677,"[109, 'bardzo niski']"
-FF3676,"[181, 'bardzo wysoki']"
-FF3686,"[145, 'wysoki']"
-FF3696,"[131, 'umiarkowany']"
-FF4606,"[142, 'wysoki']"
-FF4616,"[168, 'umiarkowany']"
-FF4626,"[152, 'wysoki']"
-FF4636,"[191, 'bardzo wysoki']"
-FF4646,"[153, 'niski']"
-FF4656,"[149, 'wysoki']"
-FF4666,"[128, 'umiarkowany']"
-FF4676,"[114, 'bardzo niski']"
-FF3655,"[129, 'umiarkowany']"
-FF3665,"[133, 'umiarkowany']"
-FF3675,"[144, 'wysoki']"
-FF3685,"[129, 'umiarkowany']"
-FF3695,"[143, 'wysoki']"
-FF4605,"[168, 'bardzo wysoki']"
-FF4615,"[194, 'bardzo wysoki']"
-FF4625,"[195, 'bardzo wysoki']"
-FF4635,"[196, 'bardzo wysoki']"
-FF4645,"[138, 'umiarkowany']"
-FF4655,"[150, 'wysoki']"
-FF4665,"[150, 'wysoki']"
-FF3654,"[168, 'umiarkowany']"
-FF3664,"[126, 'niski']"
-FF3674,"[137, 'umiarkowany']"
-FF3684,"[181, 'wysoki']"
-FF3694,"[154, 'niski']"
-FF4604,"[194, 'bardzo wysoki']"
-FF4614,"[194, 'bardzo wysoki']"
-FF4624,"[200, 'bardzo wysoki']"
-FF4634,"[189, 'wysoki']"
-FF4644,"[181, 'wysoki']"
-FF4654,"[132, 'umiarkowany']"
-FF4664,"[136, 'umiarkowany']"
-FF3653,"[135, 'umiarkowany']"
-FF3663,"[114, 'bardzo niski']"
-FF3673,"[128, 'umiarkowany']"
-FF3683,"[193, 'bardzo wysoki']"
-FF3693,"[188, 'wysoki']"
-FF4603,"[202, 'bardzo wysoki']"
-FF4613,"[202, 'bardzo wysoki']"
-FF4623,"[184, 'wysoki']"
-FF4633,"[165, 'umiarkowany']"
-FF4643,"[159, 'niski']"
-FF4653,"[166, 'umiarkowany']"
-FF4663,"[129, 'umiarkowany']"
-FF4673,"[127, 'niski']"
-FF3652,"[123, 'niski']"
-FF3662,"[112, 'bardzo niski']"
-FF3672,"[133, 'umiarkowany']"
-FF3682,"[172, 'umiarkowany']"
-FF3692,"[190, 'bardzo wysoki']"
-FF4602,"[201, 'bardzo wysoki']"
-FF4612,"[198, 'bardzo wysoki']"
-FF4622,"[181, 'wysoki']"
-FF4632,"[160, 'bardzo wysoki']"
-FF4642,"[134, 'umiarkowany']"
-FF4652,"[162, 'niski']"
-FF4662,"[121, 'niski']"
-FF4672,"[120, 'niski']"
-FF4682,"[131, 'umiarkowany']"
-FF4692,"[167, 'umiarkowany']"
-FF3661,"[120, 'niski']"
-FF3671,"[130, 'umiarkowany']"
-FF3681,"[139, 'umiarkowany']"
-FF3691,"[188, 'wysoki']"
-FF4601,"[197, 'bardzo wysoki']"
-FF4611,"[193, 'bardzo wysoki']"
-FF4621,"[198, 'bardzo wysoki']"
-FF4631,"[157, 'niski']"
-FF4641,"[150, 'wysoki']"
-FF4651,"[149, 'wysoki']"
-FF4661,"[171, 'umiarkowany']"
-FF4671,"[154, 'wysoki']"
-FF4681,"[118, 'niski']"
-FF4691,"[124, 'niski']"
-FF3660,"[121, 'niski']"
-FF3670,"[121, 'niski']"
-FF3680,"[186, 'wysoki']"
-FF3690,"[129, 'umiarkowany']"
-FF4600,"[148, 'wysoki']"
-FF4610,"[192, 'bardzo wysoki']"
-FF4620,"[201, 'bardzo wysoki']"
-FF4630,"[197, 'bardzo wysoki']"
-FF4640,"[168, 'umiarkowany']"
-FF4650,"[135, 'umiarkowany']"
-FF4660,"[134, 'umiarkowany']"
-FF4670,"[135, 'umiarkowany']"
-FF4680,"[126, 'niski']"
-FF4690,"[111, 'bardzo niski']"
-FF3569,"[143, 'wysoki']"
-FF3579,"[144, 'wysoki']"
-FF3589,"[182, 'wysoki']"
-FF3599,"[140, 'wysoki']"
-FF4509,"[119, 'niski']"
-FF4519,"[126, 'niski']"
-FF4529,"[199, 'bardzo wysoki']"
-FF4539,"[201, 'bardzo wysoki']"
-FF4549,"[183, 'wysoki']"
-FF4559,"[157, 'niski']"
-FF4569,"[153, 'niski']"
-FF4579,"[180, 'wysoki']"
-FF4589,"[182, 'wysoki']"
-FF3568,"[151, 'niski']"
-FF3578,"[160, 'niski']"
-FF3588,"[178, 'wysoki']"
-FF3598,"[152, 'wysoki']"
-FF4508,"[119, 'niski']"
-FF4518,"[127, 'niski']"
-FF4528,"[185, 'wysoki']"
-FF4538,"[183, 'wysoki']"
-FF4548,"[185, 'wysoki']"
-FF4558,"[174, 'umiarkowany']"
-FF4568,"[135, 'umiarkowany']"
-FF4578,"[166, 'umiarkowany']"
-FF3567,"[161, 'niski']"
-FF3577,"[123, 'niski']"
-FF3587,"[136, 'bardzo niski']"
-FF3597,"[136, 'bardzo niski']"
-FF4507,"[112, 'bardzo niski']"
-FF4517,"[110, 'bardzo niski']"
-FF4527,"[123, 'niski']"
-FF4537,"[121, 'niski']"
-FF4547,"[116, 'bardzo niski']"
-FF4557,"[134, 'umiarkowany']"
-FF4567,"[142, 'wysoki']"
-FF4577,"[135, 'umiarkowany']"
+﻿Name, 1,2
+EG1909,162, niski
+EG1919,197, wysoki
+EG1929,203, bardzo wysoki
+EG1939,203, bardzo wysoki
+FF9692,173, umiarkowany
+FF9693,203, bardzo wysoki
+FF9694,208, bardzo wysoki
+FF9695,207, bardzo wysoki
+FF9696,203, bardzo wysoki
+FF9697,202, bardzo wysoki
+FF9698,199, bardzo wysoki
+FF9699,157, niski
+FF9791,202, bardzo wysoki
+FF9792,205, bardzo wysoki
+FF9793,205, bardzo wysoki
+FF9799,199, bardzo wysoki
+FF9890,164, niski
+FF9891,181, umiarkowany
+FF9892,184, umiarkowany
+FF9997,205, bardzo wysoki
+FF9998,174, umiarkowany
+FF9987,208, bardzo wysoki
+FF9988,194, wysoki
+FF5179,123, bardzo niski
+FF5273,128, bardzo niski
+FF5274,154, bardzo niski
+FF5287,181, umiarkowany
+FF5277,158, niski
+FF5288,186, umiarkowany
+FF5278,159, niski
+FF5289,189, wysoki
+FF5279,173, umiarkowany
+FF5380,189, wysoki
+FF5370,185, umiarkowany
+FF5381,170, niski
+FF5371,179, umiarkowany
+FF5163,161, niski
+FF5166,137, bardzo niski
+FF5169,138, bardzo niski
+FF5262,130, bardzo niski
+FF5269,148, bardzo niski
+FF5360,152, bardzo niski
+FF5361,140, bardzo niski
+FF5154,168, niski
+FF5155,164, niski
+FF5156,152, bardzo niski
+FF5157,144, bardzo niski
+FF5159,155, bardzo niski
+FF5250,176, umiarkowany
+FF5252,160, niski
+FF5253,145, bardzo niski
+FF5254,150, bardzo niski
+FF5255,142, bardzo niski
+FF5350,147, bardzo niski
+FF5955,188, wysoki
+FF5956,197, wysoki
+FF5957,180, umiarkowany
+FF5958,192, wysoki
+FF5959,203, bardzo wysoki
+FF5149,145, bardzo niski
+FF5240,148, bardzo niski
+FF5243,166, niski
+FF5246,168, niski
+FF5248,171, niski
+FF5249,176, umiarkowany
+FF5340,186, umiarkowany
+FF5341,185, umiarkowany
+FF5342,175, umiarkowany
+FF5343,180, umiarkowany
+FF5344,174, umiarkowany
+FF5345,183, umiarkowany
+FF5346,167, niski
+FF5945,190, wysoki
+FF5946,203, bardzo wysoki
+FF5947,200, bardzo wysoki
+FF5948,192, wysoki
+FF5949,196, wysoki
+FF6264,172, niski
+FF6265,161, niski
+FF5298,148, bardzo niski
+FF5390,160, niski
+FF5133,163, niski
+FF5134,172, niski
+FF5135,182, umiarkowany
+FF5136,163, niski
+FF5138,171, niski
+FF5139,174, umiarkowany
+FF5230,157, niski
+FF5232,172, niski
+FF5233,156, bardzo niski
+FF5234,160, niski
+FF5235,188, wysoki
+FF5236,185, umiarkowany
+FF5237,189, wysoki
+FF5238,187, wysoki
+FF5239,193, wysoki
+FF5330,191, wysoki
+FF5331,191, wysoki
+FF5332,190, wysoki
+FF5333,183, umiarkowany
+FF5334,193, wysoki
+FF5335,183, umiarkowany
+FF5730,164, niski
+FF5731,170, niski
+FF5732,173, umiarkowany
+FF5733,147, bardzo niski
+FF5832,161, niski
+FF5833,176, umiarkowany
+FF5836,154, bardzo niski
+FF5934,188, wysoki
+FF5935,191, wysoki
+FF5936,199, bardzo wysoki
+FF5937,198, wysoki
+FF5938,192, wysoki
+FF5939,199, bardzo wysoki
+FF5123,164, niski
+FF5124,192, wysoki
+FF5125,197, wysoki
+FF5126,185, umiarkowany
+FF5128,178, umiarkowany
+FF5129,185, umiarkowany
+FF5220,153, bardzo niski
+FF5222,168, niski
+FF5223,171, niski
+FF5225,191, wysoki
+FF5226,191, wysoki
+FF5227,178, umiarkowany
+FF5228,192, wysoki
+FF5229,173, umiarkowany
+FF5320,194, wysoki
+FF5321,179, umiarkowany
+FF5322,196, wysoki
+FF5323,187, wysoki
+FF5324,197, wysoki
+FF5326,192, wysoki
+FF5327,171, niski
+FF5629,176, umiarkowany
+FF5720,183, umiarkowany
+FF5721,191, wysoki
+FF5722,183, umiarkowany
+FF5723,184, umiarkowany
+FF5724,177, umiarkowany
+FF5725,186, umiarkowany
+FF5726,179, umiarkowany
+FF5727,152, bardzo niski
+FF5823,182, umiarkowany
+FF5824,157, niski
+FF5924,189, wysoki
+FF5925,199, bardzo wysoki
+FF5926,196, wysoki
+FF5927,193, wysoki
+FF5928,180, umiarkowany
+FF5929,188, wysoki
+FF3919,195, wysoki
+FF3929,195, wysoki
+FF3939,194, wysoki
+FF3949,188, wysoki
+FF3959,160, niski
+FF3989,174, umiarkowany
+FF3999,195, wysoki
+FF4909,196, wysoki
+FF4919,207, bardzo wysoki
+FF4929,207, bardzo wysoki
+FF4939,202, bardzo wysoki
+FF4949,210, bardzo wysoki
+FF4959,207, bardzo wysoki
+FF4969,193, wysoki
+FF4979,199, bardzo wysoki
+FF4989,187, wysoki
+FF4999,180, umiarkowany
+FF5909,163, niski
+FF3928,195, wysoki
+FF3938,183, umiarkowany
+FF3968,158, niski
+FF3988,177, umiarkowany
+FF3998,201, bardzo wysoki
+FF4908,189, wysoki
+FF4918,167, niski
+FF4928,192, wysoki
+FF4938,206, bardzo wysoki
+FF4948,205, bardzo wysoki
+FF4958,202, bardzo wysoki
+FF4968,199, bardzo wysoki
+FF4978,202, bardzo wysoki
+FF4988,202, bardzo wysoki
+FF4998,192, wysoki
+FF5112,183, umiarkowany
+FF5113,187, wysoki
+FF5114,190, wysoki
+FF5115,187, wysoki
+FF5116,199, bardzo wysoki
+FF5117,186, umiarkowany
+FF5118,187, wysoki
+FF5119,195, wysoki
+FF5212,149, bardzo niski
+FF5215,187, wysoki
+FF5216,187, wysoki
+FF5217,186, umiarkowany
+FF5218,192, wysoki
+FF5219,192, wysoki
+FF5310,193, wysoki
+FF5311,188, wysoki
+FF5312,191, wysoki
+FF5313,197, wysoki
+FF5314,193, wysoki
+FF5315,195, wysoki
+FF5316,194, wysoki
+FF5317,155, bardzo niski
+FF5319,147, bardzo niski
+FF5616,174, umiarkowany
+FF5710,187, wysoki
+FF5711,180, umiarkowany
+FF5712,187, wysoki
+FF5713,183, umiarkowany
+FF5714,158, niski
+FF5715,192, wysoki
+FF5716,175, umiarkowany
+FF5717,161, niski
+FF5719,170, niski
+FF5813,156, bardzo niski
+FF5911,175, umiarkowany
+FF5913,173, umiarkowany
+FF5914,185, umiarkowany
+FF5915,197, wysoki
+FF5916,191, wysoki
+FF5917,177, umiarkowany
+FF3927,198, wysoki
+FF3947,143, bardzo niski
+FF3967,153, bardzo niski
+FF3997,197, wysoki
+FF4907,185, umiarkowany
+FF4927,177, umiarkowany
+FF4937,201, bardzo wysoki
+FF4947,204, bardzo wysoki
+FF4957,198, wysoki
+FF4967,201, bardzo wysoki
+FF4977,205, bardzo wysoki
+FF4987,202, bardzo wysoki
+FF4997,189, wysoki
+FF5907,182, umiarkowany
+FF9294,144, bardzo niski
+FF9399,125, bardzo niski
+FF9490,155, bardzo niski
+FF9592,197, wysoki
+FF9593,203, bardzo wysoki
+FF9597,177, umiarkowany
+FF9598,170, niski
+FF9599,178, umiarkowany
+FF9690,177, umiarkowany
+FF9381,170, niski
+FF9382,153, bardzo niski
+FF9383,173, umiarkowany
+FF9385,166, niski
+FF9386,180, umiarkowany
+FF9387,167, niski
+FF9388,146, bardzo niski
+FF9389,143, bardzo niski
+FF9480,132, bardzo niski
+FF9582,180, umiarkowany
+FF9583,165, niski
+FF9588,201, bardzo wysoki
+FF9589,187, wysoki
+FF9680,161, niski
+FF9683,202, bardzo wysoki
+FF9684,204, bardzo wysoki
+FF9685,199, bardzo wysoki
+FF9687,165, niski
+FF9279,170, niski
+FF9370,189, wysoki
+FF9373,163, niski
+FF9374,179, umiarkowany
+FF9375,189, wysoki
+FF9376,191, wysoki
+FF9379,167, niski
+FF9479,189, wysoki
+FF9572,166, niski
+FF9577,172, niski
+FF9578,200, bardzo wysoki
+FF9579,200, bardzo wysoki
+FF9670,198, wysoki
+FF9672,189, wysoki
+FF9673,199, bardzo wysoki
+FF9674,182, umiarkowany
+FF9675,162, niski
+FF9677,199, bardzo wysoki
+FF9679,165, niski
+FF9977,205, bardzo wysoki
+FF9978,186, umiarkowany
+FF9267,167, niski
+FF9268,185, umiarkowany
+FF9269,201, bardzo wysoki
+FF9561,179, umiarkowany
+FF9566,164, niski
+FF9567,196, wysoki
+FF9568,203, bardzo wysoki
+FF9569,199, bardzo wysoki
+FF9660,182, umiarkowany
+FF9664,185, umiarkowany
+FF9665,196, wysoki
+FF9666,160, niski
+FF9667,185, umiarkowany
+FF9668,206, bardzo wysoki
+FF9669,206, bardzo wysoki
+FF9967,205, bardzo wysoki
+FF9255,163, niski
+FF9256,173, umiarkowany
+FF9257,181, umiarkowany
+FF9258,201, bardzo wysoki
+FF9555,161, niski
+FF9557,189, wysoki
+FF9558,166, niski
+FF9655,190, wysoki
+FF9656,204, bardzo wysoki
+FF9657,207, bardzo wysoki
+FF9658,207, bardzo wysoki
+FF9659,207, bardzo wysoki
+FF9957,207, bardzo wysoki
+FF9958,203, bardzo wysoki
+FF9244,167, niski
+FF9245,194, wysoki
+FF9349,172, niski
+FF9443,144, bardzo niski
+FF9644,173, umiarkowany
+FF9645,203, bardzo wysoki
+FF9646,207, bardzo wysoki
+FF9647,168, niski
+FF9648,183, umiarkowany
+FF9945,176, umiarkowany
+FF9946,202, bardzo wysoki
+FF9947,206, bardzo wysoki
+FF9948,201, bardzo wysoki
+FF9949,187, wysoki
+FF9234,164, niski
+FF9339,186, umiarkowany
+FF9430,170, niski
+FF9431,167, niski
+FF9433,174, umiarkowany
+FF9538,152, bardzo niski
+FF9633,164, niski
+FF9634,178, umiarkowany
+FF9635,182, umiarkowany
+FF9935,182, umiarkowany
+FF9936,197, wysoki
+FF9937,200, bardzo wysoki
+FF9938,196, wysoki
+FF9939,194, wysoki
+FF9224,180, umiarkowany
+FF9329,177, umiarkowany
+FF9420,174, umiarkowany
+FF9526,167, niski
+FF9623,159, niski
+FF9624,203, bardzo wysoki
+FF9625,192, wysoki
+FF9923,193, wysoki
+FF9924,190, wysoki
+FF9925,172, niski
+FF9926,165, niski
+FF9927,164, niski
+FF9213,168, niski
+FF9515,135, bardzo niski
+FF9516,178, umiarkowany
+FF9517,169, niski
+FF9611,149, bardzo niski
+FF9612,148, bardzo niski
+FF9614,199, bardzo wysoki
+FF9914,164, niski
+FF9916,174, umiarkowany
+FF9203,182, umiarkowany
+FF9402,147, bardzo niski
+FF9404,162, niski
+FF9405,165, niski
+FF9406,176, umiarkowany
+FF9407,154, bardzo niski
+FF9408,178, umiarkowany
+FF9504,141, bardzo niski
+FF9505,151, bardzo niski
+FF9506,169, niski
+FF9601,160, niski
+FF9604,190, wysoki
+FF9705,203, bardzo wysoki
+FF9706,200, bardzo wysoki
+FF9803,200, bardzo wysoki
+FF9809,178, umiarkowany
+FF9903,171, niski
+FF9904,163, niski
+FF8291,168, niski
+FF8399,176, umiarkowany
+FF8490,146, bardzo niski
+FF8491,149, bardzo niski
+FF8492,157, niski
+FF8493,165, niski
+FF8494,158, niski
+FF8593,160, niski
+FF8594,154, bardzo niski
+FF8595,167, niski
+FF8596,176, umiarkowany
+FF8598,148, bardzo niski
+FF8690,154, bardzo niski
+FF8794,193, wysoki
+FF8795,199, bardzo wysoki
+FF8798,190, wysoki
+FF8892,203, bardzo wysoki
+FF8897,171, niski
+FF8898,197, wysoki
+FF8899,204, bardzo wysoki
+FF8993,190, wysoki
+FF8280,184, umiarkowany
+FF8281,187, wysoki
+FF8389,163, niski
+FF8481,182, umiarkowany
+FF8482,170, niski
+FF8483,167, niski
+FF8484,154, bardzo niski
+FF8581,163, niski
+FF8582,137, bardzo niski
+FF8583,172, niski
+FF8584,173, umiarkowany
+FF8585,191, wysoki
+FF8586,180, umiarkowany
+FF8781,164, niski
+FF8787,158, niski
+FF8788,181, umiarkowany
+FF8789,164, niski
+FF8888,191, wysoki
+FF8889,207, bardzo wysoki
+FF8981,203, bardzo wysoki
+FF8982,166, niski
+FF7221,171, niski
+FF7211,185, umiarkowany
+FF7222,194, wysoki
+FF7212,199, bardzo wysoki
+FF7213,165, niski
+FF7225,170, niski
+FF7226,167, niski
+FF7217,168, niski
+FF7228,195, wysoki
+FF7218,174, umiarkowany
+FF7229,206, bardzo wysoki
+FF7219,188, wysoki
+FF7320,202, bardzo wysoki
+FF7310,189, wysoki
+FF7321,175, umiarkowany
+FF7311,174, umiarkowany
+FF7322,172, niski
+FF7323,161, niski
+FF7324,161, niski
+FF7325,169, niski
+FF7419,151, bardzo niski
+FF7523,143, bardzo niski
+FF7524,148, bardzo niski
+FF7621,183, umiarkowany
+FF7611,159, niski
+FF7622,185, umiarkowany
+FF7612,178, umiarkowany
+FF7623,185, umiarkowany
+FF7613,151, bardzo niski
+FF7627,149, bardzo niski
+FF7617,151, bardzo niski
+FF7628,174, umiarkowany
+FF7618,183, umiarkowany
+FF7629,155, bardzo niski
+FF7202,177, umiarkowany
+FF7209,171, niski
+FF7500,143, bardzo niski
+FF7501,146, bardzo niski
+FF7602,147, bardzo niski
+FF7607,151, bardzo niski
+FF7608,146, bardzo niski
+FF8209,160, niski
+FF7299,162, niski
+FF8300,155, bardzo niski
+FF8301,142, bardzo niski
+FF8309,171, niski
+FF7399,165, niski
+FF7490,158, niski
+FF8406,150, bardzo niski
+FF8407,164, niski
+FF7497,181, umiarkowany
+FF8504,161, niski
+FF8505,183, umiarkowany
+FF7595,180, umiarkowany
+FF8506,186, umiarkowany
+FF7596,191, wysoki
+FF8507,179, umiarkowany
+FF7597,188, wysoki
+FF8508,185, umiarkowany
+FF8509,199, bardzo wysoki
+FF8600,193, wysoki
+FF8608,180, umiarkowany
+FF7698,164, niski
+FF8609,176, umiarkowany
+FF7699,162, niski
+FF8700,174, umiarkowany
+FF7790,165, niski
+FF8701,182, umiarkowany
+FF7791,160, niski
+FF8702,176, umiarkowany
+FF7792,184, umiarkowany
+FF8703,196, wysoki
+FF7793,199, bardzo wysoki
+FF8704,166, niski
+FF7794,159, niski
+FF7795,183, umiarkowany
+FF8706,172, niski
+FF7796,163, niski
+FF8707,169, niski
+FF8802,161, niski
+FF8803,203, bardzo wysoki
+FF7893,190, wysoki
+FF8804,206, bardzo wysoki
+FF7894,197, wysoki
+FF8807,166, niski
+FF8809,193, wysoki
+FF8900,197, wysoki
+FF7287,162, niski
+FF7384,136, bardzo niski
+FF7586,188, wysoki
+FF7682,186, umiarkowany
+FF7683,186, umiarkowany
+FF7685,142, bardzo niski
+FF7782,205, bardzo wysoki
+FF7783,194, wysoki
+FF7784,185, umiarkowany
+FF7271,165, niski
+FF7272,182, umiarkowany
+FF7373,137, bardzo niski
+FF7374,131, bardzo niski
+FF7378,158, niski
+FF7672,181, umiarkowany
+FF7673,190, wysoki
+FF7674,172, niski
+FF7678,170, niski
+FF7776,173, umiarkowany
+FF7360,151, bardzo niski
+FF7363,160, niski
+FF7661,174, umiarkowany
+FF7662,185, umiarkowany
+FF7663,191, wysoki
+FF7664,184, umiarkowany
+FF7665,153, bardzo niski
+FF7253,164, niski
+FF7356,146, bardzo niski
+FF7652,179, umiarkowany
+FF7653,191, wysoki
+FF7654,188, wysoki
+FF7655,154, bardzo niski
+FF7656,188, wysoki
+FF7657,165, niski
+FF7242,182, umiarkowany
+FF7243,165, niski
+FF7340,172, niski
+FF7345,156, bardzo niski
+FF7346,156, bardzo niski
+FF7347,147, bardzo niski
+FF7545,154, bardzo niski
+FF7546,154, bardzo niski
+FF7548,154, bardzo niski
+FF7549,154, bardzo niski
+FF7640,177, umiarkowany
+FF7641,189, wysoki
+FF7642,189, wysoki
+FF7643,179, umiarkowany
+FF7646,179, umiarkowany
+FF7647,176, umiarkowany
+FF7138,173, umiarkowany
+FF7139,170, niski
+FF7230,157, niski
+FF7231,176, umiarkowany
+FF7232,194, wysoki
+FF7233,176, umiarkowany
+FF7235,166, niski
+FF7236,169, niski
+FF7239,202, bardzo wysoki
+FF7330,195, wysoki
+FF7334,171, niski
+FF7335,175, umiarkowany
+FF7336,168, niski
+FF7536,154, bardzo niski
+FF7537,157, niski
+FF7631,166, niski
+FF7632,183, umiarkowany
+FF7633,154, bardzo niski
+FF7636,159, niski
+FF7637,174, umiarkowany
+FF7638,174, umiarkowany
+FF8473,161, niski
+FF8474,150, bardzo niski
+FF8478,200, bardzo wysoki
+FF8479,194, wysoki
+FF8570,175, umiarkowany
+FF8571,170, niski
+FF8575,181, umiarkowany
+FF8778,169, niski
+FF8871,164, niski
+FF8872,185, umiarkowany
+FF8874,196, wysoki
+FF8875,202, bardzo wysoki
+FF8876,190, wysoki
+FF8877,157, niski
+FF8878,197, wysoki
+FF8879,207, bardzo wysoki
+FF8971,204, bardzo wysoki
+FF8972,197, wysoki
+FF8975,169, niski
+FF8465,153, bardzo niski
+FF8466,170, niski
+FF8467,192, wysoki
+FF8468,197, wysoki
+FF8469,165, niski
+FF8563,178, umiarkowany
+FF8564,189, wysoki
+FF8565,176, umiarkowany
+FF8765,167, niski
+FF8769,153, bardzo niski
+FF8860,188, wysoki
+FF8863,205, bardzo wysoki
+FF8864,205, bardzo wysoki
+FF8865,206, bardzo wysoki
+FF8866,194, wysoki
+FF8868,192, wysoki
+FF8869,207, bardzo wysoki
+FF8960,209, bardzo wysoki
+FF8961,206, bardzo wysoki
+FF8962,206, bardzo wysoki
+FF8963,193, wysoki
+FF8964,201, bardzo wysoki
+FF8965,171, niski
+FF8966,158, niski
+FF8967,179, umiarkowany
+FF8968,143, bardzo niski
+FF8969,163, niski
+FF8451,194, wysoki
+FF8452,190, wysoki
+FF8453,165, niski
+FF8454,165, niski
+FF8455,185, umiarkowany
+FF8456,204, bardzo wysoki
+FF8457,193, wysoki
+FF8552,162, niski
+FF8553,198, wysoki
+FF8554,158, niski
+FF8558,158, niski
+FF8559,152, bardzo niski
+FF8656,166, niski
+FF8659,173, umiarkowany
+FF8750,167, niski
+FF8751,156, bardzo niski
+FF8755,166, niski
+FF8758,168, niski
+FF8759,177, umiarkowany
+FF8850,182, umiarkowany
+FF8853,192, wysoki
+FF8854,205, bardzo wysoki
+FF8855,206, bardzo wysoki
+FF8857,178, umiarkowany
+FF8858,204, bardzo wysoki
+FF8859,204, bardzo wysoki
+FF8950,195, wysoki
+FF8951,202, bardzo wysoki
+FF8952,199, bardzo wysoki
+FF8953,178, umiarkowany
+FF8955,189, wysoki
+FF8956,182, umiarkowany
+FF8957,163, niski
+FF8958,160, niski
+FF8959,178, umiarkowany
+FF8443,172, niski
+FF8444,188, wysoki
+FF8445,197, wysoki
+FF8446,186, umiarkowany
+FF8447,170, niski
+FF8542,186, umiarkowany
+FF8543,171, niski
+FF8547,175, umiarkowany
+FF8548,170, niski
+FF8644,202, bardzo wysoki
+FF8645,199, bardzo wysoki
+FF8649,160, niski
+FF8740,178, umiarkowany
+FF8742,171, niski
+FF8743,176, umiarkowany
+FF8744,164, niski
+FF8747,165, niski
+FF8748,176, umiarkowany
+FF8749,185, umiarkowany
+FF8840,191, wysoki
+FF8841,190, wysoki
+FF8843,193, wysoki
+FF8844,202, bardzo wysoki
+FF8845,203, bardzo wysoki
+FF8846,181, umiarkowany
+FF8847,192, wysoki
+FF8848,199, bardzo wysoki
+FF8849,210, bardzo wysoki
+FF8940,206, bardzo wysoki
+FF8941,196, wysoki
+FF8943,202, bardzo wysoki
+FF8944,201, bardzo wysoki
+FF8945,175, umiarkowany
+FF8949,147, bardzo niski
+FF8430,182, umiarkowany
+FF8433,201, bardzo wysoki
+FF8434,186, umiarkowany
+FF8531,162, niski
+FF8634,193, wysoki
+FF8639,170, niski
+FF8730,180, umiarkowany
+FF8732,194, wysoki
+FF8733,191, wysoki
+FF8734,180, umiarkowany
+FF8737,191, wysoki
+FF8738,202, bardzo wysoki
+FF8739,192, wysoki
+FF8830,185, umiarkowany
+FF8832,157, niski
+FF8833,195, wysoki
+FF8834,185, umiarkowany
+FF8836,177, umiarkowany
+FF8837,203, bardzo wysoki
+FF8838,206, bardzo wysoki
+FF8839,207, bardzo wysoki
+FF8930,206, bardzo wysoki
+FF8931,202, bardzo wysoki
+FF8934,179, umiarkowany
+FF8229,129, bardzo niski
+FF8320,131, bardzo niski
+FF8420,180, umiarkowany
+FF8421,185, umiarkowany
+FF8422,200, bardzo wysoki
+FF8423,204, bardzo wysoki
+FF8621,182, umiarkowany
+FF8622,182, umiarkowany
+FF8624,188, wysoki
+FF8625,194, wysoki
+FF8626,181, umiarkowany
+FF8627,189, wysoki
+FF8628,195, wysoki
+FF8629,175, umiarkowany
+FF8720,167, niski
+FF8723,195, wysoki
+FF8724,189, wysoki
+FF8726,191, wysoki
+FF8727,206, bardzo wysoki
+FF8728,203, bardzo wysoki
+FF8729,183, umiarkowany
+FF8823,189, wysoki
+FF8824,206, bardzo wysoki
+FF8827,196, wysoki
+FF8828,206, bardzo wysoki
+FF8829,206, bardzo wysoki
+FF8920,197, wysoki
+FF8921,182, umiarkowany
+FF8219,142, bardzo niski
+FF8310,134, bardzo niski
+FF8311,143, bardzo niski
+FF8314,129, bardzo niski
+FF8411,167, niski
+FF8412,189, wysoki
+FF8413,170, niski
+FF8417,152, bardzo niski
+FF8518,178, umiarkowany
+FF8519,195, wysoki
+FF8610,204, bardzo wysoki
+FF8611,187, wysoki
+FF8614,165, niski
+FF8615,163, niski
+FF8617,172, niski
+FF8618,200, bardzo wysoki
+FF8711,168, niski
+FF8712,168, niski
+FF8713,199, bardzo wysoki
+FF8714,192, wysoki
+FF8716,181, umiarkowany
+FF8717,207, bardzo wysoki
+FF8718,204, bardzo wysoki
+FF8719,198, wysoki
+FF8810,181, umiarkowany
+FF8813,170, niski
+FF8814,206, bardzo wysoki
+FF8815,182, umiarkowany
+FF8817,202, bardzo wysoki
+FF8818,202, bardzo wysoki
+FF8819,202, bardzo wysoki
+FF8910,203, bardzo wysoki
+FF8912,185, umiarkowany
+FF8913,178, umiarkowany
+FF6292,168, niski
+FF6697,150, bardzo niski
+FF6283,167, niski
+FF6284,170, niski
+FF6683,144, bardzo niski
+FF6273,181, umiarkowany
+FF6274,189, wysoki
+FF6578,146, bardzo niski
+FF6579,149, bardzo niski
+FF2766,184, umiarkowany
+FF2767,179, umiarkowany
+FF2777,190, wysoki
+FF2787,187, wysoki
+FF5101,179, umiarkowany
+FF5102,191, wysoki
+FF5103,202, bardzo wysoki
+FF5104,202, bardzo wysoki
+FF5105,197, wysoki
+FF5106,180, umiarkowany
+FF5107,197, wysoki
+FF5108,202, bardzo wysoki
+FF5109,172, niski
+FF5201,167, niski
+FF5202,163, niski
+FF5203,165, niski
+FF5205,183, umiarkowany
+FF5207,186, umiarkowany
+FF5208,198, wysoki
+FF5209,178, umiarkowany
+FF5300,170, niski
+FF5301,189, wysoki
+FF5302,195, wysoki
+FF5303,189, wysoki
+FF5304,198, wysoki
+FF5305,181, umiarkowany
+FF5608,152, bardzo niski
+FF5609,178, umiarkowany
+FF5700,153, bardzo niski
+FF5701,159, niski
+FF5702,176, umiarkowany
+FF2745,181, umiarkowany
+FF2755,183, umiarkowany
+FF2765,200, bardzo wysoki
+FF2795,166, niski
+FF2734,179, umiarkowany
+FF2744,186, umiarkowany
+FF2754,194, wysoki
+FF2764,190, wysoki
+FF2733,184, umiarkowany
+FF2743,197, wysoki
+FF4793,177, umiarkowany
+FF2732,175, umiarkowany
+FF2742,191, wysoki
+FF3762,148, bardzo niski
+FF4712,165, niski
+FF4782,166, niski
+FF3761,182, umiarkowany
+FF3771,172, niski
+FF3781,187, wysoki
+FF3791,181, umiarkowany
+FF4701,197, wysoki
+FF4711,179, umiarkowany
+FF4781,177, umiarkowany
+FF3760,170, niski
+FF3770,193, wysoki
+FF3780,189, wysoki
+FF3790,198, wysoki
+FF4700,195, wysoki
+FF4710,190, wysoki
+FF4720,183, umiarkowany
+FF4730,174, umiarkowany
+FF4770,157, niski
+FF4780,159, niski
+FF3689,184, umiarkowany
+FF3699,199, bardzo wysoki
+FF4609,187, wysoki
+FF4619,193, wysoki
+FF4629,182, umiarkowany
+FF4639,194, wysoki
+FF4649,182, umiarkowany
+FF4679,143, bardzo niski
+FF3688,179, umiarkowany
+FF3698,199, bardzo wysoki
+FF4628,180, umiarkowany
+FF4638,191, wysoki
+FF4648,182, umiarkowany
+FF3916,182, umiarkowany
+FF3926,197, wysoki
+FF3966,167, niski
+FF3976,174, umiarkowany
+FF4926,197, wysoki
+FF4936,194, wysoki
+FF4946,197, wysoki
+FF4956,194, wysoki
+FF4966,198, wysoki
+FF4976,207, bardzo wysoki
+FF4986,196, wysoki
+FF4996,192, wysoki
+FF5906,186, umiarkowany
+FF3915,189, wysoki
+FF3925,191, wysoki
+FF3965,165, niski
+FF4925,191, wysoki
+FF4935,194, wysoki
+FF4945,187, wysoki
+FF4955,194, wysoki
+FF4965,198, wysoki
+FF4975,188, wysoki
+FF4985,190, wysoki
+FF5905,159, niski
+FF3924,202, bardzo wysoki
+FF3934,155, bardzo niski
+FF3964,149, bardzo niski
+FF4934,188, wysoki
+FF4944,186, umiarkowany
+FF4954,191, wysoki
+FF4964,198, wysoki
+FF4974,184, umiarkowany
+FF5904,162, niski
+FF2874,179, umiarkowany
+FF3803,181, umiarkowany
+FF3813,197, wysoki
+FF3823,185, umiarkowany
+FF3824,168, niski
+FF3833,178, umiarkowany
+FF3834,161, niski
+FF3843,158, niski
+FF3844,159, niski
+FF3873,170, niski
+FF3883,166, niski
+FF3884,178, umiarkowany
+FF5804,161, niski
+FF3802,205, bardzo wysoki
+FF3812,197, wysoki
+FF3822,193, wysoki
+FF3832,195, wysoki
+FF3842,160, niski
+FF2891,192, wysoki
+FF3801,209, bardzo wysoki
+FF3811,206, bardzo wysoki
+FF3821,203, bardzo wysoki
+FF3831,185, umiarkowany
+FF3841,164, niski
+FF3861,181, umiarkowany
+FF3871,188, wysoki
+FF3923,205, bardzo wysoki
+FF3943,157, niski
+FF3953,168, niski
+FF4953,163, niski
+FF4963,195, wysoki
+FF3922,203, bardzo wysoki
+FF3932,165, niski
+FF3942,182, umiarkowany
+FF3952,183, umiarkowany
+FF4932,172, niski
+FF4942,159, niski
+FF4962,164, niski
+FF4992,192, wysoki
+FF5902,181, umiarkowany
+FF3911,185, umiarkowany
+FF3921,189, wysoki
+FF3941,182, umiarkowany
+FF3951,163, niski
+FF3961,149, bardzo niski
+FF3971,175, umiarkowany
+FF4921,196, wysoki
+FF4931,191, wysoki
+FF4941,187, wysoki
+FF4951,160, niski
+FF4961,178, umiarkowany
+FF4991,185, umiarkowany
+FF5901,162, niski
+FF2990,189, wysoki
+FF3930,153, bardzo niski
+FF3940,186, umiarkowany
+FF3950,171, niski
+FF3960,143, bardzo niski
+FF3970,165, niski
+FF4920,180, umiarkowany
+FF4930,188, wysoki
+FF4940,190, wysoki
+FF4980,178, umiarkowany
+FF4990,173, umiarkowany
+FF5900,157, niski
+FF2889,183, umiarkowany
+FF2899,174, umiarkowany
+FF3839,177, umiarkowany
+FF3849,179, umiarkowany
+FF3859,168, niski
+FF3869,176, umiarkowany
+FF3879,160, niski
+FF4829,166, niski
+FF4839,166, niski
+FF4889,160, niski
+FF2878,175, umiarkowany
+FF2888,186, umiarkowany
+FF2898,193, wysoki
+FF3838,179, umiarkowany
+FF3848,174, umiarkowany
+FF3868,174, umiarkowany
+FF4828,168, niski
+FF4838,181, umiarkowany
+FF2877,186, umiarkowany
+FF2887,201, bardzo wysoki
+FF2897,187, wysoki
+FF3807,191, wysoki
+FF3847,166, niski
+FF4827,188, wysoki
+FF4837,167, niski
+FF2886,205, bardzo wysoki
+FF2896,195, wysoki
+FF3806,172, niski
+FF3896,167, niski
+FF4816,187, wysoki
+FF4826,180, umiarkowany
+FF2885,197, wysoki
+FF3835,158, niski
+FF3895,166, niski
+FF4805,199, bardzo wysoki
+FF4815,184, umiarkowany
+FF2870,193, wysoki
+FF2890,202, bardzo wysoki
+FF3800,193, wysoki
+FF3810,210, bardzo wysoki
+FF3820,210, bardzo wysoki
+FF3830,188, wysoki
+FF3840,192, wysoki
+FF3850,153, bardzo niski
+FF3860,186, umiarkowany
+FF2769,169, niski
+FF2779,200, bardzo wysoki
+FF2789,194, wysoki
+FF2799,191, wysoki
+FF3709,184, umiarkowany
+FF3719,198, wysoki
+FF3739,184, umiarkowany
+FF3749,188, wysoki
+FF3759,156, bardzo niski
+FF3769,191, wysoki
+FF2768,168, niski
+FF2778,196, wysoki
+FF2788,191, wysoki
+FF2798,162, niski
+FF3728,177, umiarkowany
+FF3738,168, niski
+FF3575,142, bardzo niski
+FF3576,157, niski
+FF3677,184, umiarkowany
+FF4637,161, niski
+FF4647,168, niski
+FF4616,168, niski
+FF4636,196, wysoki
+FF4646,158, niski
+FF4615,199, bardzo wysoki
+FF4625,195, wysoki
+FF4635,190, wysoki
+FF3654,168, niski
+FF3684,186, umiarkowany
+FF3694,159, niski
+FF4604,194, wysoki
+FF4614,199, bardzo wysoki
+FF4624,205, bardzo wysoki
+FF4634,194, wysoki
+FF4644,186, umiarkowany
+FF3683,198, wysoki
+FF3693,188, wysoki
+FF4603,202, bardzo wysoki
+FF4613,202, bardzo wysoki
+FF4623,189, wysoki
+FF4633,170, niski
+FF4643,164, niski
+FF4653,166, niski
+FF3682,172, niski
+FF3692,195, wysoki
+FF4602,206, bardzo wysoki
+FF4612,203, bardzo wysoki
+FF4622,186, umiarkowany
+FF4652,162, niski
+FF4692,167, niski
+FF3691,188, wysoki
+FF4601,197, wysoki
+FF4611,203, bardzo wysoki
+FF4621,198, wysoki
+FF4631,162, niski
+FF4661,171, niski
+FF3680,186, umiarkowany
+FF4610,197, wysoki
+FF4620,201, bardzo wysoki
+FF4630,197, wysoki
+FF4640,173, umiarkowany
+FF3589,187, wysoki
+FF4529,199, bardzo wysoki
+FF4539,206, bardzo wysoki
+FF4549,188, wysoki
+FF4559,162, niski
+FF4569,158, niski
+FF4579,180, umiarkowany
+FF4589,187, wysoki
+FF3568,156, bardzo niski
+FF3578,160, niski
+FF3588,183, umiarkowany
+FF4528,185, umiarkowany
+FF4538,188, wysoki
+FF4548,190, wysoki
+FF4558,179, umiarkowany
+FF4578,171, niski
+FF3567,166, niski
+FF3587,141, bardzo niski
+FF3597,141, bardzo niski
+FF4192,163, niski
+FF4193,177, umiarkowany
+FF4194,189, wysoki
+FF4195,192, wysoki
+FF4197,181, umiarkowany
+FF4198,191, wysoki
+FF4199,161, niski
+FF4291,154, bardzo niski
+FF4293,159, niski
+FF4294,163, niski
+FF4297,156, bardzo niski
+FF4298,177, umiarkowany
+FF4299,168, niski
+FF4391,150, bardzo niski
+FF4392,163, niski
+FF4393,173, umiarkowany
+FF4394,173, umiarkowany
+FF4395,162, niski
+FF3554,145, bardzo niski
+FF3584,141, bardzo niski
+FF3573,141, bardzo niski
+FF3583,151, bardzo niski
+FF3562,141, bardzo niski
+FF3572,141, bardzo niski
+FF3581,143, bardzo niski
+FF3591,167, niski
+FF4501,162, niski
+FF3590,175, umiarkowany
+FF4500,176, umiarkowany
+FF4510,176, umiarkowany
+FF3439,157, niski
+FF3459,155, bardzo niski
+FF3469,149, bardzo niski
+FF3499,159, niski
+FF4409,194, wysoki
+FF4419,189, wysoki
+FF4429,183, umiarkowany
+FF4439,171, niski
+FF3428,193, wysoki
+FF3438,195, wysoki
+FF3468,157, niski
+FF4408,187, wysoki
+FF4418,183, umiarkowany
+FF4428,194, wysoki
+FF4438,183, umiarkowany
+FF3407,171, niski
+FF3427,193, wysoki
+FF3437,198, wysoki
+FF4417,185, umiarkowany
+FF4427,198, wysoki
+FF4437,188, wysoki
+FF4447,179, umiarkowany
+FF4182,165, niski
+FF4183,174, umiarkowany
+FF4184,195, wysoki
+FF4185,193, wysoki
+FF4186,162, niski
+FF4187,198, wysoki
+FF4188,200, bardzo wysoki
+FF4189,182, umiarkowany
+FF4281,174, umiarkowany
+FF4282,154, bardzo niski
+FF4384,162, niski
+FF4385,185, umiarkowany
+FF4386,151, bardzo niski
+FF4476,193, wysoki
+FF2287,187, wysoki
+FF2288,170, niski
+FF2297,181, umiarkowany
+FF2298,180, umiarkowany
+FF3207,173, umiarkowany
+FF3208,162, niski
+FF3217,183, umiarkowany
+FF3218,174, umiarkowany
+FF3227,179, umiarkowany
+FF3228,181, umiarkowany
+FF3237,163, niski
+FF3238,178, umiarkowany
+FF3248,174, umiarkowany
+FF3258,179, umiarkowany
+FF3268,145, bardzo niski
+FF3216,176, umiarkowany
+FF3226,188, wysoki
+FF3236,175, umiarkowany
+FF4256,151, bardzo niski
+FF4276,170, niski
+FF3215,147, bardzo niski
+FF3225,147, bardzo niski
+FF3235,158, niski
+FF3245,136, bardzo niski
+FF3214,152, bardzo niski
+FF3254,145, bardzo niski
+FF4244,163, niski
+FF2158,205, bardzo wysoki
+FF2168,205, bardzo wysoki
+FF2178,210, bardzo wysoki
+FF2179,200, bardzo wysoki
+FF2188,202, bardzo wysoki
+FF2189,210, bardzo wysoki
+FF2198,193, wysoki
+FF2199,198, wysoki
+FF3108,170, niski
+FF3109,183, umiarkowany
+FF3118,169, niski
+FF3128,168, niski
+FF3138,162, niski
+FF3158,152, bardzo niski
+FF3159,169, niski
+FF3168,174, umiarkowany
+FF3169,146, bardzo niski
+FF4139,150, bardzo niski
+FF4168,189, wysoki
+FF4169,191, wysoki
+FF4178,201, bardzo wysoki
+FF4179,174, umiarkowany
+FF3283,139, bardzo niski
+FF3293,156, bardzo niski
+FF4203,139, bardzo niski
+FF4233,178, umiarkowany
+FF4243,159, niski
+FF4263,154, bardzo niski
+FF3212,155, bardzo niski
+FF3262,144, bardzo niski
+FF3282,145, bardzo niski
+FF3292,161, niski
+FF4202,161, niski
+FF4212,137, bardzo niski
+FF4222,156, bardzo niski
+FF4232,183, umiarkowany
+FF4242,171, niski
+FF4262,155, bardzo niski
+FF4272,152, bardzo niski
+FF2281,184, umiarkowany
+FF2291,189, wysoki
+FF3201,185, umiarkowany
+FF3221,152, bardzo niski
+FF3251,143, bardzo niski
+FF4221,175, umiarkowany
+FF4231,180, umiarkowany
+FF2270,194, wysoki
+FF2280,195, wysoki
+FF2290,197, wysoki
+FF3200,199, bardzo wysoki
+FF3210,184, umiarkowany
+FF3220,154, bardzo niski
+FF3250,165, niski
+FF3416,191, wysoki
+FF3426,193, wysoki
+FF3436,198, wysoki
+FF3446,189, wysoki
+FF3456,183, umiarkowany
+FF4406,151, bardzo niski
+FF4416,174, umiarkowany
+FF4426,195, wysoki
+FF4436,163, niski
+FF4446,153, bardzo niski
+FF4456,182, umiarkowany
+FF4466,183, umiarkowany
+FF3415,203, bardzo wysoki
+FF3425,201, bardzo wysoki
+FF3435,183, umiarkowany
+FF3445,198, wysoki
+FF3455,174, umiarkowany
+FF4425,185, umiarkowany
+FF4455,179, umiarkowany
+FF4465,197, wysoki
+FF3414,208, bardzo wysoki
+FF3424,207, bardzo wysoki
+FF3434,195, wysoki
+FF3444,179, umiarkowany
+FF4424,165, niski
+FF4454,179, umiarkowany
+FF4464,191, wysoki
+FF3413,208, bardzo wysoki
+FF3423,207, bardzo wysoki
+FF3433,198, wysoki
+FF3443,168, niski
+FF3473,159, niski
+FF4463,153, bardzo niski
+FF3312,155, bardzo niski
+FF3321,188, wysoki
+FF3322,157, niski
+FF3331,179, umiarkowany
+FF3332,157, niski
+FF3351,151, bardzo niski
+FF3352,159, niski
+FF3361,154, bardzo niski
+FF2325,190, wysoki
+FF2334,195, wysoki
+FF2335,192, wysoki
+FF2344,160, niski
+FF2365,161, niski
+FF2375,159, niski
+FF2384,150, bardzo niski
+FF2385,147, bardzo niski
+FF2394,162, niski
+FF3314,157, niski
+FF3315,175, umiarkowany
+FF3324,191, wysoki
+FF3325,189, wysoki
+FF3334,191, wysoki
+FF3335,195, wysoki
+FF3344,192, wysoki
+FF3345,189, wysoki
+FF4315,160, niski
+FF4324,155, bardzo niski
+FF4325,183, umiarkowany
+FF4344,153, bardzo niski
+FF4345,160, niski
+FF3333,171, niski
+FF3343,178, umiarkowany
+FF3363,156, bardzo niski
+FF3373,149, bardzo niski
+FF4323,155, bardzo niski
+FF2472,183, umiarkowany
+FF2482,163, niski
+FF3402,173, umiarkowany
+FF3412,208, bardzo wysoki
+FF3422,202, bardzo wysoki
+FF3432,192, wysoki
+FF4462,173, umiarkowany
+FF2451,182, umiarkowany
+FF2461,156, bardzo niski
+FF2471,184, umiarkowany
+FF2481,194, wysoki
+FF2491,195, wysoki
+FF3401,185, umiarkowany
+FF3411,202, bardzo wysoki
+FF3421,193, wysoki
+FF3431,161, niski
+FF2440,182, umiarkowany
+FF2450,186, umiarkowany
+FF2460,184, umiarkowany
+FF2480,205, bardzo wysoki
+FF2490,195, wysoki
+FF3400,172, niski
+FF3410,198, wysoki
+FF3420,167, niski
+FF2349,188, wysoki
+FF2359,197, wysoki
+FF2369,172, niski
+FF2379,196, wysoki
+FF2389,205, bardzo wysoki
+FF2399,197, wysoki
+FF3309,160, niski
+FF4319,154, bardzo niski
+FF4349,145, bardzo niski
+FF2318,158, niski
+FF2348,159, niski
+FF2358,196, wysoki
+FF2368,175, umiarkowany
+FF2378,199, bardzo wysoki
+FF2388,194, wysoki
+FF2398,173, umiarkowany
+FF3318,194, wysoki
+FF3328,201, bardzo wysoki
+FF3338,199, bardzo wysoki
+FF4318,153, bardzo niski
+FF4328,144, bardzo niski
+FF4338,178, umiarkowany
+FF2317,187, wysoki
+FF2327,168, niski
+FF2367,155, bardzo niski
+FF2377,175, umiarkowany
+FF2387,161, niski
+FF3307,180, umiarkowany
+FF3317,200, bardzo wysoki
+FF3327,201, bardzo wysoki
+FF3337,202, bardzo wysoki
+FF3397,166, niski
+FF4307,143, bardzo niski
+FF4327,161, niski
+FF2316,187, wysoki
+FF2326,193, wysoki
+FF2336,170, niski
+FF3306,185, umiarkowany
+FF3316,195, wysoki
+FF3326,198, wysoki
+FF3336,193, wysoki
+FF3396,162, niski
+FF4316,166, niski
+FF4326,186, umiarkowany
+FF4346,157, niski
+FF3330,174, umiarkowany
+FF3340,173, umiarkowany
+FF3350,154, bardzo niski
+FF2289,168, niski
+FF2299,158, niski
+FF3209,162, niski
+FF3219,185, umiarkowany
+FF3229,178, umiarkowany
+FF3259,166, niski
+FF3037,142, bardzo niski
+FF3047,153, bardzo niski
+FF3057,166, niski
+FF3067,172, niski
+FF3076,134, bardzo niski
+FF3077,176, umiarkowany
+FF3087,148, bardzo niski
+FF3097,153, bardzo niski
+FF4007,145, bardzo niski
+FF2157,201, bardzo wysoki
+FF2167,201, bardzo wysoki
+FF2177,204, bardzo wysoki
+FF2187,201, bardzo wysoki
+FF2197,187, wysoki
+FF3107,173, umiarkowany
+FF3117,175, umiarkowany
+FF3127,183, umiarkowany
+FF3137,181, umiarkowany
+FF3147,180, umiarkowany
+FF3157,159, niski
+FF3167,154, bardzo niski
+FF3187,182, umiarkowany
+FF3197,174, umiarkowany
+FF4107,152, bardzo niski
+FF4167,190, wysoki
+FF4177,201, bardzo wysoki
+FF2170,159, niski
+FF2171,167, niski
+FF2180,160, niski
+FF2181,183, umiarkowany
+FF2190,154, bardzo niski
+FF2191,186, umiarkowany
+FF3100,155, bardzo niski
+FF3101,160, niski
+FF3110,155, bardzo niski
+FF3111,161, niski
+FF3120,188, wysoki
+FF3121,186, umiarkowany
+FF3140,186, umiarkowany
+FF3141,180, umiarkowany
+FF3150,188, wysoki
+FF3151,187, wysoki
+FF3160,199, bardzo wysoki
+FF3161,192, wysoki
+FF3170,206, bardzo wysoki
+FF3171,190, wysoki
+FF3180,198, wysoki
+FF3181,196, wysoki
+FF3190,192, wysoki
+FF3191,188, wysoki
+FF4100,201, bardzo wysoki
+FF4101,201, bardzo wysoki
+FF4110,197, wysoki
+FF4111,196, wysoki
+FF4120,189, wysoki
+FF4121,196, wysoki
+FF4130,197, wysoki
+FF4131,192, wysoki
+FF4141,188, wysoki
+FF2156,200, bardzo wysoki
+FF2166,200, bardzo wysoki
+FF2176,197, wysoki
+FF2186,201, bardzo wysoki
+FF2196,187, wysoki
+FF3106,193, wysoki
+FF3116,187, wysoki
+FF3126,200, bardzo wysoki
+FF3136,196, wysoki
+FF3146,184, umiarkowany
+FF3156,170, niski
+FF3166,162, niski
+FF3176,158, niski
+FF4106,179, umiarkowany
+FF4116,167, niski
+FF4156,194, wysoki
+FF4166,195, wysoki
+FF4176,182, umiarkowany
+FF2155,200, bardzo wysoki
+FF2165,201, bardzo wysoki
+FF2175,208, bardzo wysoki
+FF2185,206, bardzo wysoki
+FF2195,201, bardzo wysoki
+FF3105,207, bardzo wysoki
+FF3115,195, wysoki
+FF3125,201, bardzo wysoki
+FF3135,200, bardzo wysoki
+FF3145,178, umiarkowany
+FF3155,171, niski
+FF3165,176, umiarkowany
+FF3175,186, umiarkowany
+FF3185,163, niski
+FF3195,162, niski
+FF4105,160, niski
+FF4115,183, umiarkowany
+FF4125,198, wysoki
+FF4135,184, umiarkowany
+FF4145,164, niski
+FF4155,198, wysoki
+FF4165,198, wysoki
+FF4175,190, wysoki
+FF2154,193, wysoki
+FF2164,190, wysoki
+FF2174,197, wysoki
+FF2184,200, bardzo wysoki
+FF2194,208, bardzo wysoki
+FF3104,201, bardzo wysoki
+FF3114,190, wysoki
+FF3124,198, wysoki
+FF3134,193, wysoki
+FF3144,159, niski
+FF3154,178, umiarkowany
+FF3164,193, wysoki
+FF3174,193, wysoki
+FF3184,186, umiarkowany
+FF3194,196, wysoki
+FF4104,198, wysoki
+FF4114,185, umiarkowany
+FF4124,199, bardzo wysoki
+FF4134,196, wysoki
+FF4144,182, umiarkowany
+FF4154,185, umiarkowany
+FF4164,192, wysoki
+FF4174,200, bardzo wysoki
+FF2153,172, niski
+FF2163,196, wysoki
+FF2173,193, wysoki
+FF2183,201, bardzo wysoki
+FF2193,197, wysoki
+FF3103,200, bardzo wysoki
+FF3113,195, wysoki
+FF3123,205, bardzo wysoki
+FF3133,199, bardzo wysoki
+FF3143,193, wysoki
+FF3153,180, umiarkowany
+FF3163,188, wysoki
+FF3173,189, wysoki
+FF3183,184, umiarkowany
+FF3193,199, bardzo wysoki
+FF4103,181, umiarkowany
+FF4113,179, umiarkowany
+FF4123,200, bardzo wysoki
+FF4133,200, bardzo wysoki
+FF4143,191, wysoki
+FF4153,185, umiarkowany
+FF4163,189, wysoki
+FF2152,182, umiarkowany
+FF2162,187, wysoki
+FF2172,178, umiarkowany
+FF2182,192, wysoki
+FF2192,196, wysoki
+FF3102,196, wysoki
+FF3112,175, umiarkowany
+FF3122,202, bardzo wysoki
+FF3132,196, wysoki
+FF3142,183, umiarkowany
+FF3152,158, niski
+FF3162,188, wysoki
+FF3172,195, wysoki
+FF3182,193, wysoki
+FF3192,186, umiarkowany
+FF4102,183, umiarkowany
+FF4112,182, umiarkowany
+FF4122,207, bardzo wysoki
+FF4132,204, bardzo wysoki
+FF4142,199, bardzo wysoki
+FF4152,199, bardzo wysoki
+FF4162,172, niski
+FF3009,144, bardzo niski
+FF3019,155, bardzo niski
+FF3029,180, umiarkowany
+FF3049,178, umiarkowany
+FF3059,180, umiarkowany
+FF3069,205, bardzo wysoki
+FF3079,204, bardzo wysoki
+FF3089,196, wysoki
+FF3099,184, umiarkowany
+FF4009,204, bardzo wysoki
+FF4019,195, wysoki
+FF4029,188, wysoki
+FF3038,171, niski
+FF3048,179, umiarkowany
+FF3058,185, umiarkowany
+FF3068,196, wysoki
+FF3078,198, wysoki
+FF3088,184, umiarkowany
+FF3098,188, wysoki
+FF4008,198, wysoki
+FF4018,162, niski
+FF4028,149, bardzo niski
+FG5553,207, bardzo wysoki
+FG5554,207, bardzo wysoki
+FG5555,210, bardzo wysoki
+FG5541,208, bardzo wysoki
+FG5542,204, bardzo wysoki
+FG5543,191, wysoki
+FG5544,203, bardzo wysoki
+FG5546,200, bardzo wysoki
+FG5531,205, bardzo wysoki
+FG5532,184, umiarkowany
+FG5534,199, bardzo wysoki
+FG5535,186, umiarkowany
+FG5536,177, umiarkowany
+FG5537,192, wysoki
+FG5521,208, bardzo wysoki
+FG5927,203, bardzo wysoki
+FG5928,192, wysoki
+FG5929,157, niski
+FG5511,205, bardzo wysoki
+FG5512,192, wysoki
+FG5513,184, umiarkowany
+FG5514,169, niski
+FG5916,205, bardzo wysoki
+FG5917,200, bardzo wysoki
+FG0939,194, wysoki
+FG0949,190, wysoki
+FG0959,191, wysoki
+FG0979,187, wysoki
+FG3939,199, bardzo wysoki
+FG3969,190, wysoki
+FG3979,207, bardzo wysoki
+FG3989,210, bardzo wysoki
+FG3999,207, bardzo wysoki
+FG4909,206, bardzo wysoki
+FG4919,206, bardzo wysoki
+FG4929,192, wysoki
+FG4959,198, wysoki
+FG4969,203, bardzo wysoki
+FG4979,202, bardzo wysoki
+FG4989,187, wysoki
+FG0908,202, bardzo wysoki
+FG0918,210, bardzo wysoki
+FG0928,189, wysoki
+FG0938,200, bardzo wysoki
+FG0948,177, umiarkowany
+FG3928,174, umiarkowany
+FG3938,168, niski
+FG3958,202, bardzo wysoki
+FG3968,207, bardzo wysoki
+FG3978,209, bardzo wysoki
+FG3988,203, bardzo wysoki
+FG4908,196, wysoki
+FG4918,198, wysoki
+FG4968,194, wysoki
+FG4978,190, wysoki
+FG4988,166, niski
+FG0907,205, bardzo wysoki
+FG0917,202, bardzo wysoki
+FG0927,204, bardzo wysoki
+FG0937,204, bardzo wysoki
+FG3927,193, wysoki
+FG3967,204, bardzo wysoki
+FG3977,188, wysoki
+FG3997,164, niski
+FG4937,163, niski
+FG4947,179, umiarkowany
+FG4957,193, wysoki
+FG4967,190, wysoki
+FG4977,197, wysoki
+FG4987,186, umiarkowany
+FG4997,193, wysoki
+FG2855,184, umiarkowany
+FG2865,210, bardzo wysoki
+FG2875,212, bardzo wysoki
+FG2884,204, bardzo wysoki
+FG2885,207, bardzo wysoki
+FG2895,197, wysoki
+FG3814,185, umiarkowany
+FG3815,197, wysoki
+FG3824,166, niski
+FG3825,204, bardzo wysoki
+FG3844,187, wysoki
+FG3845,167, niski
+FG3854,197, wysoki
+FG3855,196, wysoki
+FG3864,194, wysoki
+FG3865,176, umiarkowany
+FG3874,172, niski
+FG3875,201, bardzo wysoki
+FG3885,193, wysoki
+FG4804,190, wysoki
+FG4814,199, bardzo wysoki
+FG4824,179, umiarkowany
+FG4844,187, wysoki
+FG4845,181, umiarkowany
+FG4854,190, wysoki
+FG4855,186, umiarkowany
+FG4864,205, bardzo wysoki
+FG4865,201, bardzo wysoki
+FG4874,212, bardzo wysoki
+FG4875,208, bardzo wysoki
+FG3916,199, bardzo wysoki
+FG3926,193, wysoki
+FG3966,192, wysoki
+FG3986,193, wysoki
+FG3996,174, umiarkowany
+FG4936,179, umiarkowany
+FG4946,194, wysoki
+FG4956,202, bardzo wysoki
+FG4966,201, bardzo wysoki
+FG4976,192, wysoki
+FG4986,186, umiarkowany
+FG4996,206, bardzo wysoki
+FG5906,204, bardzo wysoki
+FG3915,165, niski
+FG3945,190, wysoki
+FG3955,202, bardzo wysoki
+FG3985,185, umiarkowany
+FG3995,173, umiarkowany
+FG4925,191, wysoki
+FG4935,197, wysoki
+FG4945,206, bardzo wysoki
+FG4955,202, bardzo wysoki
+FG4965,199, bardzo wysoki
+FG4975,184, umiarkowany
+FG4985,193, wysoki
+FG4995,206, bardzo wysoki
+FG3904,200, bardzo wysoki
+FG3914,191, wysoki
+FG3974,194, wysoki
+FG3984,206, bardzo wysoki
+FG3994,203, bardzo wysoki
+FG4924,197, wysoki
+FG4934,200, bardzo wysoki
+FG4944,200, bardzo wysoki
+FG4954,193, wysoki
+FG4964,202, bardzo wysoki
+FG4974,168, niski
+FG4984,194, wysoki
+FG4994,207, bardzo wysoki
+FG3903,204, bardzo wysoki
+FG3933,191, wysoki
+FG3963,198, wysoki
+FG3973,204, bardzo wysoki
+FG3983,192, wysoki
+FG3993,205, bardzo wysoki
+FG4923,202, bardzo wysoki
+FG4933,206, bardzo wysoki
+FG4943,200, bardzo wysoki
+FG4953,178, umiarkowany
+FG4963,198, wysoki
+FG4973,186, umiarkowany
+FG4983,202, bardzo wysoki
+FG4993,212, bardzo wysoki
+FG2962,205, bardzo wysoki
+FG2972,183, umiarkowany
+FG2992,176, umiarkowany
+FG3902,180, umiarkowany
+FG3922,191, wysoki
+FG3962,208, bardzo wysoki
+FG3972,201, bardzo wysoki
+FG4912,161, niski
+FG4922,200, bardzo wysoki
+FG4932,203, bardzo wysoki
+FG4942,194, wysoki
+FG4962,180, umiarkowany
+FG4972,195, wysoki
+FG4982,202, bardzo wysoki
+FG2951,188, wysoki
+FG2961,164, niski
+FG2971,171, niski
+FG3911,162, niski
+FG3951,191, wysoki
+FG3961,205, bardzo wysoki
+FG3971,198, wysoki
+FG3981,194, wysoki
+FG3991,196, wysoki
+FG4901,183, umiarkowany
+FG4911,194, wysoki
+FG4921,199, bardzo wysoki
+FG4931,175, umiarkowany
+FG4941,163, niski
+FG4951,175, umiarkowany
+FG4961,184, umiarkowany
+FG4971,205, bardzo wysoki
+FG2980,187, wysoki
+FG2990,148, bardzo niski
+FG3910,172, niski
+FG3940,188, wysoki
+FG3950,206, bardzo wysoki
+FG3960,185, umiarkowany
+FG3970,198, wysoki
+FG3980,194, wysoki
+FG3990,209, bardzo wysoki
+FG4900,202, bardzo wysoki
+FG4910,204, bardzo wysoki
+FG4920,194, wysoki
+FG4930,178, umiarkowany
+FG4950,188, wysoki
+FG4960,205, bardzo wysoki
+FG4970,203, bardzo wysoki
+FG2859,195, wysoki
+FG2879,182, umiarkowany
+FG2889,197, wysoki
+FG3849,207, bardzo wysoki
+FG3859,207, bardzo wysoki
+FG3879,198, wysoki
+FG3889,204, bardzo wysoki
+FG3899,210, bardzo wysoki
+FG4809,205, bardzo wysoki
+FG4819,205, bardzo wysoki
+FG4829,204, bardzo wysoki
+FG4839,197, wysoki
+FG4869,199, bardzo wysoki
+FG2878,206, bardzo wysoki
+FG2888,198, wysoki
+FG3838,199, bardzo wysoki
+FG3848,207, bardzo wysoki
+FG3858,207, bardzo wysoki
+FG3878,194, wysoki
+FG3888,208, bardzo wysoki
+FG3898,208, bardzo wysoki
+FG4808,198, wysoki
+FG4818,174, umiarkowany
+FG4828,199, bardzo wysoki
+FG4838,199, bardzo wysoki
+FG4858,189, wysoki
+FG4868,193, wysoki
+FG2847,208, bardzo wysoki
+FG2877,194, wysoki
+FG2887,184, umiarkowany
+FG2897,174, umiarkowany
+FG3827,172, niski
+FG3837,206, bardzo wysoki
+FG3847,202, bardzo wysoki
+FG3857,206, bardzo wysoki
+FG3877,202, bardzo wysoki
+FG3887,208, bardzo wysoki
+FG3897,205, bardzo wysoki
+FG4807,204, bardzo wysoki
+FG4817,203, bardzo wysoki
+FG4827,188, wysoki
+FG4837,183, umiarkowany
+FG4857,201, bardzo wysoki
+FG2846,193, wysoki
+FG2866,187, wysoki
+FG2876,199, bardzo wysoki
+FG2886,197, wysoki
+FG2896,192, wysoki
+FG3816,171, niski
+FG3826,203, bardzo wysoki
+FG3836,189, wysoki
+FG3846,167, niski
+FG3856,175, umiarkowany
+FG3876,206, bardzo wysoki
+FG3886,206, bardzo wysoki
+FG3896,198, wysoki
+FG4806,193, wysoki
+FG4816,206, bardzo wysoki
+FG4826,196, wysoki
+FG4856,167, niski
+FG4866,205, bardzo wysoki
+FG5501,211, bardzo wysoki
+FG5502,210, bardzo wysoki
+FG5503,206, bardzo wysoki
+FG5508,198, wysoki
+FG2873,189, wysoki
+FG3803,185, umiarkowany
+FG3813,191, wysoki
+FG3833,169, niski
+FG3843,197, wysoki
+FG3853,191, wysoki
+FG3863,197, wysoki
+FG3873,185, umiarkowany
+FG3893,185, umiarkowany
+FG4803,200, bardzo wysoki
+FG4813,201, bardzo wysoki
+FG4823,192, wysoki
+FG4843,186, umiarkowany
+FG4853,178, umiarkowany
+FG4863,205, bardzo wysoki
+FG4873,195, wysoki
+FG0842,196, wysoki
+FG0882,182, umiarkowany
+FG0892,208, bardzo wysoki
+FG1802,191, wysoki
+FG2862,191, wysoki
+FG2892,169, niski
+FG3802,203, bardzo wysoki
+FG3812,196, wysoki
+FG3822,164, niski
+FG3842,183, umiarkowany
+FG3852,195, wysoki
+FG3862,188, wysoki
+FG3882,179, umiarkowany
+FG3892,190, wysoki
+FG4802,188, wysoki
+FG4812,198, wysoki
+FG4822,198, wysoki
+FG4832,186, umiarkowany
+FG4842,167, niski
+FG4852,186, umiarkowany
+FG4862,179, umiarkowany
+FG4872,200, bardzo wysoki
+FG0831,185, umiarkowany
+FG0841,205, bardzo wysoki
+FG0861,208, bardzo wysoki
+FG0871,205, bardzo wysoki
+FG0881,199, bardzo wysoki
+FG0891,186, umiarkowany
+FG1801,202, bardzo wysoki
+FG1831,208, bardzo wysoki
+FG2851,184, umiarkowany
+FG2881,200, bardzo wysoki
+FG2891,199, bardzo wysoki
+FG3801,198, wysoki
+FG3811,186, umiarkowany
+FG3821,184, umiarkowany
+FG3841,150, bardzo niski
+FG3851,167, niski
+FG3891,179, umiarkowany
+FG4801,165, niski
+FG4811,185, umiarkowany
+FG4821,194, wysoki
+FG4831,179, umiarkowany
+FG4841,197, wysoki
+FG4851,208, bardzo wysoki
+FG4861,200, bardzo wysoki
+FG4871,204, bardzo wysoki
+FG0820,187, wysoki
+FG0830,200, bardzo wysoki
+FG0840,205, bardzo wysoki
+FG0850,206, bardzo wysoki
+FG0860,203, bardzo wysoki
+FG0870,188, wysoki
+FG0880,166, niski
+FG1800,176, umiarkowany
+FG1820,204, bardzo wysoki
+FG1830,208, bardzo wysoki
+FG1840,208, bardzo wysoki
+FG2840,198, wysoki
+FG2870,196, wysoki
+FG2880,188, wysoki
+FG3810,156, bardzo niski
+FG4800,169, niski
+FG4820,188, wysoki
+FG4830,175, umiarkowany
+FG4840,197, wysoki
+FG4850,202, bardzo wysoki
+FG0709,166, niski
+FG0729,187, wysoki
+FG0749,204, bardzo wysoki
+FG0759,201, bardzo wysoki
+FG0769,167, niski
+FG0779,189, wysoki
+FG0789,196, wysoki
+FG0799,177, umiarkowany
+FG1729,207, bardzo wysoki
+FG1739,207, bardzo wysoki
+FG1749,202, bardzo wysoki
+FG2769,186, umiarkowany
+FG2779,198, wysoki
+FG3709,175, umiarkowany
+FG3719,199, bardzo wysoki
+FG3739,184, umiarkowany
+FG3749,184, umiarkowany
+FG3769,173, umiarkowany
+FG4709,167, niski
+FG4729,154, bardzo niski
+FG4739,191, wysoki
+FG4749,186, umiarkowany
+FG0738,188, wysoki
+FG0748,188, wysoki
+FG0778,160, niski
+FG0788,198, wysoki
+FG0798,173, umiarkowany
+FG1718,190, wysoki
+FG1728,206, bardzo wysoki
+FG1738,203, bardzo wysoki
+FG1748,167, niski
+FG2748,198, wysoki
+FG2758,174, umiarkowany
+FG2778,189, wysoki
+FG2798,192, wysoki
+FG3708,184, umiarkowany
+FG3718,171, niski
+FG3728,185, umiarkowany
+FG3738,203, bardzo wysoki
+FG3748,200, bardzo wysoki
+FG3798,180, umiarkowany
+FG4708,179, umiarkowany
+FG4738,174, umiarkowany
+FG4768,173, umiarkowany
+FG0609,168, niski
+FG0700,175, umiarkowany
+FG0619,202, bardzo wysoki
+FG0710,202, bardzo wysoki
+FG0629,206, bardzo wysoki
+FG0720,203, bardzo wysoki
+FG0639,206, bardzo wysoki
+FG0730,197, wysoki
+FG0649,205, bardzo wysoki
+FG0740,206, bardzo wysoki
+FG0659,199, bardzo wysoki
+FG0750,203, bardzo wysoki
+FG0669,199, bardzo wysoki
+FG0760,192, wysoki
+FG0679,156, bardzo niski
+FG0770,191, wysoki
+FG0689,196, wysoki
+FG0780,192, wysoki
+FG0699,202, bardzo wysoki
+FG0790,206, bardzo wysoki
+FG1699,181, umiarkowany
+FG1790,190, wysoki
+FG2619,178, umiarkowany
+FG2710,188, wysoki
+FG2629,184, umiarkowany
+FG2720,183, umiarkowany
+FG2679,186, umiarkowany
+FG2770,176, umiarkowany
+FG2689,199, bardzo wysoki
+FG2780,197, wysoki
+FG2699,199, bardzo wysoki
+FG2790,180, umiarkowany
+FG3700,198, wysoki
+FG3629,195, wysoki
+FG3730,190, wysoki
+FG3740,206, bardzo wysoki
+FG3659,195, wysoki
+FG3750,192, wysoki
+FG3669,182, umiarkowany
+FG3760,193, wysoki
+FG3770,189, wysoki
+FG3689,206, bardzo wysoki
+FG3699,193, wysoki
+FG3790,193, wysoki
+FG4700,190, wysoki
+FG4720,165, niski
+FG4639,172, niski
+FG4649,201, bardzo wysoki
+FG4740,204, bardzo wysoki
+FG4750,204, bardzo wysoki
+FG0608,185, umiarkowany
+FG0618,188, wysoki
+FG0628,206, bardzo wysoki
+FG0638,206, bardzo wysoki
+FG0648,202, bardzo wysoki
+FG0658,172, niski
+FG0688,192, wysoki
+FG0698,202, bardzo wysoki
+FG1608,203, bardzo wysoki
+FG1688,201, bardzo wysoki
+FG2618,157, niski
+FG2628,166, niski
+FG2638,178, umiarkowany
+FG2648,176, umiarkowany
+FG2658,156, bardzo niski
+FG2668,182, umiarkowany
+FG2678,176, umiarkowany
+FG2688,198, wysoki
+FG2698,200, bardzo wysoki
+FG3628,203, bardzo wysoki
+FG3638,191, wysoki
+FG3688,191, wysoki
+FG4638,173, umiarkowany
+FG4648,174, umiarkowany
+FG0727,198, wysoki
+FG0737,167, niski
+FG0747,161, niski
+FG1707,164, niski
+FG1717,204, bardzo wysoki
+FG1727,202, bardzo wysoki
+FG1737,184, umiarkowany
+FG2797,168, niski
+FG3717,174, umiarkowany
+FG3727,202, bardzo wysoki
+FG3737,205, bardzo wysoki
+FG3747,199, bardzo wysoki
+FG3757,183, umiarkowany
+FG3787,200, bardzo wysoki
+FG3797,199, bardzo wysoki
+FG4727,187, wysoki
+FG4737,179, umiarkowany
+FG4767,205, bardzo wysoki
+FG4777,203, bardzo wysoki
+FG0716,197, wysoki
+FG0726,193, wysoki
+FG0746,177, umiarkowany
+FG0786,172, niski
+FG0796,192, wysoki
+FG1706,186, umiarkowany
+FG1716,201, bardzo wysoki
+FG1726,192, wysoki
+FG2756,183, umiarkowany
+FG3716,186, umiarkowany
+FG3726,206, bardzo wysoki
+FG3736,205, bardzo wysoki
+FG3746,185, umiarkowany
+FG3766,188, wysoki
+FG3776,191, wysoki
+FG3786,197, wysoki
+FG3796,191, wysoki
+FG4706,182, umiarkowany
+FG4716,186, umiarkowany
+FG4736,199, bardzo wysoki
+FG4746,197, wysoki
+FG4756,202, bardzo wysoki
+FG4766,209, bardzo wysoki
+FG4776,209, bardzo wysoki
+FG4786,210, bardzo wysoki
+FG0705,206, bardzo wysoki
+FG0715,201, bardzo wysoki
+FG0725,163, niski
+FG0745,196, wysoki
+FG0755,194, wysoki
+FG0775,169, niski
+FG0785,204, bardzo wysoki
+FG0795,205, bardzo wysoki
+FG1705,187, wysoki
+FG1715,180, umiarkowany
+FG2745,203, bardzo wysoki
+FG2755,199, bardzo wysoki
+FG2765,161, niski
+FG2775,161, niski
+FG2785,170, niski
+FG3705,175, umiarkowany
+FG3715,181, umiarkowany
+FG3725,206, bardzo wysoki
+FG3735,203, bardzo wysoki
+FG3795,189, wysoki
+FG4705,194, wysoki
+FG4715,201, bardzo wysoki
+FG4735,172, niski
+FG4745,189, wysoki
+FG4755,208, bardzo wysoki
+FG4765,208, bardzo wysoki
+FG4775,206, bardzo wysoki
+FG4785,208, bardzo wysoki
+FG0704,202, bardzo wysoki
+FG0724,175, umiarkowany
+FG0734,194, wysoki
+FG0744,194, wysoki
+FG0754,186, umiarkowany
+FG0764,198, wysoki
+FG0774,202, bardzo wysoki
+FG0784,205, bardzo wysoki
+FG0794,206, bardzo wysoki
+FG1704,203, bardzo wysoki
+FG1714,193, wysoki
+FG2744,200, bardzo wysoki
+FG2754,165, niski
+FG2774,156, bardzo niski
+FG2784,199, bardzo wysoki
+FG2794,200, bardzo wysoki
+FG3704,201, bardzo wysoki
+FG3714,185, umiarkowany
+FG3724,183, umiarkowany
+FG3754,199, bardzo wysoki
+FG3764,187, wysoki
+FG3774,183, umiarkowany
+FG3784,159, niski
+FG4714,190, wysoki
+FG4724,192, wysoki
+FG4734,201, bardzo wysoki
+FG4744,198, wysoki
+FG4754,193, wysoki
+FG4764,196, wysoki
+FG4774,198, wysoki
+FG4784,202, bardzo wysoki
+FG0703,184, umiarkowany
+FG0723,187, wysoki
+FG0743,162, niski
+FG0753,199, bardzo wysoki
+FG0763,199, bardzo wysoki
+FG0773,207, bardzo wysoki
+FG0783,210, bardzo wysoki
+FG0793,207, bardzo wysoki
+FG1703,195, wysoki
+FG1713,191, wysoki
+FG2733,178, umiarkowany
+FG2743,187, wysoki
+FG2763,158, niski
+FG2773,189, wysoki
+FG2783,199, bardzo wysoki
+FG2793,188, wysoki
+FG3703,200, bardzo wysoki
+FG3713,192, wysoki
+FG3743,186, umiarkowany
+FG3753,207, bardzo wysoki
+FG3763,206, bardzo wysoki
+FG3773,189, wysoki
+FG3783,186, umiarkowany
+FG4703,178, umiarkowany
+FG4713,185, umiarkowany
+FG4723,205, bardzo wysoki
+FG4733,207, bardzo wysoki
+FG4743,204, bardzo wysoki
+FG4753,196, wysoki
+FG4773,198, wysoki
+FG4783,208, bardzo wysoki
+FG0712,161, niski
+FG0722,168, niski
+FG0742,181, umiarkowany
+FG0752,207, bardzo wysoki
+FG0762,206, bardzo wysoki
+FG0772,208, bardzo wysoki
+FG1792,202, bardzo wysoki
+FG2702,175, umiarkowany
+FG2712,164, niski
+FG2722,199, bardzo wysoki
+FG2792,177, umiarkowany
+FG3702,171, niski
+FG3742,189, wysoki
+FG3752,207, bardzo wysoki
+FG3762,208, bardzo wysoki
+FG3772,187, wysoki
+FG3792,203, bardzo wysoki
+FG4702,210, bardzo wysoki
+FG4712,210, bardzo wysoki
+FG4722,206, bardzo wysoki
+FG4732,196, wysoki
+FG4752,157, niski
+FG0711,194, wysoki
+FG0721,196, wysoki
+FG0741,187, wysoki
+FG0751,204, bardzo wysoki
+FG0761,207, bardzo wysoki
+FG0771,204, bardzo wysoki
+FG0781,204, bardzo wysoki
+FG1791,199, bardzo wysoki
+FG2701,179, umiarkowany
+FG2791,174, umiarkowany
+FG3701,199, bardzo wysoki
+FG3741,206, bardzo wysoki
+FG3751,186, umiarkowany
+FG3761,196, wysoki
+FG3771,201, bardzo wysoki
+FG3791,203, bardzo wysoki
+FG4701,206, bardzo wysoki
+FG4711,206, bardzo wysoki
+FG4721,199, bardzo wysoki
+FG4751,201, bardzo wysoki
+FG4761,209, bardzo wysoki
+FG0607,200, bardzo wysoki
+FG0617,200, bardzo wysoki
+FG0627,196, wysoki
+FG0637,187, wysoki
+FG0647,179, umiarkowany
+FG1677,195, wysoki
+FG1687,172, niski
+FG2657,164, niski
+FG2667,171, niski
+FG2677,194, wysoki
+FG2687,170, niski
+FG2697,200, bardzo wysoki
+FG3617,179, umiarkowany
+FG3627,205, bardzo wysoki
+FG3637,206, bardzo wysoki
+FG3647,203, bardzo wysoki
+FG3657,184, umiarkowany
+FG3677,178, umiarkowany
+FG3687,182, umiarkowany
+FG4617,185, umiarkowany
+FG4627,205, bardzo wysoki
+FG4637,202, bardzo wysoki
+FG4647,191, wysoki
+FG0606,194, wysoki
+FG0616,203, bardzo wysoki
+FG0626,205, bardzo wysoki
+FG0636,189, wysoki
+FG1616,190, wysoki
+FG1626,198, wysoki
+FG1676,201, bardzo wysoki
+FG3636,199, bardzo wysoki
+FG3646,203, bardzo wysoki
+FG3656,209, bardzo wysoki
+FG3666,189, wysoki
+FG3676,173, umiarkowany
+FG3696,197, wysoki
+FG4606,176, umiarkowany
+FG4616,179, umiarkowany
+FG4626,201, bardzo wysoki
+FG0605,207, bardzo wysoki
+FG0615,206, bardzo wysoki
+FG0625,199, bardzo wysoki
+FG0665,190, wysoki
+FG0675,196, wysoki
+FG0695,179, umiarkowany
+FG1615,184, umiarkowany
+FG1625,206, bardzo wysoki
+FG1675,199, bardzo wysoki
+FG2625,148, bardzo niski
+FG2635,140, bardzo niski
+FG2655,162, niski
+FG3635,171, niski
+FG3645,177, umiarkowany
+FG3655,203, bardzo wysoki
+FG3665,197, wysoki
+FG3675,177, umiarkowany
+FG3685,203, bardzo wysoki
+FG3695,192, wysoki
+FG0604,197, wysoki
+FG0614,200, bardzo wysoki
+FG0694,196, wysoki
+FG1604,191, wysoki
+FG1614,178, umiarkowany
+FG1624,196, wysoki
+FG2624,147, bardzo niski
+FG2634,166, niski
+FG2654,153, bardzo niski
+FG2664,163, niski
+FG3664,196, wysoki
+FG3674,202, bardzo wysoki
+FG3684,203, bardzo wysoki
+FG3694,169, niski
+FG4604,189, wysoki
+FG4614,204, bardzo wysoki
+FG0603,204, bardzo wysoki
+FG0613,191, wysoki
+FG0633,199, bardzo wysoki
+FG0643,187, wysoki
+FG0683,203, bardzo wysoki
+FG0693,198, wysoki
+FG1603,201, bardzo wysoki
+FG1633,172, niski
+FG1643,200, bardzo wysoki
+FG2623,168, niski
+FG2633,187, wysoki
+FG3623,191, wysoki
+FG3633,208, bardzo wysoki
+FG3643,174, umiarkowany
+FG3673,199, bardzo wysoki
+FG3683,185, umiarkowany
+FG4603,197, wysoki
+FG4598,212, bardzo wysoki
+FG0612,182, umiarkowany
+FG0632,191, wysoki
+FG0642,197, wysoki
+FG0682,195, wysoki
+FG0692,196, wysoki
+FG1602,200, bardzo wysoki
+FG1612,159, niski
+FG1632,187, wysoki
+FG1642,192, wysoki
+FG2622,187, wysoki
+FG2632,189, wysoki
+FG3622,180, umiarkowany
+FG3632,205, bardzo wysoki
+FG3642,198, wysoki
+FG3672,190, wysoki
+FG0631,193, wysoki
+FG0641,205, bardzo wysoki
+FG0671,178, umiarkowany
+FG0681,190, wysoki
+FG0691,179, umiarkowany
+FG1601,203, bardzo wysoki
+FG1611,183, umiarkowany
+FG1631,189, wysoki
+FG2621,180, umiarkowany
+FG2631,181, umiarkowany
+FG2641,194, wysoki
+FG2651,162, niski
+FG2691,203, bardzo wysoki
+FG3601,206, bardzo wysoki
+FG3611,188, wysoki
+FG3621,185, umiarkowany
+FG3631,201, bardzo wysoki
+FG3641,191, wysoki
+FG3651,200, bardzo wysoki
+FG3661,200, bardzo wysoki
+FG3671,196, wysoki
+FG3681,199, bardzo wysoki
+FG3691,199, bardzo wysoki
+FG4601,200, bardzo wysoki
+FG4611,207, bardzo wysoki
+FG0600,162, niski
+FG0660,192, wysoki
+FG0670,187, wysoki
+FG1600,203, bardzo wysoki
+FG1610,198, wysoki
+FG1620,191, wysoki
+FG2600,154, bardzo niski
+FG2610,189, wysoki
+FG2620,177, umiarkowany
+FG2650,173, umiarkowany
+FG2690,181, umiarkowany
+FG3600,198, wysoki
+FG3610,200, bardzo wysoki
+FG3620,199, bardzo wysoki
+FG3640,183, umiarkowany
+FG3650,203, bardzo wysoki
+FG3660,203, bardzo wysoki
+FG3670,207, bardzo wysoki
+FG3680,205, bardzo wysoki
+FG3690,206, bardzo wysoki
+FG4600,178, umiarkowany
+FG0509,177, umiarkowany
+FG0519,184, umiarkowany
+FG0559,176, umiarkowany
+FG0569,201, bardzo wysoki
+FG0579,187, wysoki
+FG1509,203, bardzo wysoki
+FG1519,204, bardzo wysoki
+FG1529,200, bardzo wysoki
+FG2509,186, umiarkowany
+FG2519,187, wysoki
+FG2569,208, bardzo wysoki
+FG3509,173, umiarkowany
+FG3519,202, bardzo wysoki
+FG3529,195, wysoki
+FG3559,200, bardzo wysoki
+FG3569,201, bardzo wysoki
+FG3579,195, wysoki
+FG3589,204, bardzo wysoki
+FG4519,210, bardzo wysoki
+FG0548,186, umiarkowany
+FG0558,193, wysoki
+FG0568,181, umiarkowany
+FG1518,200, bardzo wysoki
+FG1528,186, umiarkowany
+FG1598,163, niski
+FG2508,189, wysoki
+FG2518,164, niski
+FG2568,208, bardzo wysoki
+FG2588,201, bardzo wysoki
+FG2598,204, bardzo wysoki
+FG3508,168, niski
+FG3568,199, bardzo wysoki
+FG3578,199, bardzo wysoki
+FG4508,202, bardzo wysoki
+FG4518,209, bardzo wysoki
+FG4548,211, bardzo wysoki
+FG4558,211, bardzo wysoki
+FG4568,211, bardzo wysoki
+FG0507,181, umiarkowany
+FG0547,169, niski
+FG0557,191, wysoki
+FG0577,168, niski
+FG0587,187, wysoki
+FG0597,190, wysoki
+FG2557,201, bardzo wysoki
+FG2567,202, bardzo wysoki
+FG2577,208, bardzo wysoki
+FG2587,200, bardzo wysoki
+FG2597,205, bardzo wysoki
+FG3577,172, niski
+FG3597,171, niski
+FG4507,207, bardzo wysoki
+FG4517,209, bardzo wysoki
+FG4537,210, bardzo wysoki
+FG4547,208, bardzo wysoki
+FG4557,205, bardzo wysoki
+FG4567,208, bardzo wysoki
+FG4577,193, wysoki
+FG4587,192, wysoki
+FG0536,178, umiarkowany
+FG1506,200, bardzo wysoki
+FG2556,198, wysoki
+FG2566,207, bardzo wysoki
+FG2576,210, bardzo wysoki
+FG2586,209, bardzo wysoki
+FG2596,204, bardzo wysoki
+FG3506,185, umiarkowany
+FG3536,179, umiarkowany
+FG3546,196, wysoki
+FG3566,173, umiarkowany
+FG3596,184, umiarkowany
+FG4506,201, bardzo wysoki
+FG4516,197, wysoki
+FG4526,203, bardzo wysoki
+FG4536,204, bardzo wysoki
+FG4546,204, bardzo wysoki
+FG4556,195, wysoki
+FG4566,204, bardzo wysoki
+FG4576,190, wysoki
+FG4586,189, wysoki
+FG2545,173, umiarkowany
+FG2555,200, bardzo wysoki
+FG2565,207, bardzo wysoki
+FG2575,203, bardzo wysoki
+FG3535,198, wysoki
+FG3545,202, bardzo wysoki
+FG3555,195, wysoki
+FG3575,184, umiarkowany
+FG3585,189, wysoki
+FG3595,174, umiarkowany
+FG4505,189, wysoki
+FG4515,202, bardzo wysoki
+FG4525,191, wysoki
+FG4535,197, wysoki
+FG4545,209, bardzo wysoki
+FG4555,209, bardzo wysoki
+FG4565,207, bardzo wysoki
+FG4575,205, bardzo wysoki
+FG4585,207, bardzo wysoki
+FG4595,183, umiarkowany
+FG4591,214, bardzo wysoki
+FG4592,207, bardzo wysoki
+FG0504,197, wysoki
+FG2544,174, umiarkowany
+FG2554,180, umiarkowany
+FG2564,179, umiarkowany
+FG2574,176, umiarkowany
+FG2584,165, niski
+FG2594,171, niski
+FG3534,192, wysoki
+FG3544,202, bardzo wysoki
+FG3574,206, bardzo wysoki
+FG3584,203, bardzo wysoki
+FG3594,200, bardzo wysoki
+FG4504,172, niski
+FG4514,162, niski
+FG4524,193, wysoki
+FG4534,202, bardzo wysoki
+FG4544,208, bardzo wysoki
+FG4554,209, bardzo wysoki
+FG4564,207, bardzo wysoki
+FG0503,201, bardzo wysoki
+FG0513,173, umiarkowany
+FG0553,179, umiarkowany
+FG0563,186, umiarkowany
+FG2553,167, niski
+FG2583,183, umiarkowany
+FG2593,164, niski
+FG3533,201, bardzo wysoki
+FG3543,187, wysoki
+FG3563,186, umiarkowany
+FG3573,204, bardzo wysoki
+FG3583,201, bardzo wysoki
+FG3593,205, bardzo wysoki
+FG4503,202, bardzo wysoki
+FG4513,173, umiarkowany
+FG4533,192, wysoki
+FG4543,202, bardzo wysoki
+FG4553,189, wysoki
+FG0502,199, bardzo wysoki
+FG0512,198, wysoki
+FG0522,202, bardzo wysoki
+FG0532,191, wysoki
+FG0542,182, umiarkowany
+FG2522,186, umiarkowany
+FG2532,175, umiarkowany
+FG3522,173, umiarkowany
+FG3532,188, wysoki
+FG3542,202, bardzo wysoki
+FG3552,204, bardzo wysoki
+FG3562,202, bardzo wysoki
+FG3572,205, bardzo wysoki
+FG3582,192, wysoki
+FG3592,206, bardzo wysoki
+FG4502,206, bardzo wysoki
+FG4532,186, umiarkowany
+FG4542,199, bardzo wysoki
+FG4582,193, wysoki
+FG0501,191, wysoki
+FG0511,192, wysoki
+FG0521,200, bardzo wysoki
+FG0531,177, umiarkowany
+FG0541,167, niski
+FG2521,175, umiarkowany
+FG3511,174, umiarkowany
+FG3541,184, umiarkowany
+FG3551,209, bardzo wysoki
+FG3561,205, bardzo wysoki
+FG3571,198, wysoki
+FG4501,206, bardzo wysoki
+FG4511,193, wysoki
+FG4521,176, umiarkowany
+FG4531,184, umiarkowany
+FG4541,193, wysoki
+FG4571,202, bardzo wysoki
+FG4581,214, bardzo wysoki
+FG0500,170, niski
+FG0520,186, umiarkowany
+FG3510,204, bardzo wysoki
+FG3520,201, bardzo wysoki
+FG3530,202, bardzo wysoki
+FG3540,208, bardzo wysoki
+FG3550,209, bardzo wysoki
+FG3560,212, bardzo wysoki
+FG4510,169, niski
+FG4520,196, wysoki
+FG4550,186, umiarkowany
+FG4560,183, umiarkowany
+FG4570,205, bardzo wysoki
+FG4580,208, bardzo wysoki
+FG1489,180, umiarkowany
+FG1499,187, wysoki
+FG2469,187, wysoki
+FG3409,181, umiarkowany
+FG3419,194, wysoki
+FG3429,207, bardzo wysoki
+FG3439,208, bardzo wysoki
+FG3449,212, bardzo wysoki
+FG3459,213, bardzo wysoki
+FG3469,201, bardzo wysoki
+FG3479,184, umiarkowany
+FG3489,195, wysoki
+FG4449,196, wysoki
+FG4459,206, bardzo wysoki
+FG4469,204, bardzo wysoki
+FG4479,205, bardzo wysoki
+FG1488,188, wysoki
+FG1498,189, wysoki
+FG2468,181, umiarkowany
+FG2478,196, wysoki
+FG2488,179, umiarkowany
+FG2498,179, umiarkowany
+FG3408,209, bardzo wysoki
+FG3418,205, bardzo wysoki
+FG3428,212, bardzo wysoki
+FG3438,209, bardzo wysoki
+FG3448,210, bardzo wysoki
+FG3458,210, bardzo wysoki
+FG4418,203, bardzo wysoki
+FG4428,206, bardzo wysoki
+FG4438,203, bardzo wysoki
+FG4448,195, wysoki
+FG4458,206, bardzo wysoki
+FG0447,154, bardzo niski
+FG0457,158, niski
+FG1477,165, niski
+FG1487,188, wysoki
+FG2467,203, bardzo wysoki
+FG2477,205, bardzo wysoki
+FG2487,204, bardzo wysoki
+FG2497,207, bardzo wysoki
+FG3407,211, bardzo wysoki
+FG3417,210, bardzo wysoki
+FG3427,209, bardzo wysoki
+FG3437,203, bardzo wysoki
+FG3447,189, wysoki
+FG3497,196, wysoki
+FG4407,205, bardzo wysoki
+FG4417,206, bardzo wysoki
+FG4427,210, bardzo wysoki
+FG4437,207, bardzo wysoki
+FG4447,207, bardzo wysoki
+FG1375,165, niski
+FG1385,163, niski
+FG1395,196, wysoki
+FG1396,163, niski
+FG2306,175, umiarkowany
+FG2316,184, umiarkowany
+FG2325,195, wysoki
+FG2326,208, bardzo wysoki
+FG2335,183, umiarkowany
+FG2336,206, bardzo wysoki
+FG2345,185, umiarkowany
+FG2346,193, wysoki
+FG2355,211, bardzo wysoki
+FG2356,174, umiarkowany
+FG2365,211, bardzo wysoki
+FG2366,205, bardzo wysoki
+FG2375,208, bardzo wysoki
+FG2376,211, bardzo wysoki
+FG2385,211, bardzo wysoki
+FG2386,211, bardzo wysoki
+FG2395,214, bardzo wysoki
+FG2396,214, bardzo wysoki
+FG3306,202, bardzo wysoki
+FG3316,188, wysoki
+FG1384,199, bardzo wysoki
+FG1394,199, bardzo wysoki
+FG2304,177, umiarkowany
+FG2314,176, umiarkowany
+FG2354,180, umiarkowany
+FG2364,211, bardzo wysoki
+FG2384,199, bardzo wysoki
+FG2394,211, bardzo wysoki
+FG1383,199, bardzo wysoki
+FG1393,199, bardzo wysoki
+FG2313,163, niski
+FG2353,179, umiarkowany
+FG2363,185, umiarkowany
+FG0446,152, bardzo niski
+FG1476,165, niski
+FG2436,177, umiarkowany
+FG2446,187, wysoki
+FG2456,185, umiarkowany
+FG2466,204, bardzo wysoki
+FG2476,211, bardzo wysoki
+FG2486,210, bardzo wysoki
+FG2496,214, bardzo wysoki
+FG3406,214, bardzo wysoki
+FG3416,210, bardzo wysoki
+FG3426,206, bardzo wysoki
+FG3436,193, wysoki
+FG3476,187, wysoki
+FG3486,209, bardzo wysoki
+FG3496,209, bardzo wysoki
+FG4406,212, bardzo wysoki
+FG0435,159, niski
+FG0445,179, umiarkowany
+FG0455,145, bardzo niski
+FG1475,178, umiarkowany
+FG2435,204, bardzo wysoki
+FG2445,203, bardzo wysoki
+FG2455,203, bardzo wysoki
+FG2465,204, bardzo wysoki
+FG2475,212, bardzo wysoki
+FG2485,211, bardzo wysoki
+FG2495,214, bardzo wysoki
+FG3405,211, bardzo wysoki
+FG3415,210, bardzo wysoki
+FG3425,206, bardzo wysoki
+FG3465,203, bardzo wysoki
+FG3475,210, bardzo wysoki
+FG3485,213, bardzo wysoki
+FG3495,213, bardzo wysoki
+FG0424,179, umiarkowany
+FG0434,168, niski
+FG0444,146, bardzo niski
+FG1474,171, niski
+FG2424,195, wysoki
+FG2434,201, bardzo wysoki
+FG2444,203, bardzo wysoki
+FG2454,203, bardzo wysoki
+FG2464,205, bardzo wysoki
+FG2474,209, bardzo wysoki
+FG2484,210, bardzo wysoki
+FG2494,211, bardzo wysoki
+FG3404,207, bardzo wysoki
+FG3414,207, bardzo wysoki
+FG3424,203, bardzo wysoki
+FG3454,205, bardzo wysoki
+FG0413,145, bardzo niski
+FG0423,164, niski
+FG0433,169, niski
+FG0463,165, niski
+FG0473,176, umiarkowany
+FG2413,203, bardzo wysoki
+FG2423,205, bardzo wysoki
+FG2433,207, bardzo wysoki
+FG2443,183, umiarkowany
+FG2463,193, wysoki
+FG2473,200, bardzo wysoki
+FG2483,210, bardzo wysoki
+FG2493,202, bardzo wysoki
+FG3403,204, bardzo wysoki
+FG3413,206, bardzo wysoki
+FG3423,192, wysoki
+FG3453,205, bardzo wysoki
+FG0412,171, niski
+FG0422,141, bardzo niski
+FG0462,171, niski
+FG0472,148, bardzo niski
+FG2412,207, bardzo wysoki
+FG2422,194, wysoki
+FG2432,202, bardzo wysoki
+FG2452,178, umiarkowany
+FG2462,190, wysoki
+FG2472,205, bardzo wysoki
+FG2482,209, bardzo wysoki
+FG2492,204, bardzo wysoki
+FG3402,204, bardzo wysoki
+FG3412,203, bardzo wysoki
+FG3422,205, bardzo wysoki
+FG3452,202, bardzo wysoki
+FG0401,140, bardzo niski
+FG0411,175, umiarkowany
+FG0451,154, bardzo niski
+FG1441,165, niski
+FG2411,181, umiarkowany
+FG2421,175, umiarkowany
+FG2431,173, umiarkowany
+FG2441,193, wysoki
+FG2451,187, wysoki
+FG2461,202, bardzo wysoki
+FG2471,203, bardzo wysoki
+FG2481,204, bardzo wysoki
+FG2491,208, bardzo wysoki
+FG3401,195, wysoki
+FG3411,194, wysoki
+FG3451,202, bardzo wysoki
+FG0400,169, niski
+FG0410,174, umiarkowany
+FG0440,147, bardzo niski
+FG2410,204, bardzo wysoki
+FG2420,207, bardzo wysoki
+FG2430,186, umiarkowany
+FG2440,189, wysoki
+FG2460,194, wysoki
+FG2470,191, wysoki
+FG2480,204, bardzo wysoki
+FG2490,202, bardzo wysoki
+FG3400,190, wysoki
+FG3440,202, bardzo wysoki
+FG0309,146, bardzo niski
+FG2309,204, bardzo wysoki
+FG2319,208, bardzo wysoki
+FG2329,207, bardzo wysoki
+FG2339,190, wysoki
+FG2349,201, bardzo wysoki
+FG2359,207, bardzo wysoki
+FG2369,207, bardzo wysoki
+FG2379,207, bardzo wysoki
+FG2389,208, bardzo wysoki
+FG2399,191, wysoki
+FG3309,176, umiarkowany
+FG3319,201, bardzo wysoki
+FG3329,209, bardzo wysoki
+FG3349,209, bardzo wysoki
+FG1398,188, wysoki
+FG2308,206, bardzo wysoki
+FG2318,211, bardzo wysoki
+FG2328,208, bardzo wysoki
+FG2338,185, umiarkowany
+FG2358,208, bardzo wysoki
+FG2368,203, bardzo wysoki
+FG2378,214, bardzo wysoki
+FG2388,208, bardzo wysoki
+FG3308,182, umiarkowany
+FG3318,202, bardzo wysoki
+FG3328,210, bardzo wysoki
+FG3338,199, bardzo wysoki
+FG3348,204, bardzo wysoki
+FG1397,189, wysoki
+FG2307,202, bardzo wysoki
+FG2317,197, wysoki
+FG2327,204, bardzo wysoki
+FG2337,207, bardzo wysoki
+FG2367,205, bardzo wysoki
+FG2377,211, bardzo wysoki
+FG2387,211, bardzo wysoki
+FG2397,202, bardzo wysoki
+FG3307,194, wysoki
+FG3317,202, bardzo wysoki
+FG3347,171, niski
+FG1382,184, umiarkowany
+FG2332,198, wysoki
+FG2352,207, bardzo wysoki
+FG2362,188, wysoki
+FG2372,208, bardzo wysoki
+FG2382,191, wysoki
+FG1381,178, umiarkowany
+FG1391,169, niski
+FG2331,201, bardzo wysoki
+FG2341,199, bardzo wysoki
+FG2361,207, bardzo wysoki
+FG2371,210, bardzo wysoki
+FG2381,211, bardzo wysoki
+FG2391,193, wysoki
+FG3311,205, bardzo wysoki
+FG1350,168, niski
+FG1370,188, wysoki
+FG1380,184, umiarkowany
+FG2330,184, umiarkowany
+FG2340,177, umiarkowany
+FG2350,174, umiarkowany
+FG2360,201, bardzo wysoki
+FG1279,152, bardzo niski
+FG2259,181, umiarkowany
+FG2269,199, bardzo wysoki
+FG1278,191, wysoki
+FG2218,168, niski
+FG2228,199, bardzo wysoki
+FG2238,191, wysoki
+FG2258,183, umiarkowany
+FG1277,192, wysoki
+FG2217,173, umiarkowany
+FG2227,194, wysoki
+FG2237,173, umiarkowany
+FG2257,184, umiarkowany
+FG2267,188, wysoki
+FG2277,183, umiarkowany
+FG2287,163, niski
+FG2297,187, wysoki
+FG1198,178, umiarkowany
+FG2108,203, bardzo wysoki
+FG2109,163, niski
+FG2118,200, bardzo wysoki
+FG2128,201, bardzo wysoki
+FG2138,205, bardzo wysoki
+FG2148,206, bardzo wysoki
+FG2149,206, bardzo wysoki
+FG2158,196, wysoki
+FG2159,199, bardzo wysoki
+FG2168,208, bardzo wysoki
+FG2169,202, bardzo wysoki
+FG3108,199, bardzo wysoki
+FG3109,202, bardzo wysoki
+FG3118,208, bardzo wysoki
+FG3119,205, bardzo wysoki
+FG3128,211, bardzo wysoki
+FG1270,174, umiarkowany
+FG2200,186, umiarkowany
+FG2201,190, wysoki
+FG2210,190, wysoki
+FG2211,199, bardzo wysoki
+FG2221,196, wysoki
+FG2231,202, bardzo wysoki
+FG2260,208, bardzo wysoki
+FG2271,206, bardzo wysoki
+FG3200,200, bardzo wysoki
+FG3210,198, wysoki
+FG1254,156, bardzo niski
+FG1264,149, bardzo niski
+FG2214,172, niski
+FG2215,169, niski
+FG2225,173, umiarkowany
+FG2234,172, niski
+FG2235,153, bardzo niski
+FG2244,168, niski
+FG2254,187, wysoki
+FG2264,190, wysoki
+FG2265,178, umiarkowany
+FG2274,190, wysoki
+FG2275,187, wysoki
+FG2285,154, bardzo niski
+FG1226,134, bardzo niski
+FG1266,182, umiarkowany
+FG1276,190, wysoki
+FG2216,191, wysoki
+FG2226,193, wysoki
+FG2236,181, umiarkowany
+FG2276,155, bardzo niski
+FG2296,174, umiarkowany
+FG1273,160, niski
+FG2203,185, umiarkowany
+FG2213,189, wysoki
+FG2223,182, umiarkowany
+FG2233,180, umiarkowany
+FG2243,189, wysoki
+FG2253,202, bardzo wysoki
+FG2263,165, niski
+FG2293,193, wysoki
+FG2202,178, umiarkowany
+FG2212,193, wysoki
+FG2222,196, wysoki
+FG2232,196, wysoki
+FG2242,179, umiarkowany
+FG2282,190, wysoki
+FG1197,204, bardzo wysoki
+FG2107,203, bardzo wysoki
+FG2117,207, bardzo wysoki
+FG2127,205, bardzo wysoki
+FG2137,190, wysoki
+FG2147,206, bardzo wysoki
+FG2157,204, bardzo wysoki
+FG2167,208, bardzo wysoki
+FG2177,205, bardzo wysoki
+FG2197,193, wysoki
+FG3107,208, bardzo wysoki
+FG3117,208, bardzo wysoki
+FG3127,211, bardzo wysoki
+FG1196,206, bardzo wysoki
+FG2106,205, bardzo wysoki
+FG2116,205, bardzo wysoki
+FG2146,190, wysoki
+FG2186,199, bardzo wysoki
+FG2196,202, bardzo wysoki
+FG3106,202, bardzo wysoki
+FG3116,205, bardzo wysoki
+FG1185,204, bardzo wysoki
+FG1195,207, bardzo wysoki
+FG2105,204, bardzo wysoki
+FG2135,179, umiarkowany
+FG2145,204, bardzo wysoki
+FG2155,196, wysoki
+FG2175,187, wysoki
+FG2195,193, wysoki
+FG3105,202, bardzo wysoki
+FG3115,208, bardzo wysoki
+FG1174,205, bardzo wysoki
+FG1184,204, bardzo wysoki
+FG1194,193, wysoki
+FG2134,192, wysoki
+FG2144,190, wysoki
+FG2154,175, umiarkowany
+FG2164,189, wysoki
+FG2174,204, bardzo wysoki
+FG2184,194, wysoki
+FG2194,190, wysoki
+FG3104,193, wysoki
+FG3114,196, wysoki
+FG1173,190, wysoki
+FG2113,201, bardzo wysoki
+FG2123,203, bardzo wysoki
+FG2133,203, bardzo wysoki
+FG2143,200, bardzo wysoki
+FG2153,166, niski
+FG2163,203, bardzo wysoki
+FG2173,204, bardzo wysoki
+FG2183,208, bardzo wysoki
+FG2193,205, bardzo wysoki
+FG3103,202, bardzo wysoki
+FG3113,205, bardzo wysoki
+FG1162,173, umiarkowany
+FG2102,190, wysoki
+FG2112,207, bardzo wysoki
+FG2122,206, bardzo wysoki
+FG2132,199, bardzo wysoki
+FG2142,184, umiarkowany
+FG2152,173, umiarkowany
+FG2162,200, bardzo wysoki
+FG2172,201, bardzo wysoki
+FG2182,208, bardzo wysoki
+FG2101,191, wysoki
+FG2111,193, wysoki
+FG2121,186, umiarkowany
+FG2131,165, niski
+FG2151,190, wysoki
+FG2161,188, wysoki
+FG2171,195, wysoki
+FG2181,208, bardzo wysoki
+FG3131,208, bardzo wysoki
+FG1150,176, umiarkowany
+FG1180,170, niski
+FG2100,171, niski
+FG2110,198, wysoki
+FG2120,197, wysoki
+FG2130,179, umiarkowany
+FG2150,168, niski
+FG2160,185, umiarkowany
+FG2170,201, bardzo wysoki
+FG2180,205, bardzo wysoki
+FG3120,202, bardzo wysoki
+FG3130,205, bardzo wysoki
+FG3140,170, niski
+FG3150,143, bardzo niski
+FG1043,203, bardzo wysoki
+FG1044,207, bardzo wysoki
+FG1053,203, bardzo wysoki
+FG1054,204, bardzo wysoki
+FG1063,209, bardzo wysoki
+FG1064,207, bardzo wysoki
+FG1073,210, bardzo wysoki
+FG1074,210, bardzo wysoki
+FG1083,210, bardzo wysoki
+FG1084,210, bardzo wysoki
+FG1094,203, bardzo wysoki
+FG2003,202, bardzo wysoki
+FG2004,202, bardzo wysoki
+FG2013,202, bardzo wysoki
+FG2014,195, wysoki
+FG2023,202, bardzo wysoki
+FG2024,198, wysoki
+FG2033,203, bardzo wysoki
+FG2034,199, bardzo wysoki
+FG2044,203, bardzo wysoki
+FG2054,204, bardzo wysoki
+FG2093,188, wysoki
+FG2094,208, bardzo wysoki
+FG3013,205, bardzo wysoki
+FG3023,208, bardzo wysoki
+FG3024,205, bardzo wysoki
+FG3033,205, bardzo wysoki
+FG3034,211, bardzo wysoki
+FG3044,143, bardzo niski
+FG1059,191, wysoki
+FG2009,174, umiarkowany
+FG2019,201, bardzo wysoki
+FG2029,194, wysoki
+FG2049,191, wysoki
+FG2059,200, bardzo wysoki
+FG2069,191, wysoki
+FG2079,190, wysoki
+FG3019,211, bardzo wysoki
+FG3029,194, wysoki
+FG3059,205, bardzo wysoki
+FG1058,179, umiarkowany
+FG2008,201, bardzo wysoki
+FG2018,185, umiarkowany
+FG2048,192, wysoki
+FG2058,204, bardzo wysoki
+FG2068,207, bardzo wysoki
+FG2078,204, bardzo wysoki
+FG3008,208, bardzo wysoki
+FG3018,205, bardzo wysoki
+FG3028,183, umiarkowany
+FG3058,199, bardzo wysoki
+FG1077,197, wysoki
+FG1087,201, bardzo wysoki
+FG1097,190, wysoki
+FG2007,206, bardzo wysoki
+FG2017,200, bardzo wysoki
+FG2027,192, wysoki
+FG2057,205, bardzo wysoki
+FG3007,202, bardzo wysoki
+FG3017,202, bardzo wysoki
+FG3047,185, umiarkowany
+FG3057,205, bardzo wysoki
+FG1066,183, umiarkowany
+FG1076,199, bardzo wysoki
+FG1086,207, bardzo wysoki
+FG1096,203, bardzo wysoki
+FG2006,202, bardzo wysoki
+FG2016,199, bardzo wysoki
+FG2056,202, bardzo wysoki
+FG2096,202, bardzo wysoki
+FG3006,193, wysoki
+FG3036,199, bardzo wysoki
+FG3046,202, bardzo wysoki
+FG3056,200, bardzo wysoki
+FG1055,201, bardzo wysoki
+FG1065,196, wysoki
+FG1075,205, bardzo wysoki
+FG1085,210, bardzo wysoki
+FG1095,203, bardzo wysoki
+FG2005,199, bardzo wysoki
+FG2035,179, umiarkowany
+FG2045,189, wysoki
+FG2055,184, umiarkowany
+FG2095,202, bardzo wysoki
+FG3005,196, wysoki
+FG3025,205, bardzo wysoki
+FG3035,205, bardzo wysoki
+FG3045,211, bardzo wysoki
+FG3055,143, bardzo niski
+FG1042,188, wysoki
+FG1052,205, bardzo wysoki
+FG3002,196, wysoki
+FG3012,181, umiarkowany
+FG3032,197, wysoki
+FG1021,196, wysoki
+FG1031,178, umiarkowany
+FG1041,187, wysoki
+FG1051,202, bardzo wysoki
+FG1010,200, bardzo wysoki
+FG1020,202, bardzo wysoki
+FG1030,199, bardzo wysoki
+FG1040,191, wysoki
+FG1050,202, bardzo wysoki
+GF5140,189, wysoki
+GF5030,188, wysoki
+GF5130,194, wysoki
+GF5131,207, bardzo wysoki
+GF5020,172, niski
+GF5022,170, niski
+GF5023,169, niski
+GF5025,179, umiarkowany
+GF5026,200, bardzo wysoki
+GF5027,203, bardzo wysoki
+GF5028,203, bardzo wysoki
+GF5029,190, wysoki
+GF5120,184, umiarkowany
+GF5121,199, bardzo wysoki
+GF5122,203, bardzo wysoki
+GF9052,161, niski
+GF9040,192, wysoki
+GF9030,181, umiarkowany
+GF9021,163, niski
+GF8060,154, bardzo niski
+GF8070,153, bardzo niski
+GF5012,204, bardzo wysoki
+GF5013,198, wysoki
+GF5014,196, wysoki
+GF5015,196, wysoki
+GF5016,205, bardzo wysoki
+GF5017,208, bardzo wysoki
+GF5018,208, bardzo wysoki
+GF5019,206, bardzo wysoki
+GF5110,206, bardzo wysoki
+GF5111,193, wysoki
+GF5112,197, wysoki
+GF5113,203, bardzo wysoki
+GF5318,201, bardzo wysoki
+GF5000,181, umiarkowany
+GF5001,196, wysoki
+GF5002,199, bardzo wysoki
+GF5003,181, umiarkowany
+GF5004,198, wysoki
+GF5005,201, bardzo wysoki
+GF5006,209, bardzo wysoki
+GF5007,210, bardzo wysoki
+GF5008,210, bardzo wysoki
+GF5009,210, bardzo wysoki
+GF5100,210, bardzo wysoki
+GF5101,202, bardzo wysoki
+GF5102,168, niski
+GF5308,211, bardzo wysoki
+GF5309,183, umiarkowany
+GF4090,186, umiarkowany
+GF4092,183, umiarkowany
+GF4093,195, wysoki
+GF4094,206, bardzo wysoki
+GF4095,199, bardzo wysoki
+GF4096,210, bardzo wysoki
+GF4097,204, bardzo wysoki
+GF4098,201, bardzo wysoki
+GF4099,206, bardzo wysoki
+GF4190,206, bardzo wysoki
+GF4191,184, umiarkowany
+GF4398,203, bardzo wysoki
+GF4399,197, wysoki
+GF4490,135, bardzo niski
+GF4407,188, wysoki
+GF4417,162, niski
+GF4480,194, wysoki
+GF4481,126, bardzo niski
+GF4080,186, umiarkowany
+GF4084,172, niski
+GF4085,201, bardzo wysoki
+GF4086,207, bardzo wysoki
+GF4087,206, bardzo wysoki
+GF4088,197, wysoki
+GF4089,202, bardzo wysoki
+GF4180,205, bardzo wysoki
+GF2323,189, wysoki
+GF2333,198, wysoki
+GF2334,180, umiarkowany
+GF2343,195, wysoki
+GF2344,192, wysoki
+GF2353,207, bardzo wysoki
+GF2354,178, umiarkowany
+GF2363,203, bardzo wysoki
+GF2364,204, bardzo wysoki
+GF2373,208, bardzo wysoki
+GF2383,194, wysoki
+GF2393,197, wysoki
+GF2394,203, bardzo wysoki
+GF3303,189, wysoki
+GF3304,199, bardzo wysoki
+GF3313,185, umiarkowany
+GF3323,203, bardzo wysoki
+GF3324,186, umiarkowany
+GF3333,205, bardzo wysoki
+GF3334,195, wysoki
+GF3343,203, bardzo wysoki
+GF3344,202, bardzo wysoki
+GF3354,196, wysoki
+GF3373,168, niski
+GF3374,186, umiarkowany
+GF3383,194, wysoki
+GF3384,194, wysoki
+GF3393,193, wysoki
+GF3394,187, wysoki
+GF4303,188, wysoki
+GF4304,191, wysoki
+GF4313,157, niski
+GF4314,187, wysoki
+GF4323,154, bardzo niski
+GF4324,184, umiarkowany
+GF2352,204, bardzo wysoki
+GF2362,208, bardzo wysoki
+GF2372,203, bardzo wysoki
+GF2382,188, wysoki
+GF3302,182, umiarkowany
+GF3312,203, bardzo wysoki
+GF3322,207, bardzo wysoki
+GF3332,202, bardzo wysoki
+GF3342,201, bardzo wysoki
+GF3372,146, bardzo niski
+GF3382,185, umiarkowany
+GF3392,190, wysoki
+GF4302,191, wysoki
+GF2446,180, umiarkowany
+GF2456,166, niski
+GF4406,185, umiarkowany
+GF4416,179, umiarkowany
+GF4436,120, bardzo niski
+GF2455,162, niski
+GF4435,136, bardzo niski
+GF4403,200, bardzo wysoki
+GF4453,153, bardzo niski
+GF2402,178, umiarkowany
+GF2412,133, bardzo niski
+GF2422,174, umiarkowany
+GF2492,163, niski
+GF3412,198, wysoki
+GF4402,192, wysoki
+GF4432,178, umiarkowany
+GF4442,182, umiarkowany
+GF4452,171, niski
+GF4462,189, wysoki
+GF1471,149, bardzo niski
+GF2401,159, niski
+GF2411,167, niski
+GF2421,177, umiarkowany
+GF2431,166, niski
+GF2461,167, niski
+GF2471,165, niski
+GF2491,198, wysoki
+GF3401,196, wysoki
+GF3411,185, umiarkowany
+GF3421,184, umiarkowany
+GF3491,206, bardzo wysoki
+GF4401,178, umiarkowany
+GF4431,162, niski
+GF4441,200, bardzo wysoki
+GF4451,183, umiarkowany
+GF4461,203, bardzo wysoki
+GF4471,207, bardzo wysoki
+GF1480,169, niski
+GF1490,165, niski
+GF2400,178, umiarkowany
+GF2410,183, umiarkowany
+GF2420,164, niski
+GF2430,175, umiarkowany
+GF2460,164, niski
+GF2470,185, umiarkowany
+GF2480,172, niski
+GF2490,185, umiarkowany
+GF3410,164, niski
+GF3420,201, bardzo wysoki
+GF3430,202, bardzo wysoki
+GF3460,194, wysoki
+GF3470,205, bardzo wysoki
+GF3480,207, bardzo wysoki
+GF3490,180, umiarkowany
+GF4400,177, umiarkowany
+GF4410,155, bardzo niski
+GF4440,193, wysoki
+GF4450,202, bardzo wysoki
+GF4460,204, bardzo wysoki
+GF4470,202, bardzo wysoki
+GF1389,162, niski
+GF1399,146, bardzo niski
+GF2309,181, umiarkowany
+GF2339,136, bardzo niski
+GF2359,152, bardzo niski
+GF2369,170, niski
+GF2399,161, niski
+GF3329,204, bardzo wysoki
+GF3339,202, bardzo wysoki
+GF3389,193, wysoki
+GF4309,167, niski
+GF4319,176, umiarkowany
+GF4339,175, umiarkowany
+GF4349,161, niski
+GF4359,194, wysoki
+GF4369,207, bardzo wysoki
+GF4379,190, wysoki
+GF2398,165, niski
+GF3328,185, umiarkowany
+GF3338,180, umiarkowany
+GF3358,198, wysoki
+GF3398,170, niski
+GF4318,179, umiarkowany
+GF4328,193, wysoki
+GF4358,184, umiarkowany
+GF4368,201, bardzo wysoki
+GF4378,180, umiarkowany
+GF1397,160, niski
+GF3337,193, wysoki
+GF3347,205, bardzo wysoki
+GF3357,195, wysoki
+GF3397,153, bardzo niski
+GF4327,182, umiarkowany
+GF4337,183, umiarkowany
+GF4347,181, umiarkowany
+GF4357,190, wysoki
+GF4367,206, bardzo wysoki
+GF4377,188, wysoki
+GF4387,181, umiarkowany
+GF1396,186, umiarkowany
+GF2356,192, wysoki
+GF2366,181, umiarkowany
+GF2376,193, wysoki
+GF2386,173, umiarkowany
+GF3326,184, umiarkowany
+GF3336,192, wysoki
+GF3346,192, wysoki
+GF3356,198, wysoki
+GF4326,152, bardzo niski
+GF4346,168, niski
+GF4356,197, wysoki
+GF4366,195, wysoki
+GF1395,197, wysoki
+GF2305,166, niski
+GF2345,172, niski
+GF2355,192, wysoki
+GF2365,196, wysoki
+GF2375,188, wysoki
+GF3305,170, niski
+GF3325,166, niski
+GF3335,197, wysoki
+GF3345,202, bardzo wysoki
+GF3355,199, bardzo wysoki
+GF3385,180, umiarkowany
+GF3395,155, bardzo niski
+GF4305,173, umiarkowany
+GF4325,167, niski
+GF4355,157, niski
+GF4070,186, umiarkowany
+GF4072,182, umiarkowany
+GF4073,185, umiarkowany
+GF4074,175, umiarkowany
+GF4075,193, wysoki
+GF4076,181, umiarkowany
+GF4077,192, wysoki
+GF4078,197, wysoki
+GF4079,190, wysoki
+GF4170,202, bardzo wysoki
+GF2361,204, bardzo wysoki
+GF2371,204, bardzo wysoki
+GF2381,193, wysoki
+GF3301,187, wysoki
+GF3311,207, bardzo wysoki
+GF3321,207, bardzo wysoki
+GF3331,203, bardzo wysoki
+GF3341,184, umiarkowany
+GF3381,165, niski
+GF3391,180, umiarkowany
+GF4301,185, umiarkowany
+GF4311,160, niski
+GF2360,206, bardzo wysoki
+GF2370,206, bardzo wysoki
+GF2380,206, bardzo wysoki
+GF2390,195, wysoki
+GF3300,192, wysoki
+GF3310,199, bardzo wysoki
+GF3320,207, bardzo wysoki
+GF3330,199, bardzo wysoki
+GF3360,179, umiarkowany
+GF3390,185, umiarkowany
+GF4300,186, umiarkowany
+GF4310,164, niski
+GF2269,200, bardzo wysoki
+GF2279,194, wysoki
+GF2289,191, wysoki
+GF2299,194, wysoki
+GF3209,186, umiarkowany
+GF3219,188, wysoki
+GF3229,190, wysoki
+GF3269,189, wysoki
+GF3279,179, umiarkowany
+GF3289,163, niski
+GF3299,145, bardzo niski
+GF4209,155, bardzo niski
+GF4219,156, bardzo niski
+GF2268,186, umiarkowany
+GF2278,165, niski
+GF2298,186, umiarkowany
+GF3208,180, umiarkowany
+GF3218,188, wysoki
+GF3248,168, niski
+GF3268,176, umiarkowany
+GF3278,183, umiarkowany
+GF3288,159, niski
+GF2267,201, bardzo wysoki
+GF2277,191, wysoki
+GF2297,182, umiarkowany
+GF3207,195, wysoki
+GF3217,168, niski
+GF3247,170, niski
+GF3257,175, umiarkowany
+GF3267,171, niski
+GF2276,205, bardzo wysoki
+GF2286,190, wysoki
+GF2296,191, wysoki
+GF3206,186, umiarkowany
+GF3246,172, niski
+GF2275,205, bardzo wysoki
+GF2285,197, wysoki
+GF2295,191, wysoki
+GF2284,206, bardzo wysoki
+GF2294,192, wysoki
+GF3204,184, umiarkowany
+GF2283,204, bardzo wysoki
+GF3203,198, wysoki
+GF2282,208, bardzo wysoki
+GF3202,195, wysoki
+GF3272,159, niski
+GF2281,205, bardzo wysoki
+GF3201,170, niski
+GF2280,205, bardzo wysoki
+GF2189,186, umiarkowany
+GF4060,183, umiarkowany
+GF4061,160, niski
+GF4050,206, bardzo wysoki
+GF3095,185, umiarkowany
+GF3096,182, umiarkowany
+GF4005,199, bardzo wysoki
+GF4006,202, bardzo wysoki
+GF4015,205, bardzo wysoki
+GF4016,202, bardzo wysoki
+GF4025,206, bardzo wysoki
+GF4026,205, bardzo wysoki
+GF4035,203, bardzo wysoki
+GF4036,210, bardzo wysoki
+GF4045,199, bardzo wysoki
+GF4046,207, bardzo wysoki
+GF4055,201, bardzo wysoki
+GF4056,201, bardzo wysoki
+GF3014,202, bardzo wysoki
+GF3024,199, bardzo wysoki
+GF3034,202, bardzo wysoki
+GF3044,196, wysoki
+GF3054,193, wysoki
+GF3094,189, wysoki
+GF4004,198, wysoki
+GF4014,210, bardzo wysoki
+GF4024,206, bardzo wysoki
+GF4034,211, bardzo wysoki
+GF4044,207, bardzo wysoki
+GF4054,186, umiarkowany
+GF3013,196, wysoki
+GF3023,201, bardzo wysoki
+GF3033,204, bardzo wysoki
+GF3043,209, bardzo wysoki
+GF3053,206, bardzo wysoki
+GF3093,197, wysoki
+GF4003,201, bardzo wysoki
+GF4013,205, bardzo wysoki
+GF4023,211, bardzo wysoki
+GF4033,211, bardzo wysoki
+GF4043,207, bardzo wysoki
+GF4053,189, wysoki
+GF4063,171, niski
+GF4114,203, bardzo wysoki
+GF4124,192, wysoki
+GF4113,197, wysoki
+GF4123,200, bardzo wysoki
+GF4133,185, umiarkowany
+GF4153,159, niski
+GF4112,196, wysoki
+GF4122,202, bardzo wysoki
+GF4132,204, bardzo wysoki
+GF4142,204, bardzo wysoki
+GF4152,195, wysoki
+GF4111,203, bardzo wysoki
+GF4121,201, bardzo wysoki
+GF4131,202, bardzo wysoki
+GF4141,202, bardzo wysoki
+GF4151,203, bardzo wysoki
+GF4161,185, umiarkowany
+GF4110,194, wysoki
+GF4120,209, bardzo wysoki
+GF4130,210, bardzo wysoki
+GF4140,210, bardzo wysoki
+GF4150,203, bardzo wysoki
+GF4160,194, wysoki
+GF4019,191, wysoki
+GF4029,206, bardzo wysoki
+GF4039,210, bardzo wysoki
+GF4049,202, bardzo wysoki
+GF4059,209, bardzo wysoki
+GF4069,194, wysoki
+GF4008,197, wysoki
+GF4018,200, bardzo wysoki
+GF4028,206, bardzo wysoki
+GF4038,210, bardzo wysoki
+GF4048,210, bardzo wysoki
+GF4058,206, bardzo wysoki
+GF4068,197, wysoki
+GF4007,175, umiarkowany
+GF4017,198, wysoki
+GF4027,204, bardzo wysoki
+GF4037,205, bardzo wysoki
+GF4047,207, bardzo wysoki
+GF4057,203, bardzo wysoki
+GF4067,195, wysoki
+GF3022,197, wysoki
+GF3032,208, bardzo wysoki
+GF3042,208, bardzo wysoki
+GF3052,204, bardzo wysoki
+GF3062,189, wysoki
+GF3072,174, umiarkowany
+GF3082,160, niski
+GF3092,200, bardzo wysoki
+GF4002,209, bardzo wysoki
+GF4012,205, bardzo wysoki
+GF4022,211, bardzo wysoki
+GF4032,211, bardzo wysoki
+GF4042,185, umiarkowany
+GF4062,163, niski
+GF3011,165, niski
+GF3021,200, bardzo wysoki
+GF3031,207, bardzo wysoki
+GF3041,203, bardzo wysoki
+GF3051,201, bardzo wysoki
+GF3061,195, wysoki
+GF3071,197, wysoki
+GF3081,191, wysoki
+GF3091,192, wysoki
+GF4001,204, bardzo wysoki
+GF4011,210, bardzo wysoki
+GF4021,211, bardzo wysoki
+GF4031,211, bardzo wysoki
+GF4041,207, bardzo wysoki
+GF4051,203, bardzo wysoki
+GF3010,179, umiarkowany
+GF3020,203, bardzo wysoki
+GF3030,197, wysoki
+GF3040,205, bardzo wysoki
+GF3050,195, wysoki
+GF3060,185, umiarkowany
+GF3070,197, wysoki
+GF3080,194, wysoki
+GF3090,193, wysoki
+GF4000,201, bardzo wysoki
+GF4010,210, bardzo wysoki
+GF4020,211, bardzo wysoki
+GF4030,211, bardzo wysoki
+GF4040,210, bardzo wysoki
+GG5010,193, wysoki
+GG5000,203, bardzo wysoki
+GG5001,201, bardzo wysoki
+GG4090,204, bardzo wysoki
+GG4092,190, wysoki
+GG4080,204, bardzo wysoki
+GG4081,200, bardzo wysoki
+GG4082,201, bardzo wysoki
+GG4070,207, bardzo wysoki
+GG4071,205, bardzo wysoki
+GG4072,203, bardzo wysoki
+GG4060,204, bardzo wysoki
+GG3062,137, bardzo niski
+GG3072,140, bardzo niski
+GG3092,134, bardzo niski
+GG4002,193, wysoki
+GG4012,201, bardzo wysoki
+GG4022,203, bardzo wysoki
+GG4032,172, niski
+GG4042,163, niski
+GG3041,205, bardzo wysoki
+GG3051,180, umiarkowany
+GG3061,199, bardzo wysoki
+GG3071,188, wysoki
+GG3081,202, bardzo wysoki
+GG3091,211, bardzo wysoki
+GG4001,208, bardzo wysoki
+GG4011,207, bardzo wysoki
+GG0080,160, niski
+GG3030,211, bardzo wysoki
+GG3070,208, bardzo wysoki
+GG3080,211, bardzo wysoki
+GG3090,211, bardzo wysoki
+GG4000,211, bardzo wysoki
+GG4010,204, bardzo wysoki
+GG4050,179, umiarkowany
+FF9691,141, umiarkowany
+FF9790,161, wysoki
+FF9893,169, bardzo wysoki
+FF9999,141, umiarkowany
+FF9989,147, umiarkowany
+FF5184,102, bardzo niski
+FF5174,129, niski
+FF5185,115, bardzo niski
+FF5175,103, bardzo niski
+FF5176,94, bardzo niski
+FF5187,133, niski
+FF5177,95, bardzo niski
+FF5188,126, niski
+FF5178,115, bardzo niski
+FF5189,139, umiarkowany
+FF5270,122, niski
+FF5271,115, bardzo niski
+FF5282,134, niski
+FF5272,110, bardzo niski
+FF5283,107, bardzo niski
+FF5284,118, bardzo niski
+FF5285,100, bardzo niski
+FF5275,132, niski
+FF5286,95, bardzo niski
+FF5276,123, niski
+FF5382,147, umiarkowany
+FF5372,128, niski
+FF5383,130, niski
+FF5373,108, bardzo niski
+FF5374,89, bardzo niski
+FF5375,102, bardzo niski
+FF5376,107, bardzo niski
+FF5377,97, bardzo niski
+FF5879,133, niski
+FF5980,138, umiarkowany
+FF5970,126, niski
+FF5981,125, niski
+FF5971,117, bardzo niski
+FF5972,129, niski
+FF5973,131, niski
+FF5974,130, niski
+FF5975,127, niski
+FF5976,120, niski
+FF5977,130, niski
+FF5978,119, bardzo niski
+FF5979,130, niski
+FF5164,131, niski
+FF5165,134, niski
+FF5167,121, niski
+FF5168,137, umiarkowany
+FF5260,129, niski
+FF5261,129, niski
+FF5263,113, bardzo niski
+FF5264,123, niski
+FF5265,109, bardzo niski
+FF5266,111, bardzo niski
+FF5267,128, niski
+FF5268,133, niski
+FF5362,129, niski
+FF5363,104, bardzo niski
+FF5364,105, bardzo niski
+FF5365,109, bardzo niski
+FF5366,105, bardzo niski
+FF5367,111, bardzo niski
+FF5368,125, niski
+FF5869,119, bardzo niski
+FF5960,117, bardzo niski
+FF5961,116, bardzo niski
+FF5962,119, bardzo niski
+FF5963,123, niski
+FF5964,122, niski
+FF5965,140, umiarkowany
+FF5966,146, umiarkowany
+FF5967,141, umiarkowany
+FF5968,140, umiarkowany
+FF5969,158, wysoki
+FF5158,120, niski
+FF5251,138, umiarkowany
+FF5256,106, bardzo niski
+FF5257,106, bardzo niski
+FF5258,105, bardzo niski
+FF5259,138, umiarkowany
+FF5351,120, niski
+FF5352,114, bardzo niski
+FF5353,137, umiarkowany
+FF5354,124, niski
+FF5355,113, bardzo niski
+FF5356,109, bardzo niski
+FF5357,111, bardzo niski
+FF5358,128, niski
+FF5657,120, niski
+FF5658,111, bardzo niski
+FF5659,120, niski
+FF5750,111, bardzo niski
+FF5751,101, bardzo niski
+FF5752,98, bardzo niski
+FF5753,111, bardzo niski
+FF5754,118, bardzo niski
+FF5858,115, bardzo niski
+FF5859,109, bardzo niski
+FF5950,119, bardzo niski
+FF5951,115, bardzo niski
+FF5952,123, niski
+FF5953,121, niski
+FF5954,138, umiarkowany
+FF5143,120, niski
+FF5144,129, niski
+FF5145,126, niski
+FF5146,136, umiarkowany
+FF5147,124, niski
+FF5148,132, niski
+FF5241,147, umiarkowany
+FF5242,141, umiarkowany
+FF5244,144, umiarkowany
+FF5245,129, niski
+FF5247,128, niski
+FF5347,127, niski
+FF5348,136, umiarkowany
+FF5647,112, bardzo niski
+FF5648,94, bardzo niski
+FF5649,95, bardzo niski
+FF5740,99, bardzo niski
+FF5741,118, bardzo niski
+FF5742,109, bardzo niski
+FF5743,102, bardzo niski
+FF5744,109, bardzo niski
+FF5745,110, bardzo niski
+FF5746,114, bardzo niski
+FF5747,138, umiarkowany
+FF5748,131, niski
+FF5749,126, niski
+FF5847,126, niski
+FF5848,111, bardzo niski
+FF5849,129, niski
+FF5940,121, niski
+FF5941,128, niski
+FF5942,134, niski
+FF5943,149, wysoki
+FF5944,143, umiarkowany
+FF6261,158, wysoki
+FF6251,145, umiarkowany
+FF6262,129, niski
+FF6252,145, umiarkowany
+FF6263,140, umiarkowany
+FF6253,134, niski
+FF6254,143, umiarkowany
+FF6255,150, wysoki
+FF6266,117, bardzo niski
+FF6256,142, umiarkowany
+FF6207,123, niski
+FF6208,122, niski
+FF6209,124, niski
+FF6300,122, niski
+FF6301,124, niski
+FF6302,109, bardzo niski
+FF5295,117, bardzo niski
+FF5296,126, niski
+FF5297,127, niski
+FF5299,126, niski
+FF5391,128, niski
+FF5392,124, niski
+FF5393,112, bardzo niski
+FF5130,127, niski
+FF5131,123, niski
+FF5132,146, umiarkowany
+FF5137,139, umiarkowany
+FF5231,142, umiarkowany
+FF5336,161, wysoki
+FF5337,125, niski
+FF5338,130, niski
+FF5339,144, umiarkowany
+FF5637,122, niski
+FF5638,109, bardzo niski
+FF5639,114, bardzo niski
+FF5734,129, niski
+FF5735,135, umiarkowany
+FF5736,125, niski
+FF5737,135, umiarkowany
+FF5738,126, niski
+FF5739,123, niski
+FF5830,127, niski
+FF5831,104, bardzo niski
+FF5834,123, niski
+FF5835,117, bardzo niski
+FF5837,116, bardzo niski
+FF5838,118, bardzo niski
+FF5839,128, niski
+FF5930,132, niski
+FF5931,133, niski
+FF5932,116, bardzo niski
+FF5933,131, niski
+FF5029,122, niski
+FF5120,146, umiarkowany
+FF5121,115, bardzo niski
+FF5122,123, niski
+FF5127,143, umiarkowany
+FF5221,131, niski
+FF5224,136, umiarkowany
+FF5325,162, bardzo wysoki
+FF5328,121, niski
+FF5329,123, niski
+FF5627,136, umiarkowany
+FF5628,122, niski
+FF5728,122, niski
+FF5729,130, niski
+FF5820,131, niski
+FF5821,142, umiarkowany
+FF5822,127, niski
+FF5825,129, niski
+FF5826,127, niski
+FF5827,137, umiarkowany
+FF5828,146, umiarkowany
+FF5829,121, niski
+FF5920,142, umiarkowany
+FF5921,136, umiarkowany
+FF5922,142, umiarkowany
+FF5923,165, bardzo wysoki
+FF3969,157, wysoki
+FF3979,170, bardzo wysoki
+FF5919,144, umiarkowany
+FF3918,162, bardzo wysoki
+FF3948,149, wysoki
+FF3958,136, umiarkowany
+FF3978,155, wysoki
+FF5908,154, wysoki
+FF5918,144, umiarkowany
+FF5019,133, niski
+FF5110,126, niski
+FF5111,138, umiarkowany
+FF5210,139, umiarkowany
+FF5211,154, wysoki
+FF5213,142, umiarkowany
+FF5214,138, umiarkowany
+FF5318,139, umiarkowany
+FF5617,133, niski
+FF5618,121, niski
+FF5619,133, niski
+FF5718,146, umiarkowany
+FF5810,135, umiarkowany
+FF5811,117, bardzo niski
+FF5812,122, niski
+FF5814,110, bardzo niski
+FF5815,114, bardzo niski
+FF5816,121, niski
+FF5817,129, niski
+FF5818,145, umiarkowany
+FF5819,137, umiarkowany
+FF5910,138, umiarkowany
+FF5912,152, wysoki
+FF3917,169, bardzo wysoki
+FF3937,145, umiarkowany
+FF3957,158, wysoki
+FF3977,153, wysoki
+FF3987,158, wysoki
+FF4917,128, niski
+FF9295,135, umiarkowany
+FF9296,137, umiarkowany
+FF9297,132, niski
+FF9298,126, niski
+FF9299,121, niski
+FF9390,136, umiarkowany
+FF9391,140, umiarkowany
+FF9392,139, umiarkowany
+FF9393,145, umiarkowany
+FF9394,129, niski
+FF9395,143, umiarkowany
+FF9396,145, umiarkowany
+FF9397,143, umiarkowany
+FF9398,130, niski
+FF9491,136, umiarkowany
+FF9492,115, bardzo niski
+FF9493,129, niski
+FF9494,131, niski
+FF9495,117, bardzo niski
+FF9496,122, niski
+FF9498,126, niski
+FF9499,129, niski
+FF9590,126, niski
+FF9591,168, bardzo wysoki
+FF9594,151, wysoki
+FF9595,152, wysoki
+FF9596,160, wysoki
+FF9283,135, umiarkowany
+FF9284,132, niski
+FF9285,124, niski
+FF9286,147, umiarkowany
+FF9287,122, niski
+FF9288,126, niski
+FF9289,137, umiarkowany
+FF9380,159, wysoki
+FF9384,149, wysoki
+FF9481,127, niski
+FF9482,117, bardzo niski
+FF9483,136, umiarkowany
+FF9484,135, umiarkowany
+FF9489,158, wysoki
+FF9580,124, niski
+FF9581,156, wysoki
+FF9584,153, wysoki
+FF9585,162, bardzo wysoki
+FF9586,159, wysoki
+FF9587,150, wysoki
+FF9681,161, wysoki
+FF9682,127, niski
+FF9686,151, wysoki
+FF9688,163, bardzo wysoki
+FF9689,158, wysoki
+FF9780,149, wysoki
+FF9273,130, niski
+FF9274,135, umiarkowany
+FF9275,154, wysoki
+FF9276,121, niski
+FF9277,152, wysoki
+FF9278,152, wysoki
+FF9470,127, niski
+FF9471,117, bardzo niski
+FF9472,120, niski
+FF9473,133, niski
+FF9570,170, bardzo wysoki
+FF9571,153, wysoki
+FF9573,142, umiarkowany
+FF9574,149, wysoki
+FF9575,169, bardzo wysoki
+FF9576,137, umiarkowany
+FF9671,131, niski
+FF9676,145, umiarkowany
+FF9678,154, wysoki
+FF9979,143, umiarkowany
+FF9262,119, bardzo niski
+FF9263,115, bardzo niski
+FF9264,155, wysoki
+FF9265,123, niski
+FF9266,160, wysoki
+FF9369,127, niski
+FF9460,117, bardzo niski
+FF9461,107, bardzo niski
+FF9462,112, bardzo niski
+FF9463,127, niski
+FF9562,168, bardzo wysoki
+FF9563,157, wysoki
+FF9564,158, wysoki
+FF9565,146, umiarkowany
+FF9661,159, wysoki
+FF9662,148, wysoki
+FF9663,133, niski
+FF9968,154, wysoki
+FF9969,137, umiarkowany
+FF9251,122, niski
+FF9252,118, bardzo niski
+FF9253,131, niski
+FF9254,140, umiarkowany
+FF9359,148, wysoki
+FF9450,125, niski
+FF9451,127, niski
+FF9452,121, niski
+FF9453,125, niski
+FF9553,143, umiarkowany
+FF9554,151, wysoki
+FF9556,154, wysoki
+FF9559,141, umiarkowany
+FF9650,148, wysoki
+FF9651,138, umiarkowany
+FF9652,141, umiarkowany
+FF9653,137, umiarkowany
+FF9654,156, wysoki
+FF9959,135, umiarkowany
+FF9240,151, wysoki
+FF9241,120, niski
+FF9242,118, bardzo niski
+FF9243,121, niski
+FF9440,144, umiarkowany
+FF9441,136, umiarkowany
+FF9442,126, niski
+FF9545,149, wysoki
+FF9546,161, wysoki
+FF9547,149, wysoki
+FF9548,153, wysoki
+FF9549,148, wysoki
+FF9640,154, wysoki
+FF9641,132, niski
+FF9642,145, umiarkowany
+FF9643,146, umiarkowany
+FF9230,131, niski
+FF9231,127, niski
+FF9232,137, umiarkowany
+FF9233,116, bardzo niski
+FF9432,142, umiarkowany
+FF9536,142, umiarkowany
+FF9537,155, wysoki
+FF9539,133, niski
+FF9630,143, umiarkowany
+FF9631,131, niski
+FF9632,144, umiarkowany
+FF9636,164, bardzo wysoki
+FF9637,159, wysoki
+FF9129,150, wysoki
+FF9220,122, niski
+FF9221,139, umiarkowany
+FF9222,134, niski
+FF9223,142, umiarkowany
+FF9421,128, niski
+FF9422,123, niski
+FF9423,124, niski
+FF9525,153, wysoki
+FF9527,165, bardzo wysoki
+FF9528,156, wysoki
+FF9529,162, bardzo wysoki
+FF9620,158, wysoki
+FF9621,144, umiarkowany
+FF9622,135, umiarkowany
+FF9928,166, bardzo wysoki
+FF9929,159, wysoki
+FF9118,138, umiarkowany
+FF9119,178, bardzo wysoki
+FF9210,137, umiarkowany
+FF9211,126, niski
+FF9212,144, umiarkowany
+FF9214,165, bardzo wysoki
+FF9319,118, bardzo niski
+FF9410,114, bardzo niski
+FF9411,112, bardzo niski
+FF9412,131, niski
+FF9514,147, umiarkowany
+FF9518,159, wysoki
+FF9519,146, umiarkowany
+FF9610,143, umiarkowany
+FF9613,138, umiarkowany
+FF9816,165, bardzo wysoki
+FF9817,151, wysoki
+FF9912,139, umiarkowany
+FF9913,146, umiarkowany
+FF9915,143, umiarkowany
+FF9917,146, umiarkowany
+FF9918,133, niski
+FF9919,142, umiarkowany
+FF9108,131, niski
+FF9109,126, niski
+FF9200,142, umiarkowany
+FF9201,144, umiarkowany
+FF9202,146, umiarkowany
+FF9309,142, umiarkowany
+FF9400,122, niski
+FF9401,130, niski
+FF9403,151, wysoki
+FF9503,137, umiarkowany
+FF9507,161, wysoki
+FF9508,140, umiarkowany
+FF9509,167, bardzo wysoki
+FF9600,152, wysoki
+FF9602,155, wysoki
+FF9603,133, niski
+FF9804,138, umiarkowany
+FF9805,139, umiarkowany
+FF9806,161, wysoki
+FF9807,154, wysoki
+FF9808,159, wysoki
+FF9902,135, umiarkowany
+FF9905,151, wysoki
+FF9906,141, umiarkowany
+FF9907,140, umiarkowany
+FF9908,133, niski
+FF9909,137, umiarkowany
+FF8198,124, niski
+FF8199,135, umiarkowany
+FF8290,144, umiarkowany
+FF8495,146, umiarkowany
+FF8496,142, umiarkowany
+FF8497,150, wysoki
+FF8498,121, niski
+FF8499,127, niski
+FF8592,136, umiarkowany
+FF8597,163, bardzo wysoki
+FF8599,156, wysoki
+FF8691,166, bardzo wysoki
+FF8698,164, bardzo wysoki
+FF8699,161, wysoki
+FF8790,154, wysoki
+FF8796,152, wysoki
+FF8797,158, wysoki
+FF8891,158, wysoki
+FF8893,160, wysoki
+FF8894,148, wysoki
+FF8895,140, umiarkowany
+FF8896,172, bardzo wysoki
+FF8991,155, wysoki
+FF8992,138, umiarkowany
+FF8994,146, umiarkowany
+FF8995,137, umiarkowany
+FF8996,133, niski
+FF8997,124, niski
+FF8998,125, niski
+FF8999,140, umiarkowany
+FF8188,132, niski
+FF8189,129, niski
+FF8480,132, niski
+FF8485,148, wysoki
+FF8486,151, wysoki
+FF8487,132, niski
+FF8488,152, wysoki
+FF8489,147, umiarkowany
+FF8580,139, umiarkowany
+FF8587,143, umiarkowany
+FF8588,133, niski
+FF8589,147, umiarkowany
+FF8680,142, umiarkowany
+FF8681,128, niski
+FF8688,135, umiarkowany
+FF8689,142, umiarkowany
+FF8780,152, wysoki
+FF8782,150, wysoki
+FF8783,136, umiarkowany
+FF8784,138, umiarkowany
+FF8785,143, umiarkowany
+FF8786,132, niski
+FF8880,145, umiarkowany
+FF8881,146, umiarkowany
+FF8882,139, umiarkowany
+FF8883,133, niski
+FF8884,158, wysoki
+FF8885,158, wysoki
+FF8886,134, niski
+FF8887,150, wysoki
+FF8983,140, umiarkowany
+FF8984,140, umiarkowany
+FF8985,138, umiarkowany
+FF8986,137, umiarkowany
+FF8987,148, wysoki
+FF8988,151, wysoki
+FF8989,149, wysoki
+FF7128,159, wysoki
+FF7118,161, wysoki
+FF7129,158, wysoki
+FF7119,156, wysoki
+FF7220,152, wysoki
+FF7210,156, wysoki
+FF7223,161, wysoki
+FF7224,139, umiarkowany
+FF7214,133, niski
+FF7215,145, umiarkowany
+FF7216,147, umiarkowany
+FF7227,137, umiarkowany
+FF7312,146, umiarkowany
+FF7313,137, umiarkowany
+FF7314,148, wysoki
+FF7315,126, niski
+FF7326,141, umiarkowany
+FF7316,104, bardzo niski
+FF7327,134, niski
+FF7317,108, bardzo niski
+FF7328,95, bardzo niski
+FF7329,97, bardzo niski
+FF7420,107, bardzo niski
+FF7429,142, umiarkowany
+FF7520,132, niski
+FF7510,150, wysoki
+FF7521,152, wysoki
+FF7511,148, wysoki
+FF7522,151, wysoki
+FF7512,150, wysoki
+FF7513,175, bardzo wysoki
+FF7514,158, wysoki
+FF7525,166, bardzo wysoki
+FF7515,142, umiarkowany
+FF7526,164, bardzo wysoki
+FF7516,131, niski
+FF7527,148, wysoki
+FF7517,145, umiarkowany
+FF7528,143, umiarkowany
+FF7518,157, wysoki
+FF7529,170, bardzo wysoki
+FF7519,153, wysoki
+FF7620,154, wysoki
+FF7610,172, bardzo wysoki
+FF7624,160, wysoki
+FF7614,153, wysoki
+FF7625,133, niski
+FF7615,155, wysoki
+FF7626,158, wysoki
+FF7616,148, wysoki
+FF7108,152, wysoki
+FF7109,150, wysoki
+FF7200,160, wysoki
+FF7201,158, wysoki
+FF7203,148, wysoki
+FF7204,158, wysoki
+FF7205,147, umiarkowany
+FF7206,137, umiarkowany
+FF7207,134, niski
+FF7208,147, umiarkowany
+FF7300,132, niski
+FF7301,136, umiarkowany
+FF7302,145, umiarkowany
+FF7303,144, umiarkowany
+FF7304,127, niski
+FF7305,133, niski
+FF7502,140, umiarkowany
+FF7503,134, niski
+FF7504,137, umiarkowany
+FF7505,145, umiarkowany
+FF7506,162, bardzo wysoki
+FF7507,161, wysoki
+FF7508,154, wysoki
+FF7509,158, wysoki
+FF7600,155, wysoki
+FF7601,149, wysoki
+FF7603,161, wysoki
+FF7604,146, umiarkowany
+FF7605,145, umiarkowany
+FF7606,153, wysoki
+FF7294,148, wysoki
+FF8205,137, umiarkowany
+FF7295,129, niski
+FF8206,129, niski
+FF7296,126, niski
+FF8207,143, umiarkowany
+FF7297,152, wysoki
+FF8208,156, wysoki
+FF7298,159, wysoki
+FF7390,141, umiarkowany
+FF7391,152, wysoki
+FF8302,127, niski
+FF7392,135, umiarkowany
+FF8303,122, niski
+FF7393,128, niski
+FF8304,130, niski
+FF7394,129, niski
+FF8308,144, umiarkowany
+FF8400,148, wysoki
+FF8401,150, wysoki
+FF7491,157, wysoki
+FF8402,150, wysoki
+FF7492,137, umiarkowany
+FF8403,130, niski
+FF7493,134, niski
+FF8404,146, umiarkowany
+FF7494,150, wysoki
+FF8405,150, wysoki
+FF7495,128, niski
+FF7496,155, wysoki
+FF8501,144, umiarkowany
+FF8502,140, umiarkowany
+FF8503,137, umiarkowany
+FF7593,143, umiarkowany
+FF7594,143, umiarkowany
+FF7598,160, wysoki
+FF7599,151, wysoki
+FF7690,157, wysoki
+FF8601,156, wysoki
+FF7691,146, umiarkowany
+FF8602,153, wysoki
+FF7692,159, wysoki
+FF8603,155, wysoki
+FF7693,149, wysoki
+FF8604,158, wysoki
+FF7694,161, wysoki
+FF8605,142, umiarkowany
+FF7695,156, wysoki
+FF8606,138, umiarkowany
+FF7696,150, wysoki
+FF8607,140, umiarkowany
+FF7697,149, wysoki
+FF8705,153, wysoki
+FF7797,144, umiarkowany
+FF8708,150, wysoki
+FF7798,145, umiarkowany
+FF8709,149, wysoki
+FF7799,136, umiarkowany
+FF8800,133, niski
+FF7890,145, umiarkowany
+FF8801,148, wysoki
+FF7891,140, umiarkowany
+FF7892,159, wysoki
+FF8805,164, bardzo wysoki
+FF7895,144, umiarkowany
+FF8806,145, umiarkowany
+FF7896,164, bardzo wysoki
+FF7897,153, wysoki
+FF8808,150, wysoki
+FF7898,128, niski
+FF7899,147, umiarkowany
+FF7990,131, niski
+FF8901,141, umiarkowany
+FF7991,129, niski
+FF8902,129, niski
+FF7992,121, niski
+FF8903,130, niski
+FF8904,121, niski
+FF8905,114, bardzo niski
+FF7284,132, niski
+FF7285,133, niski
+FF7286,152, wysoki
+FF7288,141, umiarkowany
+FF7289,150, wysoki
+FF7380,154, wysoki
+FF7381,130, niski
+FF7382,118, bardzo niski
+FF7383,118, bardzo niski
+FF7481,154, wysoki
+FF7482,130, niski
+FF7483,155, wysoki
+FF7484,157, wysoki
+FF7485,150, wysoki
+FF7486,161, wysoki
+FF7583,149, wysoki
+FF7584,157, wysoki
+FF7585,151, wysoki
+FF7587,164, bardzo wysoki
+FF7588,156, wysoki
+FF7589,148, wysoki
+FF7680,152, wysoki
+FF7681,158, wysoki
+FF7684,161, wysoki
+FF7686,168, bardzo wysoki
+FF7687,153, wysoki
+FF7688,152, wysoki
+FF7689,144, umiarkowany
+FF7785,165, bardzo wysoki
+FF7786,131, niski
+FF7787,142, umiarkowany
+FF7788,136, umiarkowany
+FF7789,136, umiarkowany
+FF7880,146, umiarkowany
+FF7881,123, niski
+FF7882,120, niski
+FF7883,149, wysoki
+FF7884,140, umiarkowany
+FF7885,134, niski
+FF7888,121, niski
+FF7889,131, niski
+FF7980,134, niski
+FF7981,136, umiarkowany
+FF7273,131, niski
+FF7274,143, umiarkowany
+FF7275,156, wysoki
+FF7276,142, umiarkowany
+FF7277,143, umiarkowany
+FF7278,135, umiarkowany
+FF7279,121, niski
+FF7370,130, niski
+FF7371,118, bardzo niski
+FF7372,120, niski
+FF7375,102, bardzo niski
+FF7376,112, bardzo niski
+FF7377,133, niski
+FF7573,147, umiarkowany
+FF7574,158, wysoki
+FF7575,154, wysoki
+FF7576,150, wysoki
+FF7577,151, wysoki
+FF7578,130, niski
+FF7579,156, wysoki
+FF7670,153, wysoki
+FF7671,167, bardzo wysoki
+FF7675,161, wysoki
+FF7676,142, umiarkowany
+FF7677,150, wysoki
+FF7777,149, wysoki
+FF7778,143, umiarkowany
+FF7779,134, niski
+FF7870,129, niski
+FF7871,131, niski
+FF7872,118, bardzo niski
+FF7873,127, niski
+FF7874,131, niski
+FF7875,128, niski
+FF7260,166, bardzo wysoki
+FF7261,140, umiarkowany
+FF7262,155, wysoki
+FF7263,149, wysoki
+FF7264,160, wysoki
+FF7265,150, wysoki
+FF7266,138, umiarkowany
+FF7267,136, umiarkowany
+FF7268,134, niski
+FF7269,135, umiarkowany
+FF7361,133, niski
+FF7362,123, niski
+FF7364,105, bardzo niski
+FF7365,94, bardzo niski
+FF7366,96, bardzo niski
+FF7367,115, bardzo niski
+FF7368,133, niski
+FF7369,114, bardzo niski
+FF7562,164, bardzo wysoki
+FF7563,161, wysoki
+FF7564,130, niski
+FF7565,133, niski
+FF7566,133, niski
+FF7567,151, wysoki
+FF7568,164, bardzo wysoki
+FF7569,159, wysoki
+FF7660,152, wysoki
+FF7666,165, bardzo wysoki
+FF7667,156, wysoki
+FF7668,148, wysoki
+FF7766,146, umiarkowany
+FF7767,151, wysoki
+FF7768,136, umiarkowany
+FF7769,138, umiarkowany
+FF7860,134, niski
+FF7861,148, wysoki
+FF7862,144, umiarkowany
+FF7863,133, niski
+FF7864,119, bardzo niski
+FF7865,123, niski
+FF7250,139, umiarkowany
+FF7251,139, umiarkowany
+FF7252,151, wysoki
+FF7254,152, wysoki
+FF7255,171, bardzo wysoki
+FF7256,140, umiarkowany
+FF7257,142, umiarkowany
+FF7258,143, umiarkowany
+FF7259,150, wysoki
+FF7350,133, niski
+FF7351,113, bardzo niski
+FF7352,100, bardzo niski
+FF7353,96, bardzo niski
+FF7354,104, bardzo niski
+FF7355,133, niski
+FF7357,140, umiarkowany
+FF7358,120, niski
+FF7359,104, bardzo niski
+FF7450,139, umiarkowany
+FF7551,147, umiarkowany
+FF7552,132, niski
+FF7553,145, umiarkowany
+FF7554,149, wysoki
+FF7555,134, niski
+FF7556,167, bardzo wysoki
+FF7557,153, wysoki
+FF7558,144, umiarkowany
+FF7559,146, umiarkowany
+FF7650,165, bardzo wysoki
+FF7651,174, bardzo wysoki
+FF7658,172, bardzo wysoki
+FF7758,130, niski
+FF7759,146, umiarkowany
+FF7850,130, niski
+FF7851,131, niski
+FF7852,137, umiarkowany
+FF7853,119, bardzo niski
+FF7854,130, niski
+FF7240,147, umiarkowany
+FF7241,161, wysoki
+FF7244,157, wysoki
+FF7245,147, umiarkowany
+FF7246,147, umiarkowany
+FF7247,153, wysoki
+FF7248,140, umiarkowany
+FF7249,139, umiarkowany
+FF7341,151, wysoki
+FF7342,142, umiarkowany
+FF7343,123, niski
+FF7344,125, niski
+FF7348,134, niski
+FF7349,108, bardzo niski
+FF7440,131, niski
+FF7541,155, wysoki
+FF7542,131, niski
+FF7543,148, wysoki
+FF7544,158, wysoki
+FF7547,168, bardzo wysoki
+FF7644,150, wysoki
+FF7645,139, umiarkowany
+FF7648,144, umiarkowany
+FF7649,158, wysoki
+FF7748,146, umiarkowany
+FF7749,130, niski
+FF7840,131, niski
+FF7841,123, niski
+FF7842,127, niski
+FF7843,137, umiarkowany
+FF7234,158, wysoki
+FF7237,157, wysoki
+FF7238,154, wysoki
+FF7331,145, umiarkowany
+FF7332,137, umiarkowany
+FF7333,134, niski
+FF7337,117, bardzo niski
+FF7338,109, bardzo niski
+FF7339,102, bardzo niski
+FF7430,126, niski
+FF7530,134, niski
+FF7531,138, umiarkowany
+FF7532,131, niski
+FF7533,141, umiarkowany
+FF7534,171, bardzo wysoki
+FF7535,161, wysoki
+FF7538,140, umiarkowany
+FF7539,138, umiarkowany
+FF7630,158, wysoki
+FF7634,158, wysoki
+FF7635,137, umiarkowany
+FF7639,155, wysoki
+FF8379,137, umiarkowany
+FF8470,147, umiarkowany
+FF8471,130, niski
+FF8472,143, umiarkowany
+FF8475,135, umiarkowany
+FF8476,152, wysoki
+FF8477,152, wysoki
+FF8572,148, wysoki
+FF8573,154, wysoki
+FF8574,159, wysoki
+FF8576,148, wysoki
+FF8577,135, umiarkowany
+FF8578,154, wysoki
+FF8579,137, umiarkowany
+FF8670,147, umiarkowany
+FF8671,153, wysoki
+FF8672,108, bardzo niski
+FF8673,116, bardzo niski
+FF8674,133, niski
+FF8675,151, wysoki
+FF8676,149, wysoki
+FF8677,155, wysoki
+FF8678,141, umiarkowany
+FF8679,142, umiarkowany
+FF8770,141, umiarkowany
+FF8771,142, umiarkowany
+FF8772,124, niski
+FF8773,129, niski
+FF8774,131, niski
+FF8775,127, niski
+FF8776,135, umiarkowany
+FF8777,148, wysoki
+FF8779,145, umiarkowany
+FF8870,151, wysoki
+FF8873,169, bardzo wysoki
+FF8973,152, wysoki
+FF8974,136, umiarkowany
+FF8976,137, umiarkowany
+FF8977,168, bardzo wysoki
+FF8978,154, wysoki
+FF8979,149, wysoki
+FF8368,130, niski
+FF8369,137, umiarkowany
+FF8460,129, niski
+FF8461,142, umiarkowany
+FF8462,132, niski
+FF8463,139, umiarkowany
+FF8464,136, umiarkowany
+FF8560,148, wysoki
+FF8561,182, bardzo wysoki
+FF8562,152, wysoki
+FF8566,152, wysoki
+FF8567,144, umiarkowany
+FF8568,151, wysoki
+FF8569,134, niski
+FF8660,143, umiarkowany
+FF8661,138, umiarkowany
+FF8662,126, niski
+FF8663,129, niski
+FF8664,132, niski
+FF8665,135, umiarkowany
+FF8666,131, niski
+FF8667,148, wysoki
+FF8668,137, umiarkowany
+FF8669,149, wysoki
+FF8760,139, umiarkowany
+FF8761,130, niski
+FF8762,102, bardzo niski
+FF8763,122, niski
+FF8764,142, umiarkowany
+FF8766,158, wysoki
+FF8767,147, umiarkowany
+FF8768,163, bardzo wysoki
+FF8861,153, wysoki
+FF8862,168, bardzo wysoki
+FF8867,174, bardzo wysoki
+FF8357,139, umiarkowany
+FF8358,124, niski
+FF8359,124, niski
+FF8450,144, umiarkowany
+FF8458,163, bardzo wysoki
+FF8459,163, bardzo wysoki
+FF8550,149, wysoki
+FF8551,155, wysoki
+FF8555,156, wysoki
+FF8556,126, niski
+FF8557,157, wysoki
+FF8650,163, bardzo wysoki
+FF8651,147, umiarkowany
+FF8652,129, niski
+FF8653,121, niski
+FF8654,146, umiarkowany
+FF8655,159, wysoki
+FF8657,160, wysoki
+FF8658,149, wysoki
+FF8752,153, wysoki
+FF8753,157, wysoki
+FF8754,167, bardzo wysoki
+FF8756,161, wysoki
+FF8757,156, wysoki
+FF8851,156, wysoki
+FF8852,158, wysoki
+FF8856,182, bardzo wysoki
+FF8954,164, bardzo wysoki
+FF8341,101, bardzo niski
+FF8342,99, bardzo niski
+FF8347,142, umiarkowany
+FF8348,129, niski
+FF8349,141, umiarkowany
+FF8440,144, umiarkowany
+FF8441,145, umiarkowany
+FF8442,145, umiarkowany
+FF8448,144, umiarkowany
+FF8449,149, wysoki
+FF8540,147, umiarkowany
+FF8541,156, wysoki
+FF8544,148, wysoki
+FF8545,136, umiarkowany
+FF8546,153, wysoki
+FF8549,157, wysoki
+FF8640,140, umiarkowany
+FF8641,125, niski
+FF8642,132, niski
+FF8643,142, umiarkowany
+FF8646,157, wysoki
+FF8647,159, wysoki
+FF8648,164, bardzo wysoki
+FF8741,166, bardzo wysoki
+FF8745,147, umiarkowany
+FF8746,154, wysoki
+FF8842,157, wysoki
+FF8942,155, wysoki
+FF8946,129, niski
+FF8947,127, niski
+FF8948,119, bardzo niski
+FF8239,112, bardzo niski
+FF8330,117, bardzo niski
+FF8331,93, bardzo niski
+FF8332,104, bardzo niski
+FF8333,130, niski
+FF8337,145, umiarkowany
+FF8338,133, niski
+FF8339,150, wysoki
+FF8431,142, umiarkowany
+FF8432,156, wysoki
+FF8435,149, wysoki
+FF8436,157, wysoki
+FF8437,135, umiarkowany
+FF8438,143, umiarkowany
+FF8439,143, umiarkowany
+FF8530,148, wysoki
+FF8532,151, wysoki
+FF8533,150, wysoki
+FF8534,154, wysoki
+FF8535,135, umiarkowany
+FF8536,151, wysoki
+FF8537,173, bardzo wysoki
+FF8538,166, bardzo wysoki
+FF8539,151, wysoki
+FF8630,127, niski
+FF8631,146, umiarkowany
+FF8632,166, bardzo wysoki
+FF8633,143, umiarkowany
+FF8635,167, bardzo wysoki
+FF8636,163, bardzo wysoki
+FF8637,156, wysoki
+FF8638,153, wysoki
+FF8731,160, wysoki
+FF8735,160, wysoki
+FF8736,153, wysoki
+FF8831,147, umiarkowany
+FF8835,150, wysoki
+FF8932,148, wysoki
+FF8933,149, wysoki
+FF8935,154, wysoki
+FF8936,131, niski
+FF8937,124, niski
+FF8938,118, bardzo niski
+FF8939,122, niski
+FF8226,145, umiarkowany
+FF8227,141, umiarkowany
+FF8228,122, niski
+FF8321,153, wysoki
+FF8322,121, niski
+FF8323,124, niski
+FF8327,136, umiarkowany
+FF8328,128, niski
+FF8329,150, wysoki
+FF8424,150, wysoki
+FF8425,135, umiarkowany
+FF8426,127, niski
+FF8427,134, niski
+FF8428,151, wysoki
+FF8429,138, umiarkowany
+FF8520,140, umiarkowany
+FF8521,141, umiarkowany
+FF8522,145, umiarkowany
+FF8523,151, wysoki
+FF8524,140, umiarkowany
+FF8525,130, niski
+FF8526,145, umiarkowany
+FF8527,143, umiarkowany
+FF8528,139, umiarkowany
+FF8529,140, umiarkowany
+FF8620,161, wysoki
+FF8623,140, umiarkowany
+FF8721,165, bardzo wysoki
+FF8722,158, wysoki
+FF8725,165, bardzo wysoki
+FF8820,164, bardzo wysoki
+FF8821,146, umiarkowany
+FF8822,141, umiarkowany
+FF8825,152, wysoki
+FF8826,148, wysoki
+FF8922,143, umiarkowany
+FF8923,154, wysoki
+FF8924,136, umiarkowany
+FF8925,120, niski
+FF8926,116, bardzo niski
+FF8927,118, bardzo niski
+FF8928,114, bardzo niski
+FF8929,120, niski
+FF8216,151, wysoki
+FF8217,141, umiarkowany
+FF8218,135, umiarkowany
+FF8312,132, niski
+FF8313,119, bardzo niski
+FF8317,141, umiarkowany
+FF8318,111, bardzo niski
+FF8319,149, wysoki
+FF8410,142, umiarkowany
+FF8414,155, wysoki
+FF8415,152, wysoki
+FF8416,160, wysoki
+FF8419,167, bardzo wysoki
+FF8510,160, wysoki
+FF8511,143, umiarkowany
+FF8512,121, niski
+FF8513,153, wysoki
+FF8514,156, wysoki
+FF8515,155, wysoki
+FF8516,144, umiarkowany
+FF8517,131, niski
+FF8612,135, umiarkowany
+FF8613,140, umiarkowany
+FF8616,155, wysoki
+FF8619,164, bardzo wysoki
+FF8710,162, bardzo wysoki
+FF8715,163, bardzo wysoki
+FF8811,161, wysoki
+FF8812,133, niski
+FF8816,147, umiarkowany
+FF8911,146, umiarkowany
+FF8914,139, umiarkowany
+FF8915,128, niski
+FF8917,93, bardzo niski
+FF8918,113, bardzo niski
+FF6199,150, wysoki
+FF6290,150, wysoki
+FF6291,150, wysoki
+FF6293,167, bardzo wysoki
+FF6294,152, wysoki
+FF6295,154, wysoki
+FF6296,123, niski
+FF6297,129, niski
+FF6298,150, wysoki
+FF6299,133, niski
+FF6390,137, umiarkowany
+FF6391,119, bardzo niski
+FF6392,125, niski
+FF6393,136, umiarkowany
+FF6592,140, umiarkowany
+FF6593,132, niski
+FF6594,155, wysoki
+FF6595,151, wysoki
+FF6596,147, umiarkowany
+FF6597,148, wysoki
+FF6598,152, wysoki
+FF6599,155, wysoki
+FF6690,140, umiarkowany
+FF6691,149, wysoki
+FF6692,145, umiarkowany
+FF6693,138, umiarkowany
+FF6694,148, wysoki
+FF6695,136, umiarkowany
+FF6696,165, bardzo wysoki
+FF6698,149, wysoki
+FF6189,152, wysoki
+FF6280,154, wysoki
+FF6281,143, umiarkowany
+FF6282,156, wysoki
+FF6285,135, umiarkowany
+FF6286,130, niski
+FF6287,129, niski
+FF6288,126, niski
+FF6289,122, niski
+FF6380,120, niski
+FF6381,122, niski
+FF6587,162, bardzo wysoki
+FF6588,152, wysoki
+FF6589,149, wysoki
+FF6680,155, wysoki
+FF6682,163, bardzo wysoki
+FF6684,159, wysoki
+FF6685,169, bardzo wysoki
+FF6686,164, bardzo wysoki
+FF6179,158, wysoki
+FF6270,148, wysoki
+FF6271,148, wysoki
+FF6272,142, umiarkowany
+FF6275,138, umiarkowany
+FF6276,127, niski
+FF6279,121, niski
+FF6370,124, niski
+FF6670,130, niski
+FF5707,149, wysoki
+FF5708,130, niski
+FF2736,146, umiarkowany
+FF2746,127, niski
+FF2756,138, umiarkowany
+FF2757,139, umiarkowany
+FF2776,128, niski
+FF2786,138, umiarkowany
+FF2796,141, umiarkowany
+FF2797,143, umiarkowany
+FF3706,137, umiarkowany
+FF3707,144, umiarkowany
+FF3716,144, umiarkowany
+FF3717,126, niski
+FF3726,149, wysoki
+FF3727,133, niski
+FF3736,133, niski
+FF3737,121, niski
+FF3746,140, umiarkowany
+FF3747,129, niski
+FF3756,139, umiarkowany
+FF3757,135, umiarkowany
+FF3766,149, wysoki
+FF3767,147, umiarkowany
+FF3777,143, umiarkowany
+FF4777,114, bardzo niski
+FF4787,147, umiarkowany
+FF4796,132, niski
+FF4797,123, niski
+FF5706,156, wysoki
+FF5009,133, niski
+FF5100,128, niski
+FF5200,120, niski
+FF5204,128, niski
+FF5206,135, umiarkowany
+FF5306,137, umiarkowany
+FF5307,125, niski
+FF5308,140, umiarkowany
+FF5606,123, niski
+FF5607,128, niski
+FF5703,120, niski
+FF5704,119, bardzo niski
+FF5705,142, umiarkowany
+FF2725,135, umiarkowany
+FF2735,142, umiarkowany
+FF2775,130, niski
+FF2785,133, niski
+FF3705,153, wysoki
+FF3715,148, wysoki
+FF4765,124, niski
+FF4775,123, niski
+FF4785,127, niski
+FF4795,132, niski
+FF2714,120, niski
+FF2724,128, niski
+FF2774,134, niski
+FF2784,133, niski
+FF2794,129, niski
+FF3704,145, umiarkowany
+FF3794,117, bardzo niski
+FF4704,123, niski
+FF4714,126, niski
+FF4764,126, niski
+FF4774,137, umiarkowany
+FF4784,138, umiarkowany
+FF4794,123, niski
+FF2713,128, niski
+FF2723,130, niski
+FF2753,150, wysoki
+FF2763,140, umiarkowany
+FF2773,151, wysoki
+FF2783,140, umiarkowany
+FF3783,101, bardzo niski
+FF3793,109, bardzo niski
+FF4703,131, niski
+FF4713,126, niski
+FF4723,129, niski
+FF4733,142, umiarkowany
+FF4763,124, niski
+FF4773,141, umiarkowany
+FF4783,125, niski
+FF2712,134, niski
+FF2722,115, bardzo niski
+FF2752,135, umiarkowany
+FF3772,140, umiarkowany
+FF3782,122, niski
+FF3792,132, niski
+FF4702,168, bardzo wysoki
+FF4722,153, wysoki
+FF4732,140, umiarkowany
+FF4742,137, umiarkowany
+FF4762,124, niski
+FF4772,141, umiarkowany
+FF4792,129, niski
+FF2721,125, niski
+FF2731,127, niski
+FF2741,140, umiarkowany
+FF4721,137, umiarkowany
+FF4731,141, umiarkowany
+FF4741,146, umiarkowany
+FF4751,122, niski
+FF4761,121, niski
+FF4771,130, niski
+FF4791,134, niski
+FF4740,140, umiarkowany
+FF4750,156, wysoki
+FF4760,117, bardzo niski
+FF4790,115, bardzo niski
+FF3679,162, bardzo wysoki
+FF4659,159, wysoki
+FF4669,127, niski
+FF4689,116, bardzo niski
+FF4699,117, bardzo niski
+FF3678,159, wysoki
+FF4608,172, bardzo wysoki
+FF4618,151, wysoki
+FF4658,147, umiarkowany
+FF4668,143, umiarkowany
+FF4678,116, bardzo niski
+FF4688,144, umiarkowany
+FF4698,154, wysoki
+FF3936,154, wysoki
+FF3946,131, niski
+FF3956,146, umiarkowany
+FF3986,142, umiarkowany
+FF3996,129, niski
+FF4906,141, umiarkowany
+FF4916,137, umiarkowany
+FF3935,144, umiarkowany
+FF3945,134, niski
+FF3955,149, wysoki
+FF3975,125, niski
+FF3985,137, umiarkowany
+FF3995,123, niski
+FF4905,140, umiarkowany
+FF4915,135, umiarkowany
+FF4995,154, wysoki
+FF3944,142, umiarkowany
+FF3954,147, umiarkowany
+FF3974,153, wysoki
+FF3984,145, umiarkowany
+FF3994,143, umiarkowany
+FF4904,138, umiarkowany
+FF4914,147, umiarkowany
+FF4924,139, umiarkowany
+FF4984,151, wysoki
+FF4994,150, wysoki
+FF2853,131, niski
+FF2854,133, niski
+FF2863,133, niski
+FF2864,150, wysoki
+FF2873,142, umiarkowany
+FF2883,127, niski
+FF2884,136, umiarkowany
+FF2893,133, niski
+FF2894,149, wysoki
+FF3804,136, umiarkowany
+FF3814,135, umiarkowany
+FF3853,130, niski
+FF3854,126, niski
+FF3863,138, umiarkowany
+FF3864,145, umiarkowany
+FF3874,150, wysoki
+FF3893,140, umiarkowany
+FF3894,173, bardzo wysoki
+FF4803,117, bardzo niski
+FF4804,138, umiarkowany
+FF4813,125, niski
+FF4814,139, umiarkowany
+FF4823,125, niski
+FF4824,137, umiarkowany
+FF4833,135, umiarkowany
+FF4834,141, umiarkowany
+FF4843,133, niski
+FF4844,134, niski
+FF4853,137, umiarkowany
+FF4854,137, umiarkowany
+FF4863,144, umiarkowany
+FF4864,123, niski
+FF4873,135, umiarkowany
+FF4874,117, bardzo niski
+FF4883,127, niski
+FF4884,113, bardzo niski
+FF4893,108, bardzo niski
+FF4894,116, bardzo niski
+FF5803,121, niski
+FF2862,128, niski
+FF2872,144, umiarkowany
+FF2882,134, niski
+FF2892,138, umiarkowany
+FF3852,157, wysoki
+FF3862,170, bardzo wysoki
+FF3872,139, umiarkowany
+FF3882,136, umiarkowany
+FF3892,139, umiarkowany
+FF4802,132, niski
+FF4812,129, niski
+FF4822,140, umiarkowany
+FF4832,139, umiarkowany
+FF4842,146, umiarkowany
+FF4852,133, niski
+FF4862,116, bardzo niski
+FF4872,109, bardzo niski
+FF4882,116, bardzo niski
+FF4892,132, niski
+FF5802,123, niski
+FF2861,123, niski
+FF2871,150, wysoki
+FF2881,131, niski
+FF3851,147, umiarkowany
+FF3881,144, umiarkowany
+FF3891,128, niski
+FF4801,130, niski
+FF4811,139, umiarkowany
+FF4821,144, umiarkowany
+FF4831,128, niski
+FF4841,112, bardzo niski
+FF4851,111, bardzo niski
+FF4861,128, niski
+FF4871,116, bardzo niski
+FF4881,112, bardzo niski
+FF4891,150, wysoki
+FF5801,117, bardzo niski
+FF2953,120, niski
+FF2963,136, umiarkowany
+FF2973,122, niski
+FF2983,127, niski
+FF3933,176, bardzo wysoki
+FF3963,145, umiarkowany
+FF3973,129, niski
+FF3983,131, niski
+FF3993,142, umiarkowany
+FF4903,152, wysoki
+FF4913,132, niski
+FF4923,125, niski
+FF4933,145, umiarkowany
+FF4943,125, niski
+FF4973,166, bardzo wysoki
+FF4983,147, umiarkowany
+FF4993,170, bardzo wysoki
+FF5903,154, wysoki
+FF2952,118, bardzo niski
+FF2962,141, umiarkowany
+FF2972,120, niski
+FF2982,129, niski
+FF2992,137, umiarkowany
+FF3962,157, wysoki
+FF3972,130, niski
+FF3982,150, wysoki
+FF3992,140, umiarkowany
+FF4902,129, niski
+FF4912,132, niski
+FF4922,153, wysoki
+FF4952,147, umiarkowany
+FF4972,142, umiarkowany
+FF4982,138, umiarkowany
+FF2951,122, niski
+FF2961,145, umiarkowany
+FF2971,152, wysoki
+FF2981,139, umiarkowany
+FF2991,119, bardzo niski
+FF3931,156, wysoki
+FF3981,130, niski
+FF3991,129, niski
+FF4901,113, bardzo niski
+FF4911,134, niski
+FF4971,149, wysoki
+FF4981,133, niski
+FF2950,114, bardzo niski
+FF2960,142, umiarkowany
+FF2970,129, niski
+FF2980,158, wysoki
+FF3900,124, niski
+FF3910,149, wysoki
+FF3920,142, umiarkowany
+FF3980,135, umiarkowany
+FF3990,119, bardzo niski
+FF4900,130, niski
+FF4910,137, umiarkowany
+FF4950,154, wysoki
+FF4960,145, umiarkowany
+FF4970,147, umiarkowany
+FF2859,120, niski
+FF2869,141, umiarkowany
+FF2879,144, umiarkowany
+FF3809,128, niski
+FF3819,135, umiarkowany
+FF3829,140, umiarkowany
+FF3889,132, niski
+FF3899,117, bardzo niski
+FF4809,141, umiarkowany
+FF4819,129, niski
+FF4849,152, wysoki
+FF4859,137, umiarkowany
+FF4869,127, niski
+FF4879,130, niski
+FF4899,151, wysoki
+FF5809,144, umiarkowany
+FF2858,135, umiarkowany
+FF2868,139, umiarkowany
+FF3808,141, umiarkowany
+FF3818,132, niski
+FF3828,148, wysoki
+FF3858,166, bardzo wysoki
+FF3878,145, umiarkowany
+FF3888,133, niski
+FF3898,128, niski
+FF4808,131, niski
+FF4818,149, wysoki
+FF4848,147, umiarkowany
+FF4858,123, niski
+FF4868,130, niski
+FF4878,121, niski
+FF4888,165, bardzo wysoki
+FF4898,133, niski
+FF5808,117, bardzo niski
+FF2857,140, umiarkowany
+FF2867,137, umiarkowany
+FF3817,152, wysoki
+FF3827,156, wysoki
+FF3837,125, niski
+FF3857,133, niski
+FF3867,145, umiarkowany
+FF3877,133, niski
+FF3887,125, niski
+FF3897,132, niski
+FF4807,138, umiarkowany
+FF4817,151, wysoki
+FF4847,128, niski
+FF4857,126, niski
+FF4867,127, niski
+FF4877,133, niski
+FF4887,160, wysoki
+FF4897,145, umiarkowany
+FF5807,121, niski
+FF2866,124, niski
+FF2876,146, umiarkowany
+FF3816,148, wysoki
+FF3826,135, umiarkowany
+FF3836,135, umiarkowany
+FF3846,150, wysoki
+FF3856,153, wysoki
+FF3866,152, wysoki
+FF3876,144, umiarkowany
+FF3886,124, niski
+FF4806,145, umiarkowany
+FF4836,143, umiarkowany
+FF4846,136, umiarkowany
+FF4856,148, wysoki
+FF4866,137, umiarkowany
+FF4876,132, niski
+FF4886,149, wysoki
+FF4896,123, niski
+FF5806,129, niski
+FF2865,125, niski
+FF2875,161, wysoki
+FF2895,140, umiarkowany
+FF3805,155, wysoki
+FF3815,135, umiarkowany
+FF3825,146, umiarkowany
+FF3845,146, umiarkowany
+FF3855,165, bardzo wysoki
+FF3865,147, umiarkowany
+FF3875,124, niski
+FF3885,160, wysoki
+FF4825,137, umiarkowany
+FF4835,127, niski
+FF4845,136, umiarkowany
+FF4855,132, niski
+FF4865,147, umiarkowany
+FF4875,115, bardzo niski
+FF4885,119, bardzo niski
+FF4895,113, bardzo niski
+FF5805,118, bardzo niski
+FF2860,119, bardzo niski
+FF2880,149, wysoki
+FF3870,140, umiarkowany
+FF3880,124, niski
+FF3890,134, niski
+FF4800,137, umiarkowany
+FF4810,137, umiarkowany
+FF4870,116, bardzo niski
+FF4880,111, bardzo niski
+FF4890,113, bardzo niski
+FF5800,135, umiarkowany
+FF3729,170, bardzo wysoki
+FF3779,136, umiarkowany
+FF3789,128, niski
+FF3799,148, wysoki
+FF4709,150, wysoki
+FF4769,107, bardzo niski
+FF4779,122, niski
+FF4789,123, niski
+FF4799,128, niski
+FF5709,138, umiarkowany
+FF3708,158, wysoki
+FF3718,157, wysoki
+FF3748,152, wysoki
+FF3758,133, niski
+FF3768,147, umiarkowany
+FF3778,149, wysoki
+FF3788,152, wysoki
+FF3798,133, niski
+FF4768,119, bardzo niski
+FF4778,126, niski
+FF4788,122, niski
+FF4798,125, niski
+FF3565,127, niski
+FF3585,122, niski
+FF3586,137, umiarkowany
+FF3595,124, niski
+FF3596,136, umiarkowany
+FF4505,113, bardzo niski
+FF4506,131, niski
+FF4516,125, niski
+FF4526,119, bardzo niski
+FF4536,131, niski
+FF4546,145, umiarkowany
+FF4556,150, wysoki
+FF3687,136, umiarkowany
+FF3697,170, bardzo wysoki
+FF4607,168, bardzo wysoki
+FF4617,141, umiarkowany
+FF4627,140, umiarkowany
+FF4657,128, niski
+FF4667,138, umiarkowany
+FF4677,119, bardzo niski
+FF4697,124, niski
+FF3676,175, bardzo wysoki
+FF3686,155, wysoki
+FF3696,141, umiarkowany
+FF4606,147, umiarkowany
+FF4626,152, wysoki
+FF4656,154, wysoki
+FF4666,133, niski
+FF4676,124, niski
+FF4696,111, bardzo niski
+FF3655,139, umiarkowany
+FF3665,143, umiarkowany
+FF3675,154, wysoki
+FF3685,139, umiarkowany
+FF3695,153, wysoki
+FF4605,173, bardzo wysoki
+FF4645,148, wysoki
+FF4655,160, wysoki
+FF4665,155, wysoki
+FF3664,139, umiarkowany
+FF3674,147, umiarkowany
+FF4654,142, umiarkowany
+FF4664,141, umiarkowany
+FF3653,140, umiarkowany
+FF3663,119, bardzo niski
+FF3673,138, umiarkowany
+FF4663,139, umiarkowany
+FF4673,132, niski
+FF3652,123, niski
+FF3662,117, bardzo niski
+FF3672,143, umiarkowany
+FF4632,165, bardzo wysoki
+FF4642,144, umiarkowany
+FF4662,131, niski
+FF4672,125, niski
+FF4682,136, umiarkowany
+FF3661,125, niski
+FF3671,135, umiarkowany
+FF3681,144, umiarkowany
+FF4641,160, wysoki
+FF4651,159, wysoki
+FF4671,159, wysoki
+FF4681,123, niski
+FF4691,129, niski
+FF3660,126, niski
+FF3670,126, niski
+FF3690,139, umiarkowany
+FF4600,153, wysoki
+FF4650,140, umiarkowany
+FF4660,139, umiarkowany
+FF4670,140, umiarkowany
+FF4680,131, niski
+FF4690,121, niski
+FF3569,148, wysoki
+FF3579,149, wysoki
+FF3599,145, umiarkowany
+FF4509,129, niski
+FF4519,136, umiarkowany
+FF3598,157, wysoki
+FF4508,129, niski
+FF4518,137, umiarkowany
+FF4568,140, umiarkowany
+FF3577,133, niski
+FF4507,122, niski
+FF4517,120, niski
+FF4527,128, niski
+FF4537,126, niski
+FF4547,126, niski
+FF4557,144, umiarkowany
+FF4567,147, umiarkowany
+FF4577,140, umiarkowany
+FF4099,114, bardzo niski
+FF4190,128, niski
+FF4191,136, umiarkowany
+FF4196,148, wysoki
+FF4290,158, wysoki
+FF4292,127, niski
+FF4295,141, umiarkowany
+FF4296,122, niski
+FF4390,121, niski
+FF4396,111, bardzo niski
+FF4397,129, niski
+FF3564,138, umiarkowany
+FF3574,141, umiarkowany
+FF3594,134, niski
+FF4504,117, bardzo niski
+FF4514,129, niski
+FF3543,105, bardzo niski
+FF3553,118, bardzo niski
+FF3563,114, bardzo niski
+FF3593,126, niski
+FF4503,93, bardzo niski
+FF4513,116, bardzo niski
+FF3542,100, bardzo niski
+FF3552,110, bardzo niski
+FF3582,111, bardzo niski
+FF3592,114, bardzo niski
+FF4502,112, bardzo niski
+FF4512,98, bardzo niski
+FF3511,134, niski
+FF3521,119, bardzo niski
+FF3531,112, bardzo niski
+FF3541,107, bardzo niski
+FF3551,97, bardzo niski
+FF3561,89, bardzo niski
+FF3571,118, bardzo niski
+FF4511,116, bardzo niski
+FF4521,126, niski
+FF4531,128, niski
+FF3500,124, niski
+FF3510,116, bardzo niski
+FF3520,112, bardzo niski
+FF3530,116, bardzo niski
+FF3540,102, bardzo niski
+FF3550,129, niski
+FF3560,115, bardzo niski
+FF3570,119, bardzo niski
+FF3580,124, niski
+FF4520,126, niski
+FF4530,128, niski
+FF4540,135, umiarkowany
+FF3409,139, umiarkowany
+FF3419,142, umiarkowany
+FF3429,143, umiarkowany
+FF3449,110, bardzo niski
+FF3479,140, umiarkowany
+FF3489,122, niski
+FF4449,117, bardzo niski
+FF4459,125, niski
+FF3408,132, niski
+FF3418,138, umiarkowany
+FF3448,145, umiarkowany
+FF3458,122, niski
+FF3478,127, niski
+FF3488,113, bardzo niski
+FF3498,126, niski
+FF4448,137, umiarkowany
+FF4458,122, niski
+FF4468,109, bardzo niski
+FF3417,136, umiarkowany
+FF3447,161, wysoki
+FF3457,126, niski
+FF3467,129, niski
+FF3477,127, niski
+FF3487,127, niski
+FF3497,120, niski
+FF4407,142, umiarkowany
+FF4457,142, umiarkowany
+FF4467,130, niski
+FF4477,138, umiarkowany
+FF4286,160, wysoki
+FF4287,131, niski
+FF4288,152, wysoki
+FF4289,127, niski
+FF4089,114, bardzo niski
+FF4180,133, niski
+FF4181,129, niski
+FF4280,152, wysoki
+FF4283,137, umiarkowany
+FF4284,134, niski
+FF4285,147, umiarkowany
+FF4380,136, umiarkowany
+FF4381,149, wysoki
+FF4382,149, wysoki
+FF4383,136, umiarkowany
+FF3247,151, wysoki
+FF3257,149, wysoki
+FF3267,133, niski
+FF3277,128, niski
+FF3278,139, umiarkowany
+FF2296,130, niski
+FF3206,159, wysoki
+FF3246,134, niski
+FF3256,125, niski
+FF4206,128, niski
+FF4216,124, niski
+FF4226,110, bardzo niski
+FF4236,121, niski
+FF4246,162, bardzo wysoki
+FF4266,150, wysoki
+FF3205,130, niski
+FF3255,143, umiarkowany
+FF3275,116, bardzo niski
+FF3285,143, umiarkowany
+FF3295,152, wysoki
+FF4205,125, niski
+FF4215,140, umiarkowany
+FF4225,128, niski
+FF4235,132, niski
+FF4245,152, wysoki
+FF4255,129, niski
+FF4265,131, niski
+FF4275,157, wysoki
+FF3204,135, umiarkowany
+FF3224,135, umiarkowany
+FF3234,148, wysoki
+FF3244,134, niski
+FF3264,116, bardzo niski
+FF3274,125, niski
+FF3284,137, umiarkowany
+FF3294,136, umiarkowany
+FF4204,131, niski
+FF4214,152, wysoki
+FF4224,149, wysoki
+FF4234,152, wysoki
+FF4254,152, wysoki
+FF4264,139, umiarkowany
+FF4274,134, niski
+FF3119,138, umiarkowany
+FF3129,156, wysoki
+FF3139,151, wysoki
+FF3148,145, umiarkowany
+FF3149,160, wysoki
+FF3178,130, niski
+FF3179,146, umiarkowany
+FF3188,132, niski
+FF3189,158, wysoki
+FF3198,147, umiarkowany
+FF3199,134, niski
+FF4108,134, niski
+FF4109,133, niski
+FF4118,140, umiarkowany
+FF4119,138, umiarkowany
+FF4128,151, wysoki
+FF4129,158, wysoki
+FF4138,144, umiarkowany
+FF4148,122, niski
+FF4149,131, niski
+FF4158,152, wysoki
+FF4159,156, wysoki
+FF3203,152, wysoki
+FF3213,147, umiarkowany
+FF3223,145, umiarkowany
+FF3233,144, umiarkowany
+FF3253,128, niski
+FF3263,138, umiarkowany
+FF3273,152, wysoki
+FF4213,158, wysoki
+FF4223,161, wysoki
+FF4253,154, wysoki
+FF4273,155, wysoki
+FF3202,138, umiarkowany
+FF3222,154, wysoki
+FF3232,128, niski
+FF3242,139, umiarkowany
+FF3252,144, umiarkowany
+FF3272,138, umiarkowany
+FF4252,140, umiarkowany
+FF3211,156, wysoki
+FF3231,152, wysoki
+FF3241,164, bardzo wysoki
+FF3261,137, umiarkowany
+FF3271,130, niski
+FF3281,145, umiarkowany
+FF3291,140, umiarkowany
+FF4201,142, umiarkowany
+FF4211,160, wysoki
+FF4241,157, wysoki
+FF4251,152, wysoki
+FF4261,131, niski
+FF4271,143, umiarkowany
+FF3230,155, wysoki
+FF3240,155, wysoki
+FF3260,147, umiarkowany
+FF3270,139, umiarkowany
+FF3280,155, wysoki
+FF3290,138, umiarkowany
+FF4200,123, niski
+FF4210,134, niski
+FF4220,163, bardzo wysoki
+FF4230,161, wysoki
+FF4240,137, umiarkowany
+FF4250,145, umiarkowany
+FF4260,149, wysoki
+FF4270,157, wysoki
+FF3406,138, umiarkowany
+FF3466,131, niski
+FF3476,115, bardzo niski
+FF3486,129, niski
+FF3496,132, niski
+FF3465,127, niski
+FF3475,135, umiarkowany
+FF3485,129, niski
+FF3495,137, umiarkowany
+FF4405,129, niski
+FF4415,115, bardzo niski
+FF4435,136, umiarkowany
+FF4445,132, niski
+FF3404,161, wysoki
+FF3454,123, niski
+FF3464,132, niski
+FF3474,131, niski
+FF3494,130, niski
+FF4404,147, umiarkowany
+FF4414,143, umiarkowany
+FF4434,124, niski
+FF4444,156, wysoki
+FF2473,138, umiarkowany
+FF2483,124, niski
+FF2493,130, niski
+FF3403,143, umiarkowany
+FF3453,139, umiarkowany
+FF3463,146, umiarkowany
+FF3493,118, bardzo niski
+FF4403,152, wysoki
+FF4413,139, umiarkowany
+FF4423,150, wysoki
+FF4433,142, umiarkowany
+FF4443,130, niski
+FF4453,120, niski
+FF2382,143, umiarkowany
+FF2391,127, niski
+FF2392,127, niski
+FF3301,149, wysoki
+FF3302,161, wysoki
+FF3311,145, umiarkowany
+FF3341,151, wysoki
+FF3342,143, umiarkowany
+FF3362,140, umiarkowany
+FF3392,141, umiarkowany
+FF4302,131, niski
+FF4312,145, umiarkowany
+FF4322,154, wysoki
+FF4332,143, umiarkowany
+FF4372,135, umiarkowany
+FF2345,137, umiarkowany
+FF2354,144, umiarkowany
+FF2355,141, umiarkowany
+FF2364,139, umiarkowany
+FF2374,145, umiarkowany
+FF2395,144, umiarkowany
+FF3304,133, niski
+FF3305,160, wysoki
+FF3354,139, umiarkowany
+FF3355,139, umiarkowany
+FF3364,149, wysoki
+FF3365,133, niski
+FF3374,147, umiarkowany
+FF3375,137, umiarkowany
+FF3394,126, niski
+FF4304,125, niski
+FF4305,164, bardzo wysoki
+FF4314,159, wysoki
+FF4334,165, bardzo wysoki
+FF4335,169, bardzo wysoki
+FF2363,152, wysoki
+FF2373,135, umiarkowany
+FF2383,142, umiarkowany
+FF2393,156, wysoki
+FF3303,148, wysoki
+FF3313,144, umiarkowany
+FF3323,139, umiarkowany
+FF3353,148, wysoki
+FF3393,144, umiarkowany
+FF4303,144, umiarkowany
+FF4313,137, umiarkowany
+FF4333,144, umiarkowany
+FF4343,152, wysoki
+FF4373,135, umiarkowany
+FF2442,133, niski
+FF2452,172, bardzo wysoki
+FF2462,146, umiarkowany
+FF2492,144, umiarkowany
+FF3442,147, umiarkowany
+FF3452,144, umiarkowany
+FF3462,132, niski
+FF3472,159, wysoki
+FF3492,126, niski
+FF4402,144, umiarkowany
+FF4412,143, umiarkowany
+FF4422,133, niski
+FF4432,129, niski
+FF4442,132, niski
+FF4452,136, umiarkowany
+FF2441,153, wysoki
+FF3441,158, wysoki
+FF3451,141, umiarkowany
+FF3461,136, umiarkowany
+FF3491,143, umiarkowany
+FF4401,148, wysoki
+FF4411,152, wysoki
+FF4421,146, umiarkowany
+FF4431,156, wysoki
+FF4441,138, umiarkowany
+FF4451,118, bardzo niski
+FF4461,138, umiarkowany
+FF2430,139, umiarkowany
+FF2470,165, bardzo wysoki
+FF3430,158, wysoki
+FF3440,142, umiarkowany
+FF3450,136, umiarkowany
+FF3490,145, umiarkowany
+FF4400,143, umiarkowany
+FF4410,161, wysoki
+FF4420,131, niski
+FF4430,140, umiarkowany
+FF4440,135, umiarkowany
+FF4450,137, umiarkowany
+FF4460,148, wysoki
+FF2339,151, wysoki
+FF3319,160, wysoki
+FF3329,181, bardzo wysoki
+FF3339,160, wysoki
+FF3349,165, bardzo wysoki
+FF3359,134, niski
+FF3369,140, umiarkowany
+FF3399,158, wysoki
+FF4309,144, umiarkowany
+FF4329,145, umiarkowany
+FF4339,154, wysoki
+FF4359,151, wysoki
+FF4369,165, bardzo wysoki
+FF2328,141, umiarkowany
+FF2338,146, umiarkowany
+FF3308,170, bardzo wysoki
+FF3348,163, bardzo wysoki
+FF3358,150, wysoki
+FF3368,141, umiarkowany
+FF3398,147, umiarkowany
+FF4308,146, umiarkowany
+FF4348,161, wysoki
+FF4358,138, umiarkowany
+FF4368,155, wysoki
+FF2337,160, wysoki
+FF2347,143, umiarkowany
+FF2357,142, umiarkowany
+FF2397,146, umiarkowany
+FF3347,173, bardzo wysoki
+FF3357,155, wysoki
+FF3367,138, umiarkowany
+FF4317,157, wysoki
+FF4337,147, umiarkowany
+FF4347,169, bardzo wysoki
+FF4357,133, niski
+FF2346,139, umiarkowany
+FF2356,139, umiarkowany
+FF2366,140, umiarkowany
+FF2376,146, umiarkowany
+FF2386,153, wysoki
+FF2396,136, umiarkowany
+FF3346,160, wysoki
+FF3356,141, umiarkowany
+FF3366,142, umiarkowany
+FF4306,163, bardzo wysoki
+FF4336,159, wysoki
+FF2390,154, wysoki
+FF3300,162, bardzo wysoki
+FF3310,164, bardzo wysoki
+FF3320,154, wysoki
+FF3360,134, niski
+FF3370,142, umiarkowany
+FF3239,150, wysoki
+FF3249,143, umiarkowany
+FF3269,146, umiarkowany
+FF3279,143, umiarkowany
+FF3046,119, bardzo niski
+FF3066,132, niski
+FF3086,113, bardzo niski
+FF3096,112, bardzo niski
+FF4006,125, niski
+FF4016,121, niski
+FF4017,117, bardzo niski
+FF4027,117, bardzo niski
+FF4037,126, niski
+FF4047,148, wysoki
+FF3177,148, wysoki
+FF4117,152, wysoki
+FF4127,152, wysoki
+FF4137,141, umiarkowany
+FF4147,122, niski
+FF4157,140, umiarkowany
+FF2150,136, umiarkowany
+FF2151,181, bardzo wysoki
+FF2160,145, umiarkowany
+FF2161,160, wysoki
+FF3130,157, wysoki
+FF3131,167, bardzo wysoki
+FF4140,165, bardzo wysoki
+FF4150,143, umiarkowany
+FF4151,164, bardzo wysoki
+FF4160,128, niski
+FF4161,159, wysoki
+FF4170,129, niski
+FF4171,131, niski
+FF3186,136, umiarkowany
+FF3196,149, wysoki
+FF4126,150, wysoki
+FF4136,135, umiarkowany
+FF4146,132, niski
+FF4173,159, wysoki
+FF4172,149, wysoki
+FF2079,149, wysoki
+FF2089,139, umiarkowany
+FF2099,138, umiarkowany
+FF3039,134, niski
+FF4039,185, bardzo wysoki
+FF4049,137, umiarkowany
+FF4059,126, niski
+FF4069,126, niski
+FF3028,131, niski
+FF4038,119, bardzo niski
+FF4048,128, niski
+FF4058,146, umiarkowany
+FG0204,129, niski
+FG0205,142, umiarkowany
+FG0206,131, niski
+FG0207,143, umiarkowany
+FG0208,137, umiarkowany
+FG0209,120, niski
+FG0300,114, bardzo niski
+FG0301,103, bardzo niski
+FG0302,111, bardzo niski
+FG0303,109, bardzo niski
+FG5545,185, bardzo wysoki
+FG5533,176, bardzo wysoki
+FG5522,160, wysoki
+FG5523,170, bardzo wysoki
+FG5524,172, bardzo wysoki
+FG5525,155, wysoki
+FG5526,168, bardzo wysoki
+FG5527,157, wysoki
+FG5528,161, wysoki
+FG5515,149, wysoki
+FG5516,160, wysoki
+FG5517,161, wysoki
+FG5518,180, bardzo wysoki
+FG5918,168, bardzo wysoki
+FG5919,155, wysoki
+FG0909,144, umiarkowany
+FG0919,158, wysoki
+FG0929,146, umiarkowany
+FG0969,148, wysoki
+FG3949,165, bardzo wysoki
+FG3959,179, bardzo wysoki
+FG4939,153, wysoki
+FG4949,158, wysoki
+FG4999,152, wysoki
+FG5909,167, bardzo wysoki
+FG3948,168, bardzo wysoki
+FG3998,158, wysoki
+FG4928,182, bardzo wysoki
+FG4938,157, wysoki
+FG4948,172, bardzo wysoki
+FG4958,162, bardzo wysoki
+FG4998,153, wysoki
+FG5908,155, wysoki
+FG3937,183, bardzo wysoki
+FG3947,189, bardzo wysoki
+FG3957,182, bardzo wysoki
+FG3987,162, bardzo wysoki
+FG4907,167, bardzo wysoki
+FG4917,172, bardzo wysoki
+FG4927,155, wysoki
+FG5907,168, bardzo wysoki
+FG2894,168, bardzo wysoki
+FG3804,152, wysoki
+FG3805,148, wysoki
+FG3834,166, bardzo wysoki
+FG3835,173, bardzo wysoki
+FG3884,156, wysoki
+FG3894,168, bardzo wysoki
+FG3895,172, bardzo wysoki
+FG4805,169, bardzo wysoki
+FG4815,175, bardzo wysoki
+FG4825,178, bardzo wysoki
+FG4834,164, bardzo wysoki
+FG4835,161, wysoki
+FG3936,169, bardzo wysoki
+FG3946,178, bardzo wysoki
+FG3956,175, bardzo wysoki
+FG3976,153, wysoki
+FG4906,162, bardzo wysoki
+FG4916,149, wysoki
+FG4926,171, bardzo wysoki
+FG3925,153, wysoki
+FG3935,156, wysoki
+FG3965,170, bardzo wysoki
+FG3975,179, bardzo wysoki
+FG4905,174, bardzo wysoki
+FG4915,157, wysoki
+FG3924,161, wysoki
+FG3934,146, umiarkowany
+FG3944,169, bardzo wysoki
+FG3954,171, bardzo wysoki
+FG3964,155, wysoki
+FG4904,187, bardzo wysoki
+FG4914,153, wysoki
+FG2983,163, bardzo wysoki
+FG3913,159, wysoki
+FG3923,167, bardzo wysoki
+FG3943,147, umiarkowany
+FG3953,171, bardzo wysoki
+FG4903,191, bardzo wysoki
+FG4913,159, wysoki
+FG2982,158, wysoki
+FG3912,145, umiarkowany
+FG3932,150, wysoki
+FG3942,140, umiarkowany
+FG3952,149, wysoki
+FG3982,182, bardzo wysoki
+FG3992,171, bardzo wysoki
+FG4902,166, bardzo wysoki
+FG4952,183, bardzo wysoki
+FG2981,158, wysoki
+FG2991,152, wysoki
+FG3901,129, niski
+FG3921,155, wysoki
+FG3931,130, niski
+FG3941,161, wysoki
+FG2950,184, bardzo wysoki
+FG2960,159, wysoki
+FG2970,162, bardzo wysoki
+FG3900,125, niski
+FG3920,150, wysoki
+FG3930,141, umiarkowany
+FG4940,155, wysoki
+FG2869,158, wysoki
+FG2899,135, umiarkowany
+FG3809,140, umiarkowany
+FG3819,141, umiarkowany
+FG3829,135, umiarkowany
+FG3839,170, bardzo wysoki
+FG3869,166, bardzo wysoki
+FG4849,172, bardzo wysoki
+FG4859,166, bardzo wysoki
+FG2858,179, bardzo wysoki
+FG2868,164, bardzo wysoki
+FG2898,156, wysoki
+FG3808,169, bardzo wysoki
+FG3818,137, umiarkowany
+FG3828,149, wysoki
+FG3868,166, bardzo wysoki
+FG4848,169, bardzo wysoki
+FG2857,168, bardzo wysoki
+FG2867,174, bardzo wysoki
+FG3807,151, wysoki
+FG3817,158, wysoki
+FG3867,174, bardzo wysoki
+FG4847,171, bardzo wysoki
+FG2856,178, bardzo wysoki
+FG3806,141, umiarkowany
+FG3866,164, bardzo wysoki
+FG4836,178, bardzo wysoki
+FG4846,166, bardzo wysoki
+FG5504,155, wysoki
+FG5505,166, bardzo wysoki
+FG5506,176, bardzo wysoki
+FG5507,146, umiarkowany
+FG0803,151, wysoki
+FG0813,180, bardzo wysoki
+FG0823,177, bardzo wysoki
+FG0833,185, bardzo wysoki
+FG2883,177, bardzo wysoki
+FG2893,150, wysoki
+FG3823,159, wysoki
+FG3883,161, wysoki
+FG4833,171, bardzo wysoki
+FG0802,167, bardzo wysoki
+FG0812,164, bardzo wysoki
+FG0822,146, umiarkowany
+FG0832,181, bardzo wysoki
+FG1812,174, bardzo wysoki
+FG1822,160, wysoki
+FG2872,163, bardzo wysoki
+FG2882,154, wysoki
+FG3832,163, bardzo wysoki
+FG3872,159, wysoki
+FG0801,164, bardzo wysoki
+FG0811,136, umiarkowany
+FG0821,164, bardzo wysoki
+FG1811,172, bardzo wysoki
+FG1821,178, bardzo wysoki
+FG2861,173, bardzo wysoki
+FG2871,169, bardzo wysoki
+FG3831,166, bardzo wysoki
+FG3861,153, wysoki
+FG3871,161, wysoki
+FG3881,164, bardzo wysoki
+FG0800,148, wysoki
+FG0810,139, umiarkowany
+FG0890,162, bardzo wysoki
+FG1810,160, wysoki
+FG2850,173, bardzo wysoki
+FG2860,161, wysoki
+FG2890,154, wysoki
+FG3800,165, bardzo wysoki
+FG3820,150, wysoki
+FG3830,147, umiarkowany
+FG3840,138, umiarkowany
+FG3850,148, wysoki
+FG3860,151, wysoki
+FG3870,158, wysoki
+FG3880,150, wysoki
+FG3890,164, bardzo wysoki
+FG4810,139, umiarkowany
+FG0719,161, wysoki
+FG1709,157, wysoki
+FG1719,158, wysoki
+FG2749,150, wysoki
+FG2759,137, umiarkowany
+FG2789,160, wysoki
+FG2799,164, bardzo wysoki
+FG3729,148, wysoki
+FG3759,158, wysoki
+FG3779,153, wysoki
+FG3789,142, umiarkowany
+FG3799,165, bardzo wysoki
+FG4719,164, bardzo wysoki
+FG4759,151, wysoki
+FG0758,151, wysoki
+FG0768,161, wysoki
+FG1708,140, umiarkowany
+FG2768,142, umiarkowany
+FG2788,145, umiarkowany
+FG3758,158, wysoki
+FG3768,149, wysoki
+FG3778,148, wysoki
+FG3788,165, bardzo wysoki
+FG4718,166, bardzo wysoki
+FG4728,156, wysoki
+FG4748,135, umiarkowany
+FG4758,150, wysoki
+FG1689,147, umiarkowany
+FG2609,140, umiarkowany
+FG2700,144, umiarkowany
+FG2639,142, umiarkowany
+FG2730,139, umiarkowany
+FG2649,130, niski
+FG2740,151, wysoki
+FG2659,138, umiarkowany
+FG2750,138, umiarkowany
+FG2669,159, wysoki
+FG2760,137, umiarkowany
+FG3609,180, bardzo wysoki
+FG3619,159, wysoki
+FG3710,156, wysoki
+FG3720,166, bardzo wysoki
+FG3639,160, wysoki
+FG3649,179, bardzo wysoki
+FG3679,172, bardzo wysoki
+FG3780,176, bardzo wysoki
+FG4609,147, umiarkowany
+FG4619,153, wysoki
+FG4710,190, bardzo wysoki
+FG4629,148, wysoki
+FG4730,165, bardzo wysoki
+FG0668,147, umiarkowany
+FG0678,142, umiarkowany
+FG1678,162, bardzo wysoki
+FG1698,153, wysoki
+FG2608,143, umiarkowany
+FG3608,161, wysoki
+FG3618,179, bardzo wysoki
+FG3648,159, wysoki
+FG3658,150, wysoki
+FG3668,151, wysoki
+FG3678,178, bardzo wysoki
+FG3698,141, umiarkowany
+FG4608,148, wysoki
+FG4618,163, bardzo wysoki
+FG4628,166, bardzo wysoki
+FG0757,150, wysoki
+FG0767,166, bardzo wysoki
+FG0777,154, wysoki
+FG0787,149, wysoki
+FG0797,163, bardzo wysoki
+FG2757,153, wysoki
+FG2767,154, wysoki
+FG2777,147, umiarkowany
+FG2787,141, umiarkowany
+FG3707,135, umiarkowany
+FG3767,141, umiarkowany
+FG3777,144, umiarkowany
+FG4707,158, wysoki
+FG4717,144, umiarkowany
+FG4747,154, wysoki
+FG4757,152, wysoki
+FG0736,154, wysoki
+FG0756,145, umiarkowany
+FG0766,137, umiarkowany
+FG0776,148, wysoki
+FG1736,153, wysoki
+FG2766,154, wysoki
+FG2776,131, niski
+FG2786,163, bardzo wysoki
+FG2796,160, wysoki
+FG3706,158, wysoki
+FG3756,146, umiarkowany
+FG4726,149, wysoki
+FG0735,163, bardzo wysoki
+FG0765,150, wysoki
+FG1725,174, bardzo wysoki
+FG2795,156, wysoki
+FG3745,152, wysoki
+FG3755,141, umiarkowany
+FG3765,149, wysoki
+FG3775,155, wysoki
+FG3785,168, bardzo wysoki
+FG4725,156, wysoki
+FG0714,147, umiarkowany
+FG2764,156, wysoki
+FG3734,174, bardzo wysoki
+FG3744,158, wysoki
+FG3794,158, wysoki
+FG4704,163, bardzo wysoki
+FG0713,149, wysoki
+FG0733,155, wysoki
+FG2753,147, umiarkowany
+FG3723,152, wysoki
+FG3733,131, niski
+FG3793,178, bardzo wysoki
+FG4763,171, bardzo wysoki
+FG0702,173, bardzo wysoki
+FG0732,156, wysoki
+FG2732,147, umiarkowany
+FG2742,147, umiarkowany
+FG2752,143, umiarkowany
+FG2762,151, wysoki
+FG2772,137, umiarkowany
+FG2782,148, wysoki
+FG3712,146, umiarkowany
+FG3722,129, niski
+FG3732,147, umiarkowany
+FG3782,166, bardzo wysoki
+FG4742,186, bardzo wysoki
+FG4762,185, bardzo wysoki
+FG0701,169, bardzo wysoki
+FG0731,163, bardzo wysoki
+FG2711,146, umiarkowany
+FG2721,135, umiarkowany
+FG2731,145, umiarkowany
+FG2741,149, wysoki
+FG2751,130, niski
+FG2761,107, bardzo niski
+FG2771,142, umiarkowany
+FG2781,157, wysoki
+FG3711,139, umiarkowany
+FG3721,146, umiarkowany
+FG3731,171, bardzo wysoki
+FG3781,157, wysoki
+FG4731,164, bardzo wysoki
+FG4741,170, bardzo wysoki
+FG0657,156, wysoki
+FG0667,159, wysoki
+FG0677,153, wysoki
+FG0687,153, wysoki
+FG0697,159, wysoki
+FG1607,145, umiarkowany
+FG1617,146, umiarkowany
+FG1697,142, umiarkowany
+FG2607,134, niski
+FG2617,133, niski
+FG2627,150, wysoki
+FG2637,145, umiarkowany
+FG2647,152, wysoki
+FG3607,165, bardzo wysoki
+FG3667,152, wysoki
+FG3697,173, bardzo wysoki
+FG4607,143, umiarkowany
+FG0646,144, umiarkowany
+FG0656,138, umiarkowany
+FG0666,154, wysoki
+FG0676,166, bardzo wysoki
+FG0686,147, umiarkowany
+FG0696,154, wysoki
+FG1606,145, umiarkowany
+FG1686,144, umiarkowany
+FG1696,157, wysoki
+FG2606,128, niski
+FG2616,121, niski
+FG2626,119, bardzo niski
+FG2636,128, niski
+FG2646,146, umiarkowany
+FG2656,149, wysoki
+FG2666,131, niski
+FG2676,146, umiarkowany
+FG2686,160, wysoki
+FG2696,143, umiarkowany
+FG3606,160, wysoki
+FG3616,155, wysoki
+FG3626,177, bardzo wysoki
+FG3686,162, bardzo wysoki
+FG0635,166, bardzo wysoki
+FG0645,141, umiarkowany
+FG0655,145, umiarkowany
+FG0685,166, bardzo wysoki
+FG1605,147, umiarkowany
+FG1685,143, umiarkowany
+FG1695,136, umiarkowany
+FG2605,138, umiarkowany
+FG2615,124, niski
+FG2645,152, wysoki
+FG2665,151, wysoki
+FG2675,133, niski
+FG2685,141, umiarkowany
+FG2695,160, wysoki
+FG3605,151, wysoki
+FG3615,130, niski
+FG3625,158, wysoki
+FG4605,174, bardzo wysoki
+FG4615,159, wysoki
+FG0624,156, wysoki
+FG0634,144, umiarkowany
+FG0644,155, wysoki
+FG0654,165, bardzo wysoki
+FG0664,172, bardzo wysoki
+FG0674,166, bardzo wysoki
+FG0684,153, wysoki
+FG1634,145, umiarkowany
+FG1674,145, umiarkowany
+FG1684,126, niski
+FG1694,133, niski
+FG2604,146, umiarkowany
+FG2614,124, niski
+FG2644,158, wysoki
+FG2674,171, bardzo wysoki
+FG2684,145, umiarkowany
+FG2694,159, wysoki
+FG3604,160, wysoki
+FG3614,149, wysoki
+FG3624,160, wysoki
+FG3634,153, wysoki
+FG3644,165, bardzo wysoki
+FG3654,177, bardzo wysoki
+FG0623,145, umiarkowany
+FG0653,145, umiarkowany
+FG0663,148, wysoki
+FG0673,162, bardzo wysoki
+FG1613,145, umiarkowany
+FG1623,134, niski
+FG1683,137, umiarkowany
+FG1693,121, niski
+FG2603,129, niski
+FG2613,153, wysoki
+FG2643,163, bardzo wysoki
+FG2653,145, umiarkowany
+FG2663,158, wysoki
+FG2673,153, wysoki
+FG2683,133, niski
+FG2693,125, niski
+FG3603,138, umiarkowany
+FG3613,161, wysoki
+FG3653,160, wysoki
+FG3663,182, bardzo wysoki
+FG3693,164, bardzo wysoki
+FG4596,168, bardzo wysoki
+FG4597,159, wysoki
+FG0602,163, bardzo wysoki
+FG0622,145, umiarkowany
+FG0652,156, wysoki
+FG0662,156, wysoki
+FG0672,146, umiarkowany
+FG1622,152, wysoki
+FG1692,127, niski
+FG2602,143, umiarkowany
+FG2612,154, wysoki
+FG2642,170, bardzo wysoki
+FG2652,148, wysoki
+FG2662,172, bardzo wysoki
+FG2672,168, bardzo wysoki
+FG2682,166, bardzo wysoki
+FG2692,145, umiarkowany
+FG3602,168, bardzo wysoki
+FG3612,157, wysoki
+FG3652,168, bardzo wysoki
+FG3662,160, wysoki
+FG3682,157, wysoki
+FG3692,158, wysoki
+FG4602,162, bardzo wysoki
+FG4612,167, bardzo wysoki
+FG0601,163, bardzo wysoki
+FG0611,147, umiarkowany
+FG0621,172, bardzo wysoki
+FG0651,161, wysoki
+FG0661,148, wysoki
+FG1621,161, wysoki
+FG1641,171, bardzo wysoki
+FG1681,120, niski
+FG1691,138, umiarkowany
+FG2601,152, wysoki
+FG2611,152, wysoki
+FG2661,136, umiarkowany
+FG2671,151, wysoki
+FG2681,161, wysoki
+FG0610,150, wysoki
+FG0620,156, wysoki
+FG0630,153, wysoki
+FG0640,156, wysoki
+FG0650,161, wysoki
+FG0680,156, wysoki
+FG0690,153, wysoki
+FG1630,143, umiarkowany
+FG1640,129, niski
+FG1650,145, umiarkowany
+FG1670,124, niski
+FG1680,135, umiarkowany
+FG1690,133, niski
+FG2630,151, wysoki
+FG2640,150, wysoki
+FG2660,169, bardzo wysoki
+FG2670,158, wysoki
+FG2680,142, umiarkowany
+FG3630,152, wysoki
+FG4610,175, bardzo wysoki
+FG0529,145, umiarkowany
+FG0539,139, umiarkowany
+FG0549,149, wysoki
+FG0589,156, wysoki
+FG0599,152, wysoki
+FG1539,154, wysoki
+FG1549,143, umiarkowany
+FG1559,139, umiarkowany
+FG1579,139, umiarkowany
+FG1589,135, umiarkowany
+FG1599,156, wysoki
+FG2529,179, bardzo wysoki
+FG2539,139, umiarkowany
+FG2549,134, niski
+FG2559,172, bardzo wysoki
+FG2579,162, bardzo wysoki
+FG2589,152, wysoki
+FG2599,139, umiarkowany
+FG3539,144, umiarkowany
+FG3549,145, umiarkowany
+FG3599,156, wysoki
+FG4509,149, wysoki
+FG0508,149, wysoki
+FG0518,160, wysoki
+FG0528,136, umiarkowany
+FG0538,146, umiarkowany
+FG0578,148, wysoki
+FG0588,147, umiarkowany
+FG0598,133, niski
+FG1508,158, wysoki
+FG1538,143, umiarkowany
+FG1548,146, umiarkowany
+FG1558,130, niski
+FG1568,125, niski
+FG1578,146, umiarkowany
+FG1588,158, wysoki
+FG2528,144, umiarkowany
+FG2538,140, umiarkowany
+FG2548,151, wysoki
+FG2558,178, bardzo wysoki
+FG2578,179, bardzo wysoki
+FG3518,144, umiarkowany
+FG3528,150, wysoki
+FG3538,136, umiarkowany
+FG3548,145, umiarkowany
+FG3558,150, wysoki
+FG3588,179, bardzo wysoki
+FG3598,143, umiarkowany
+FG0517,140, umiarkowany
+FG0527,135, umiarkowany
+FG0537,169, bardzo wysoki
+FG0567,145, umiarkowany
+FG1507,157, wysoki
+FG1517,137, umiarkowany
+FG1527,126, niski
+FG1537,151, wysoki
+FG1547,155, wysoki
+FG1567,122, niski
+FG1577,141, umiarkowany
+FG1587,131, niski
+FG1597,153, wysoki
+FG2507,167, bardzo wysoki
+FG2517,131, niski
+FG2527,132, niski
+FG2537,136, umiarkowany
+FG2547,168, bardzo wysoki
+FG3507,168, bardzo wysoki
+FG3517,140, umiarkowany
+FG3527,151, wysoki
+FG3537,131, niski
+FG3547,162, bardzo wysoki
+FG3557,163, bardzo wysoki
+FG3567,157, wysoki
+FG3587,148, wysoki
+FG0506,139, umiarkowany
+FG0516,155, wysoki
+FG0526,152, wysoki
+FG0546,140, umiarkowany
+FG0556,151, wysoki
+FG0566,140, umiarkowany
+FG1516,146, umiarkowany
+FG1526,129, niski
+FG1536,137, umiarkowany
+FG1576,146, umiarkowany
+FG1586,143, umiarkowany
+FG1596,140, umiarkowany
+FG2506,134, niski
+FG2516,135, umiarkowany
+FG2526,143, umiarkowany
+FG2536,163, bardzo wysoki
+FG2546,151, wysoki
+FG3516,152, wysoki
+FG3526,143, umiarkowany
+FG3556,182, bardzo wysoki
+FG3576,143, umiarkowany
+FG3586,143, umiarkowany
+FG0505,155, wysoki
+FG0515,139, umiarkowany
+FG0525,161, wysoki
+FG0535,147, umiarkowany
+FG0545,155, wysoki
+FG0555,151, wysoki
+FG1595,126, niski
+FG2505,147, umiarkowany
+FG2515,137, umiarkowany
+FG2525,121, niski
+FG2535,144, umiarkowany
+FG2585,169, bardzo wysoki
+FG2595,162, bardzo wysoki
+FG3505,157, wysoki
+FG3515,162, bardzo wysoki
+FG3525,157, wysoki
+FG3565,168, bardzo wysoki
+FG4593,164, bardzo wysoki
+FG4594,153, wysoki
+FG0514,162, bardzo wysoki
+FG0524,140, umiarkowany
+FG0534,143, umiarkowany
+FG0544,133, niski
+FG0554,143, umiarkowany
+FG1594,132, niski
+FG2504,135, umiarkowany
+FG2514,124, niski
+FG2524,142, umiarkowany
+FG2534,160, wysoki
+FG3504,162, bardzo wysoki
+FG3514,141, umiarkowany
+FG3524,149, wysoki
+FG3554,171, bardzo wysoki
+FG3564,156, wysoki
+FG4574,173, bardzo wysoki
+FG4584,159, wysoki
+FG0523,156, wysoki
+FG0533,173, bardzo wysoki
+FG0543,126, niski
+FG2503,130, niski
+FG2513,171, bardzo wysoki
+FG2523,159, wysoki
+FG2533,138, umiarkowany
+FG2543,158, wysoki
+FG2563,144, umiarkowany
+FG2573,133, niski
+FG3503,142, umiarkowany
+FG3513,142, umiarkowany
+FG3523,155, wysoki
+FG3553,152, wysoki
+FG4523,145, umiarkowany
+FG4563,178, bardzo wysoki
+FG4573,165, bardzo wysoki
+FG4583,154, wysoki
+FG0552,143, umiarkowany
+FG0562,123, niski
+FG1592,149, wysoki
+FG2502,129, niski
+FG2542,147, umiarkowany
+FG2552,141, umiarkowany
+FG2562,131, niski
+FG2572,149, wysoki
+FG2582,138, umiarkowany
+FG2592,143, umiarkowany
+FG3502,141, umiarkowany
+FG3512,138, umiarkowany
+FG4512,167, bardzo wysoki
+FG4522,139, umiarkowany
+FG4552,170, bardzo wysoki
+FG4562,179, bardzo wysoki
+FG4572,180, bardzo wysoki
+FG0551,138, umiarkowany
+FG0561,139, umiarkowany
+FG1581,146, umiarkowany
+FG1591,134, niski
+FG2501,137, umiarkowany
+FG2511,159, wysoki
+FG2531,147, umiarkowany
+FG2541,149, wysoki
+FG2551,128, niski
+FG2561,124, niski
+FG2571,131, niski
+FG2581,130, niski
+FG2591,135, umiarkowany
+FG3501,146, umiarkowany
+FG3521,172, bardzo wysoki
+FG3531,166, bardzo wysoki
+FG3581,168, bardzo wysoki
+FG3591,180, bardzo wysoki
+FG4551,153, wysoki
+FG4561,177, bardzo wysoki
+FG0510,140, umiarkowany
+FG0530,148, wysoki
+FG0540,118, bardzo niski
+FG0550,125, niski
+FG1560,116, bardzo niski
+FG1570,160, wysoki
+FG1580,140, umiarkowany
+FG1590,130, niski
+FG2500,133, niski
+FG2510,150, wysoki
+FG2520,160, wysoki
+FG2530,148, wysoki
+FG2540,137, umiarkowany
+FG2550,140, umiarkowany
+FG2560,141, umiarkowany
+FG2570,136, umiarkowany
+FG2580,143, umiarkowany
+FG2590,138, umiarkowany
+FG3500,145, umiarkowany
+FG3570,182, bardzo wysoki
+FG3580,172, bardzo wysoki
+FG3590,166, bardzo wysoki
+FG4500,157, wysoki
+FG4530,156, wysoki
+FG4540,178, bardzo wysoki
+FG0409,118, bardzo niski
+FG0419,120, niski
+FG0429,136, umiarkowany
+FG1459,116, bardzo niski
+FG1469,123, niski
+FG1479,139, umiarkowany
+FG2409,159, wysoki
+FG2419,155, wysoki
+FG2429,131, niski
+FG2439,125, niski
+FG2449,124, niski
+FG2459,139, umiarkowany
+FG2479,160, wysoki
+FG2489,137, umiarkowany
+FG2499,156, wysoki
+FG3499,154, wysoki
+FG4409,140, umiarkowany
+FG4419,158, wysoki
+FG4429,160, wysoki
+FG4439,157, wysoki
+FG0408,130, niski
+FG0418,107, bardzo niski
+FG1448,116, bardzo niski
+FG1458,129, niski
+FG1468,137, umiarkowany
+FG1478,144, umiarkowany
+FG2408,147, umiarkowany
+FG2418,126, niski
+FG2428,121, niski
+FG2438,142, umiarkowany
+FG2448,129, niski
+FG2458,153, wysoki
+FG3468,174, bardzo wysoki
+FG3478,160, wysoki
+FG3488,164, bardzo wysoki
+FG3498,152, wysoki
+FG4408,168, bardzo wysoki
+FG0417,112, bardzo niski
+FG0427,116, bardzo niski
+FG0437,124, niski
+FG0467,128, niski
+FG0477,142, umiarkowany
+FG1447,115, bardzo niski
+FG1457,108, bardzo niski
+FG1467,132, niski
+FG1497,147, umiarkowany
+FG2407,135, umiarkowany
+FG2417,126, niski
+FG2427,121, niski
+FG2437,119, bardzo niski
+FG2447,141, umiarkowany
+FG2457,180, bardzo wysoki
+FG3457,176, bardzo wysoki
+FG3467,157, wysoki
+FG3477,138, umiarkowany
+FG3487,149, wysoki
+FG0305,134, niski
+FG0306,150, wysoki
+FG0315,130, niski
+FG0316,119, bardzo niski
+FG1335,87, bardzo niski
+FG1345,95, bardzo niski
+FG1346,98, bardzo niski
+FG1355,133, niski
+FG1356,118, bardzo niski
+FG1365,145, umiarkowany
+FG1366,130, niski
+FG1376,150, wysoki
+FG1386,108, bardzo niski
+FG2305,137, umiarkowany
+FG2315,160, wysoki
+FG3305,166, bardzo wysoki
+FG3315,175, bardzo wysoki
+FG3325,158, wysoki
+FG3326,153, wysoki
+FG3335,144, umiarkowany
+FG3336,187, bardzo wysoki
+FG0304,131, niski
+FG0314,106, bardzo niski
+FG1334,98, bardzo niski
+FG1344,100, bardzo niski
+FG1354,123, niski
+FG1364,115, bardzo niski
+FG1374,135, umiarkowany
+FG2324,137, umiarkowany
+FG2334,140, umiarkowany
+FG2344,134, niski
+FG2374,151, wysoki
+FG3304,163, bardzo wysoki
+FG3314,141, umiarkowany
+FG3324,131, niski
+FG3334,158, wysoki
+FG0313,103, bardzo niski
+FG0323,118, bardzo niski
+FG1323,100, bardzo niski
+FG1333,97, bardzo niski
+FG1343,125, niski
+FG1353,149, wysoki
+FG1363,130, niski
+FG1373,133, niski
+FG2303,161, wysoki
+FG2323,141, umiarkowany
+FG2333,140, umiarkowany
+FG2343,139, umiarkowany
+FG2373,154, wysoki
+FG2383,148, wysoki
+FG2393,152, wysoki
+FG3303,153, wysoki
+FG3313,133, niski
+FG3323,147, umiarkowany
+FG0406,128, niski
+FG0416,128, niski
+FG0426,136, umiarkowany
+FG0436,131, niski
+FG0456,141, umiarkowany
+FG0466,123, niski
+FG0476,114, bardzo niski
+FG0486,132, niski
+FG1446,131, niski
+FG1456,117, bardzo niski
+FG1466,140, umiarkowany
+FG1486,153, wysoki
+FG1496,129, niski
+FG2406,131, niski
+FG2416,133, niski
+FG2426,146, umiarkowany
+FG3446,168, bardzo wysoki
+FG3456,143, umiarkowany
+FG3466,144, umiarkowany
+FG0405,142, umiarkowany
+FG0415,164, bardzo wysoki
+FG0425,155, wysoki
+FG0465,126, niski
+FG0475,122, niski
+FG0485,122, niski
+FG0495,119, bardzo niski
+FG1445,116, bardzo niski
+FG1455,132, niski
+FG1465,151, wysoki
+FG1485,141, umiarkowany
+FG1495,129, niski
+FG2405,121, niski
+FG2415,142, umiarkowany
+FG2425,157, wysoki
+FG3435,161, wysoki
+FG3445,172, bardzo wysoki
+FG3455,171, bardzo wysoki
+FG0404,134, niski
+FG0414,154, wysoki
+FG0454,125, niski
+FG0464,151, wysoki
+FG0474,130, niski
+FG0484,113, bardzo niski
+FG0494,136, umiarkowany
+FG1444,103, bardzo niski
+FG1454,125, niski
+FG1464,144, umiarkowany
+FG1484,141, umiarkowany
+FG1494,124, niski
+FG2404,129, niski
+FG2414,161, wysoki
+FG3434,164, bardzo wysoki
+FG3444,159, wysoki
+FG0403,130, niski
+FG0443,118, bardzo niski
+FG0453,144, umiarkowany
+FG0483,137, umiarkowany
+FG0493,129, niski
+FG1433,101, bardzo niski
+FG1443,108, bardzo niski
+FG1453,126, niski
+FG1463,150, wysoki
+FG1473,155, wysoki
+FG1483,153, wysoki
+FG1493,162, bardzo wysoki
+FG2403,139, umiarkowany
+FG2453,171, bardzo wysoki
+FG3433,177, bardzo wysoki
+FG3443,159, wysoki
+FG0402,141, umiarkowany
+FG0432,136, umiarkowany
+FG0442,138, umiarkowany
+FG0452,156, wysoki
+FG0482,116, bardzo niski
+FG0492,123, niski
+FG1432,116, bardzo niski
+FG1442,141, umiarkowany
+FG1452,134, niski
+FG1462,137, umiarkowany
+FG1472,151, wysoki
+FG1482,142, umiarkowany
+FG1492,147, umiarkowany
+FG2402,152, wysoki
+FG2442,161, wysoki
+FG3432,169, bardzo wysoki
+FG3442,142, umiarkowany
+FG0421,133, niski
+FG0431,132, niski
+FG0441,144, umiarkowany
+FG0461,147, umiarkowany
+FG0471,148, wysoki
+FG0481,121, niski
+FG0491,126, niski
+FG1451,124, niski
+FG1461,126, niski
+FG1471,115, bardzo niski
+FG1481,124, niski
+FG1491,144, umiarkowany
+FG2401,179, bardzo wysoki
+FG3421,156, wysoki
+FG3431,139, umiarkowany
+FG3441,147, umiarkowany
+FG0420,131, niski
+FG0430,136, umiarkowany
+FG0450,116, bardzo niski
+FG0460,124, niski
+FG0470,112, bardzo niski
+FG0480,125, niski
+FG0490,132, niski
+FG1450,118, bardzo niski
+FG1460,108, bardzo niski
+FG1470,126, niski
+FG1480,130, niski
+FG1490,136, umiarkowany
+FG2400,152, wysoki
+FG2450,166, bardzo wysoki
+FG3410,154, wysoki
+FG3420,148, wysoki
+FG3430,137, umiarkowany
+FG0319,138, umiarkowany
+FG0329,120, niski
+FG0339,125, niski
+FG0349,107, bardzo niski
+FG0359,106, bardzo niski
+FG0369,106, bardzo niski
+FG0379,127, niski
+FG0389,143, umiarkowany
+FG1369,118, bardzo niski
+FG1379,130, niski
+FG1389,139, umiarkowany
+FG1399,161, wysoki
+FG3339,154, wysoki
+FG0308,128, niski
+FG0318,115, bardzo niski
+FG0328,98, bardzo niski
+FG0338,114, bardzo niski
+FG0348,109, bardzo niski
+FG0358,106, bardzo niski
+FG0368,96, bardzo niski
+FG0378,111, bardzo niski
+FG1368,142, umiarkowany
+FG1378,131, niski
+FG1388,150, wysoki
+FG2348,147, umiarkowany
+FG2398,165, bardzo wysoki
+FG0307,121, niski
+FG0317,116, bardzo niski
+FG0327,96, bardzo niski
+FG0337,111, bardzo niski
+FG0347,119, bardzo niski
+FG0357,118, bardzo niski
+FG1357,107, bardzo niski
+FG1367,106, bardzo niski
+FG1377,115, bardzo niski
+FG1387,129, niski
+FG2347,144, umiarkowany
+FG2357,173, bardzo wysoki
+FG3327,170, bardzo wysoki
+FG3337,148, wysoki
+FG0312,102, bardzo niski
+FG0322,109, bardzo niski
+FG1322,99, bardzo niski
+FG1332,103, bardzo niski
+FG1342,119, bardzo niski
+FG1352,131, niski
+FG1362,139, umiarkowany
+FG1372,127, niski
+FG1392,160, wysoki
+FG2302,151, wysoki
+FG2312,142, umiarkowany
+FG2322,160, wysoki
+FG2342,158, wysoki
+FG2392,152, wysoki
+FG3302,144, umiarkowany
+FG3312,154, wysoki
+FG3322,153, wysoki
+FG0311,103, bardzo niski
+FG1321,108, bardzo niski
+FG1331,115, bardzo niski
+FG1341,141, umiarkowany
+FG1351,158, wysoki
+FG1361,152, wysoki
+FG1371,160, wysoki
+FG2301,143, umiarkowany
+FG2311,137, umiarkowany
+FG2321,134, niski
+FG2351,181, bardzo wysoki
+FG3301,155, wysoki
+FG0310,122, niski
+FG1310,113, bardzo niski
+FG1320,120, niski
+FG1330,150, wysoki
+FG1340,148, wysoki
+FG1360,145, umiarkowany
+FG1390,149, wysoki
+FG2300,138, umiarkowany
+FG2310,122, niski
+FG2320,120, niski
+FG0219,113, bardzo niski
+FG1219,89, bardzo niski
+FG1229,101, bardzo niski
+FG1239,107, bardzo niski
+FG1249,135, umiarkowany
+FG1259,129, niski
+FG1269,135, umiarkowany
+FG1289,139, umiarkowany
+FG1299,114, bardzo niski
+FG2209,120, niski
+FG2219,126, niski
+FG2229,136, umiarkowany
+FG2239,160, wysoki
+FG2249,145, umiarkowany
+FG0218,107, bardzo niski
+FG1218,101, bardzo niski
+FG1228,84, bardzo niski
+FG1238,118, bardzo niski
+FG1248,146, umiarkowany
+FG1258,117, bardzo niski
+FG1268,143, umiarkowany
+FG1288,162, bardzo wysoki
+FG1298,139, umiarkowany
+FG2208,120, niski
+FG2248,138, umiarkowany
+FG1217,125, niski
+FG1227,126, niski
+FG1237,115, bardzo niski
+FG1247,147, umiarkowany
+FG1257,123, niski
+FG1267,147, umiarkowany
+FG1287,140, umiarkowany
+FG1297,109, bardzo niski
+FG2207,110, bardzo niski
+FG2247,133, niski
+FG1178,168, bardzo wysoki
+FG1179,127, niski
+FG1188,125, niski
+FG1189,124, niski
+FG1199,132, niski
+FG2119,158, wysoki
+FG2129,149, wysoki
+FG2139,169, bardzo wysoki
+FG1280,138, umiarkowany
+FG1281,145, umiarkowany
+FG1290,130, niski
+FG1291,118, bardzo niski
+FG2220,170, bardzo wysoki
+FG2230,158, wysoki
+FG2240,151, wysoki
+FG2241,154, wysoki
+FG2250,162, bardzo wysoki
+FG2251,127, niski
+FG2261,144, umiarkowany
+FG1235,131, niski
+FG1245,126, niski
+FG1255,112, bardzo niski
+FG1265,123, niski
+FG1274,125, niski
+FG1275,121, niski
+FG1284,122, niski
+FG1285,118, bardzo niski
+FG1294,100, bardzo niski
+FG1295,112, bardzo niski
+FG2204,143, umiarkowany
+FG2205,124, niski
+FG2224,126, niski
+FG2245,126, niski
+FG2255,142, umiarkowany
+FG2284,131, niski
+FG2294,133, niski
+FG2295,112, bardzo niski
+FG1236,126, niski
+FG1246,112, bardzo niski
+FG1256,123, niski
+FG1286,127, niski
+FG1296,111, bardzo niski
+FG2206,139, umiarkowany
+FG2246,139, umiarkowany
+FG2256,134, niski
+FG2266,143, umiarkowany
+FG2286,129, niski
+FG1283,116, bardzo niski
+FG1293,106, bardzo niski
+FG2273,125, niski
+FG2283,138, umiarkowany
+FG1272,156, wysoki
+FG1282,135, umiarkowany
+FG1292,118, bardzo niski
+FG2252,159, wysoki
+FG2262,132, niski
+FG2272,149, wysoki
+FG1177,151, wysoki
+FG1187,141, umiarkowany
+FG1166,161, wysoki
+FG1176,127, niski
+FG1186,154, wysoki
+FG2126,174, bardzo wysoki
+FG2136,162, bardzo wysoki
+FG2156,163, bardzo wysoki
+FG2166,160, wysoki
+FG2176,168, bardzo wysoki
+FG1155,136, umiarkowany
+FG1165,130, niski
+FG1175,148, wysoki
+FG2115,173, bardzo wysoki
+FG2125,141, umiarkowany
+FG2165,170, bardzo wysoki
+FG2185,165, bardzo wysoki
+FG1144,127, niski
+FG1154,126, niski
+FG1164,151, wysoki
+FG2104,151, wysoki
+FG2114,160, wysoki
+FG2124,166, bardzo wysoki
+FG1123,129, niski
+FG1133,116, bardzo niski
+FG1143,125, niski
+FG1153,133, niski
+FG1163,158, wysoki
+FG1183,171, bardzo wysoki
+FG1193,148, wysoki
+FG2103,173, bardzo wysoki
+FG1122,125, niski
+FG1132,141, umiarkowany
+FG1142,116, bardzo niski
+FG1152,140, umiarkowany
+FG1172,164, bardzo wysoki
+FG1182,151, wysoki
+FG1192,148, wysoki
+FG1121,138, umiarkowany
+FG1131,131, niski
+FG1141,140, umiarkowany
+FG1151,146, umiarkowany
+FG1161,159, wysoki
+FG1171,141, umiarkowany
+FG1181,159, wysoki
+FG1191,166, bardzo wysoki
+FG2141,165, bardzo wysoki
+FG1120,139, umiarkowany
+FG1130,144, umiarkowany
+FG1140,162, bardzo wysoki
+FG1160,158, wysoki
+FG1170,146, umiarkowany
+FG1190,143, umiarkowany
+FG2140,168, bardzo wysoki
+FG1013,149, wysoki
+FG1014,139, umiarkowany
+FG1023,165, bardzo wysoki
+FG1024,156, wysoki
+FG1033,165, bardzo wysoki
+FG1034,160, wysoki
+FG3003,177, bardzo wysoki
+FG3004,165, bardzo wysoki
+FG3014,196, bardzo wysoki
+FG1029,130, niski
+FG1039,126, niski
+FG1049,140, umiarkowany
+FG1069,165, bardzo wysoki
+FG1079,158, wysoki
+FG1089,166, bardzo wysoki
+FG1099,151, wysoki
+FG2039,161, wysoki
+FG3039,176, bardzo wysoki
+FG3049,158, wysoki
+FG1028,137, umiarkowany
+FG1038,115, bardzo niski
+FG1048,132, niski
+FG1068,160, wysoki
+FG1078,148, wysoki
+FG1088,159, wysoki
+FG1098,159, wysoki
+FG2028,155, wysoki
+FG2038,169, bardzo wysoki
+FG3038,143, umiarkowany
+FG3048,157, wysoki
+FG1027,139, umiarkowany
+FG1037,118, bardzo niski
+FG1047,137, umiarkowany
+FG1057,131, niski
+FG1067,158, wysoki
+FG2037,169, bardzo wysoki
+FG2047,178, bardzo wysoki
+FG3027,149, wysoki
+FG3037,151, wysoki
+FG1026,142, umiarkowany
+FG1036,124, niski
+FG1046,144, umiarkowany
+FG1056,168, bardzo wysoki
+FG2026,160, wysoki
+FG2036,161, wysoki
+FG2046,164, bardzo wysoki
+FG3016,165, bardzo wysoki
+FG3026,167, bardzo wysoki
+FG1015,154, wysoki
+FG1025,148, wysoki
+FG1035,141, umiarkowany
+FG1045,162, bardzo wysoki
+FG2015,171, bardzo wysoki
+FG2025,154, wysoki
+FG3015,152, wysoki
+FG1002,142, umiarkowany
+FG1012,150, wysoki
+FG1022,144, umiarkowany
+FG1032,152, wysoki
+FG3022,161, wysoki
+FG1001,173, bardzo wysoki
+FG1011,154, wysoki
+FG1000,165, bardzo wysoki
+GF5060,151, wysoki
+GF5050,159, wysoki
+GF5061,129, niski
+GF5051,121, niski
+GF5040,154, wysoki
+GF5041,124, niski
+GF5042,136, umiarkowany
+GF5043,161, wysoki
+GF5044,145, umiarkowany
+GF5045,141, umiarkowany
+GF5046,139, umiarkowany
+GF5047,144, umiarkowany
+GF5048,133, niski
+GF5049,146, umiarkowany
+GF5070,130, niski
+GF5071,146, umiarkowany
+GF5031,141, umiarkowany
+GF5032,165, bardzo wysoki
+GF5033,159, wysoki
+GF5034,135, umiarkowany
+GF5035,136, umiarkowany
+GF5036,149, wysoki
+GF5037,145, umiarkowany
+GF5038,162, bardzo wysoki
+GF5039,135, umiarkowany
+GF5021,144, umiarkowany
+GF5024,155, wysoki
+GF9090,125, niski
+GF9091,163, bardzo wysoki
+GF9080,132, niski
+GF9081,154, wysoki
+GF9082,133, niski
+GF9070,131, niski
+GF9071,155, wysoki
+GF9072,136, umiarkowany
+GF9060,135, umiarkowany
+GF9061,142, umiarkowany
+GF9062,160, wysoki
+GF9063,150, wysoki
+GF9050,136, umiarkowany
+GF9051,143, umiarkowany
+GF9053,163, bardzo wysoki
+GF9041,139, umiarkowany
+GF9042,140, umiarkowany
+GF9043,118, bardzo niski
+GF9031,148, wysoki
+GF9032,124, niski
+GF9033,127, niski
+GF9020,156, wysoki
+GF9010,152, wysoki
+GF9000,130, niski
+GF8050,140, umiarkowany
+GF8061,141, umiarkowany
+GF8051,122, niski
+GF8062,127, niski
+GF8063,131, niski
+GF8040,133, niski
+GF8041,118, bardzo niski
+GF8080,117, bardzo niski
+GF8081,115, bardzo niski
+GF8082,125, niski
+GF8071,134, niski
+GF8072,139, umiarkowany
+GF8073,130, niski
+GF8030,121, niski
+GF8031,105, bardzo niski
+GF8020,110, bardzo niski
+GF5010,143, umiarkowany
+GF5011,173, bardzo wysoki
+GF5103,149, wysoki
+GF4091,149, wysoki
+GF4192,147, umiarkowany
+GF4193,132, niski
+GF4389,148, wysoki
+GF4081,140, umiarkowany
+GF4082,134, niski
+GF4083,139, umiarkowany
+GF4181,150, wysoki
+GF2313,129, niski
+GF2314,119, bardzo niski
+GF2324,130, niski
+GF2374,130, niski
+GF2384,133, niski
+GF3314,156, wysoki
+GF3353,169, bardzo wysoki
+GF3363,134, niski
+GF3364,164, bardzo wysoki
+GF2392,155, wysoki
+GF3352,154, wysoki
+GF3362,126, niski
+GF4312,150, wysoki
+GF4322,123, niski
+GF2436,135, umiarkowany
+GF4426,137, umiarkowany
+GF2435,127, niski
+GF2445,124, niski
+GF2465,129, niski
+GF4405,166, bardzo wysoki
+GF4415,162, bardzo wysoki
+GF4425,137, umiarkowany
+GF4445,107, bardzo niski
+GF2424,135, umiarkowany
+GF2434,124, niski
+GF2444,123, niski
+GF2454,158, wysoki
+GF2464,140, umiarkowany
+GF4404,152, wysoki
+GF4414,153, wysoki
+GF4424,132, niski
+GF4434,154, wysoki
+GF4444,156, wysoki
+GF2413,156, wysoki
+GF2423,141, umiarkowany
+GF2433,127, niski
+GF2443,123, niski
+GF2453,129, niski
+GF2463,155, wysoki
+GF2473,134, niski
+GF4413,144, umiarkowany
+GF4423,128, niski
+GF4433,131, niski
+GF4443,155, wysoki
+GF1472,129, niski
+GF1482,133, niski
+GF1492,121, niski
+GF2432,116, bardzo niski
+GF2442,122, niski
+GF2452,118, bardzo niski
+GF2462,164, bardzo wysoki
+GF2472,125, niski
+GF3402,147, umiarkowany
+GF4412,145, umiarkowany
+GF4422,144, umiarkowany
+GF4472,115, bardzo niski
+GF1481,138, umiarkowany
+GF1491,117, bardzo niski
+GF2441,132, niski
+GF2451,124, niski
+GF2481,152, wysoki
+GF4411,137, umiarkowany
+GF4421,149, wysoki
+GF1470,158, wysoki
+GF2440,126, niski
+GF2450,143, umiarkowany
+GF3400,143, umiarkowany
+GF4420,136, umiarkowany
+GF4430,138, umiarkowany
+GF1379,121, niski
+GF2319,157, wysoki
+GF2329,152, wysoki
+GF2349,124, niski
+GF2379,134, niski
+GF2389,126, niski
+GF3309,139, umiarkowany
+GF3319,118, bardzo niski
+GF3369,155, wysoki
+GF3379,158, wysoki
+GF3399,169, bardzo wysoki
+GF4329,141, umiarkowany
+GF1378,141, umiarkowany
+GF1388,120, niski
+GF1398,130, niski
+GF2308,141, umiarkowany
+GF2318,125, niski
+GF2328,117, bardzo niski
+GF2338,130, niski
+GF2348,130, niski
+GF2358,137, umiarkowany
+GF2368,139, umiarkowany
+GF2378,122, niski
+GF2388,133, niski
+GF3308,130, niski
+GF3318,135, umiarkowany
+GF3368,159, wysoki
+GF3378,125, niski
+GF3388,142, umiarkowany
+GF4308,133, niski
+GF4338,155, wysoki
+GF4348,153, wysoki
+GF4388,130, niski
+GF1387,137, umiarkowany
+GF2307,136, umiarkowany
+GF2317,138, umiarkowany
+GF2327,130, niski
+GF2337,138, umiarkowany
+GF2347,132, niski
+GF2357,137, umiarkowany
+GF2367,144, umiarkowany
+GF2377,142, umiarkowany
+GF2387,135, umiarkowany
+GF2397,121, niski
+GF3307,137, umiarkowany
+GF3317,165, bardzo wysoki
+GF3327,160, wysoki
+GF3367,155, wysoki
+GF3377,143, umiarkowany
+GF3387,163, bardzo wysoki
+GF4307,160, wysoki
+GF4317,138, umiarkowany
+GF2306,132, niski
+GF2316,136, umiarkowany
+GF2326,135, umiarkowany
+GF2336,138, umiarkowany
+GF2346,159, wysoki
+GF2396,129, niski
+GF3306,147, umiarkowany
+GF3316,167, bardzo wysoki
+GF3366,158, wysoki
+GF3376,138, umiarkowany
+GF3386,166, bardzo wysoki
+GF3396,145, umiarkowany
+GF4306,151, wysoki
+GF4316,134, niski
+GF4336,140, umiarkowany
+GF2315,123, niski
+GF2325,123, niski
+GF2335,141, umiarkowany
+GF2385,155, wysoki
+GF2395,156, wysoki
+GF3315,158, wysoki
+GF3365,152, wysoki
+GF3375,143, umiarkowany
+GF4315,139, umiarkowany
+GF4335,168, bardzo wysoki
+GF4345,147, umiarkowany
+GF4071,149, wysoki
+GF4171,164, bardzo wysoki
+GF4172,149, wysoki
+GF2391,173, bardzo wysoki
+GF3351,136, umiarkowany
+GF3361,142, umiarkowany
+GF3371,142, umiarkowany
+GF4321,131, niski
+GF4331,133, niski
+GF3340,135, umiarkowany
+GF3350,121, niski
+GF3370,126, niski
+GF3380,159, wysoki
+GF4320,134, niski
+GF4330,134, niski
+GF3239,167, bardzo wysoki
+GF3249,138, umiarkowany
+GF3259,121, niski
+GF4229,133, niski
+GF4239,136, umiarkowany
+GF2288,148, wysoki
+GF3228,138, umiarkowany
+GF3238,159, wysoki
+GF3258,147, umiarkowany
+GF3298,130, niski
+GF4208,124, niski
+GF4218,131, niski
+GF4228,126, niski
+GF2287,146, umiarkowany
+GF3227,140, umiarkowany
+GF3237,141, umiarkowany
+GF3277,120, niski
+GF3287,144, umiarkowany
+GF3297,131, niski
+GF4207,132, niski
+GF4217,120, niski
+GF4227,131, niski
+GF3216,141, umiarkowany
+GF3226,143, umiarkowany
+GF3236,143, umiarkowany
+GF3256,143, umiarkowany
+GF3266,149, wysoki
+GF3276,123, niski
+GF3286,140, umiarkowany
+GF3296,138, umiarkowany
+GF4206,126, niski
+GF4216,109, bardzo niski
+GF4226,114, bardzo niski
+GF3205,190, bardzo wysoki
+GF3215,166, bardzo wysoki
+GF3225,137, umiarkowany
+GF3235,127, niski
+GF3245,143, umiarkowany
+GF3255,149, wysoki
+GF3265,129, niski
+GF3275,128, niski
+GF3285,136, umiarkowany
+GF3295,135, umiarkowany
+GF4205,117, bardzo niski
+GF4215,103, bardzo niski
+GF4225,124, niski
+GF3214,145, umiarkowany
+GF3224,140, umiarkowany
+GF3234,140, umiarkowany
+GF3244,158, wysoki
+GF3254,136, umiarkowany
+GF3264,113, bardzo niski
+GF3274,122, niski
+GF3284,127, niski
+GF3294,113, bardzo niski
+GF4204,111, bardzo niski
+GF4214,108, bardzo niski
+GF4224,141, umiarkowany
+GF2293,191, bardzo wysoki
+GF3213,137, umiarkowany
+GF3223,132, niski
+GF3233,135, umiarkowany
+GF3243,153, wysoki
+GF3253,149, wysoki
+GF3263,131, niski
+GF3273,133, niski
+GF3293,131, niski
+GF4203,111, bardzo niski
+GF2292,182, bardzo wysoki
+GF3212,137, umiarkowany
+GF3222,136, umiarkowany
+GF3232,143, umiarkowany
+GF3242,141, umiarkowany
+GF3252,140, umiarkowany
+GF3262,135, umiarkowany
+GF2291,162, bardzo wysoki
+GF3211,154, wysoki
+GF3221,132, niski
+GF3231,140, umiarkowany
+GF3241,138, umiarkowany
+GF3251,149, wysoki
+GF3261,131, niski
+GF2290,151, wysoki
+GF3200,164, bardzo wysoki
+GF3210,147, umiarkowany
+GF3220,124, niski
+GF3230,140, umiarkowany
+GF3240,140, umiarkowany
+GF3250,138, umiarkowany
+GF2199,157, wysoki
+GF3109,150, wysoki
+GF3119,126, niski
+GF3129,116, bardzo niski
+GF3139,138, umiarkowany
+GF3149,140, umiarkowany
+GF3159,131, niski
+GF2188,167, bardzo wysoki
+GF2198,157, wysoki
+GF3108,138, umiarkowany
+GF3118,135, umiarkowany
+GF3128,119, bardzo niski
+GF3138,123, niski
+GF3148,140, umiarkowany
+GF3107,118, bardzo niski
+GF3117,130, niski
+GF3127,138, umiarkowany
+GF3137,128, niski
+GF3085,151, wysoki
+GF3086,151, wysoki
+GF4065,178, bardzo wysoki
+GF4066,182, bardzo wysoki
+GF3064,155, wysoki
+GF3074,144, umiarkowany
+GF3084,136, umiarkowany
+GF4064,147, umiarkowany
+GF3063,156, wysoki
+GF3073,139, umiarkowany
+GF3083,133, niski
+GF4134,158, wysoki
+GF4144,135, umiarkowany
+GF4154,126, niski
+GF4103,150, wysoki
+GF4143,162, bardzo wysoki
+GF4163,127, niski
+GF4102,129, niski
+GF4162,125, niski
+GF4101,125, niski
+GF4100,130, niski
+GF4009,147, umiarkowany
+GF3098,149, wysoki
+GF3087,156, wysoki
+GF3097,150, wysoki
+GF3012,136, umiarkowany
+GF4052,175, bardzo wysoki
+GG0004,152, wysoki
+GG0003,143, umiarkowany
+GG0002,135, umiarkowany
+GG0001,139, umiarkowany
+GG0011,146, umiarkowany
+GG0012,136, umiarkowany
+GG0000,133, niski
+GG0010,136, umiarkowany
+GG0013,139, umiarkowany
+GG0020,136, umiarkowany
+GG0021,135, umiarkowany
+GG5020,167, bardzo wysoki
+GG5011,126, niski
+GG5002,148, wysoki
+GG4091,182, bardzo wysoki
+GG4061,187, bardzo wysoki
+GG4062,191, bardzo wysoki
+GG0023,144, umiarkowany
+GG0033,141, umiarkowany
+GG0043,134, niski
+GG0022,135, umiarkowany
+GG0032,136, umiarkowany
+GG0042,164, bardzo wysoki
+GG0052,150, wysoki
+GG0062,110, bardzo niski
+GG3082,168, bardzo wysoki
+GG4052,168, bardzo wysoki
+GG0031,143, umiarkowany
+GG0041,137, umiarkowany
+GG0051,151, wysoki
+GG0061,138, umiarkowany
+GG0071,158, wysoki
+GG4021,174, bardzo wysoki
+GG4031,152, wysoki
+GG4041,156, wysoki
+GG4051,162, bardzo wysoki
+GG0030,155, wysoki
+GG0040,131, niski
+GG0050,143, umiarkowany
+GG0060,135, umiarkowany
+GG0070,148, wysoki
+GG3040,181, bardzo wysoki
+GG3050,157, wysoki
+GG3060,169, bardzo wysoki
+GG4020,164, bardzo wysoki
+GG4030,169, bardzo wysoki
+GG4040,164, bardzo wysoki

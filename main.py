@@ -46,26 +46,26 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 86:
             value.append("bardzo dobry")
     elif nazwa == "woda_LS" and wagi == 531:
-        if value[0] <= 57:
+        if value[0] <= 74:
             value.append("zly")
-        elif 57 < value[0] <= 107:
+        elif 74 < value[0] <= 117:
             value.append("slaby")
-        elif 107 < value[0] <= 123:
+        elif 117 < value[0] <= 131:
             value.append("umiarkowany")
-        elif 123 < value[0] <= 141:
+        elif 131 < value[0] <= 148:
             value.append("dobry")
-        elif value[0] > 141:
+        elif value[0] > 148:
             value.append("bardzo dobry")
     elif nazwa == "woda_NL" and wagi == 531:
-        if value[0] <= 70:
+        if value[0] <= 72:
             value.append("zly")
-        elif 70 < value[0] <= 101:
+        elif 72 < value[0] <= 107:
             value.append("slaby")
-        elif 101 < value[0] <= 115:
+        elif 107 < value[0] <= 124:
             value.append("umiarkowany")
-        elif 115 < value[0] <= 131:
+        elif 124 < value[0] <= 147:
             value.append("dobry")
-        elif value[0] > 131:
+        elif value[0] > 147:
             value.append("bardzo dobry")
     elif nazwa == "rosliny_LS" and wagi == 321:
         if value[0] <= 61:
@@ -90,26 +90,26 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 72:
             value.append("bardzo dobry")
     elif nazwa == "rosliny_LS" and wagi == 531:
-        if value[0] <= 89:
+        if value[0] <= 79:
             value.append("zly")
-        elif 89 < value[0] <= 98:
+        elif 79 < value[0] <= 94:
             value.append("slaby")
-        elif 98 < value[0] <= 106:
+        elif 94 < value[0] <= 109:
             value.append("umiarkowany")
-        elif 106 < value[0] <= 118:
+        elif 109 < value[0] <= 129:
             value.append("dobry")
-        elif value[0] > 118:
+        elif value[0] > 129:
             value.append("bardzo dobry")
     elif nazwa == "rosliny_NL" and wagi == 531:
-        if value[0] <= 72:
+        if value[0] <= 76:
             value.append("zly")
-        elif 72 < value[0] <= 83:
+        elif 76 < value[0] <= 93:
             value.append("slaby")
-        elif 83 < value[0] <= 94:
+        elif 93 < value[0] <= 110:
             value.append("umiarkowany")
-        elif 94 < value[0] <= 104:
+        elif 110 < value[0] <= 134:
             value.append("dobry")
-        elif value[0] > 104:
+        elif value[0] > 134:
             value.append("bardzo dobry")
     elif nazwa == "ssaki_LS" and wagi == 321:
         if value[0] <= 83:
@@ -134,26 +134,26 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 126:
             value.append("bardzo dobry")
     elif nazwa == "ssaki_LS" and wagi == 531:
-        if value[0] <= 116:
+        if value[0] <= 166:
             value.append("zly")
-        elif 116 < value[0] <= 134:
+        elif 166 < value[0] <= 195:
             value.append("slaby")
-        elif 134 < value[0] <= 151:
+        elif 195 < value[0] <= 220:
             value.append("umiarkowany")
-        elif 151 < value[0] <= 170:
+        elif 220 < value[0] <= 245:
             value.append("dobry")
-        elif value[0] > 170:
+        elif value[0] > 245:
             value.append("bardzo dobry")
     elif nazwa == "ssaki_NL" and wagi == 531:
-        if value[0] <= 113:
+        if value[0] <= 135:
             value.append("zly")
-        elif 113 < value[0] <= 141:
+        elif 135 < value[0] <= 168:
             value.append("slaby")
-        elif 141 < value[0] <= 157:
+        elif 168 < value[0] <= 196:
             value.append("umiarkowany")
-        elif 157 < value[0] <= 177:
+        elif 196 < value[0] <= 227:
             value.append("dobry")
-        elif value[0] > 177:
+        elif value[0] > 227:
             value.append("bardzo dobry")
     elif nazwa == "ptaki_LS" and wagi == 321:
         if value[0] <= 35:
@@ -178,24 +178,24 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 58:
             value.append("bardzo dobry")
     elif nazwa == "ptaki_LS" and wagi == 531:
-        if value[0] <= 73:
+        if value[0] <= 58:
             value.append("zly")
-        elif 73 < value[0] <= 84:
+        elif 58 < value[0] <= 80:
             value.append("slaby")
-        elif 84 < value[0] <= 98:
+        elif 80 < value[0] <= 98:
             value.append("umiarkowany")
-        elif 98 < value[0] <= 111:
+        elif 98 < value[0] <= 121:
             value.append("dobry")
-        elif value[0] > 111:
+        elif value[0] > 121:
             value.append("bardzo dobry")
     elif nazwa == "ptaki_NL" and wagi == 531:
-        if value[0] <= 42:
+        if value[0] <= 35:
             value.append("zly")
-        elif 42 < value[0] <= 58:
+        elif 35 < value[0] <= 50:
             value.append("slaby")
-        elif 58 < value[0] <= 74:
+        elif 50 < value[0] <= 69:
             value.append("umiarkowany")
-        elif 74 < value[0] <= 94:
+        elif 69 < value[0] <= 94:
             value.append("dobry")
         elif value[0] > 94:
             value.append("bardzo dobry")
@@ -222,26 +222,26 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 47:
             value.append("bardzo dobry")
     elif nazwa == "bezkregowce_LS" and wagi == 531:
-        if value[0] <= 46:
+        if value[0] <= 92:
             value.append("zly")
-        elif 46 < value[0] <= 49:
+        elif 92 < value[0] <= 98:
             value.append("slaby")
-        elif 49 < value[0] <= 54:
+        elif 98 < value[0] <= 107:
             value.append("umiarkowany")
-        elif 54 < value[0] <= 60:
+        elif 107 < value[0] <= 118:
             value.append("dobry")
-        elif value[0] > 60:
+        elif value[0] > 118:
             value.append("bardzo dobry")
     elif nazwa == "bezkregowce_NL" and wagi == 531:
-        if value[0] <= 4:
+        if value[0] <= 91:
             value.append("zly")
-        elif 4 < value[0] <= 23:
+        elif 91 < value[0] <= 94:
             value.append("slaby")
-        elif 23 < value[0] <= 53:
+        elif 94 < value[0] <= 99:
             value.append("umiarkowany")
-        elif 53 < value[0] <= 70:
+        elif 99 < value[0] <= 105:
             value.append("dobry")
-        elif value[0] > 70:
+        elif value[0] > 105:
             value.append("bardzo dobry")
     elif nazwa == "ekosystem_LS" and wagi == 321:
         if value[0] <= 300:
@@ -266,26 +266,26 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 375:
             value.append("bardzo dobry")
     elif nazwa == "ekosystem_LS" and wagi == 531:
-        if value[0] <= 422:
+        if value[0] <= 520:
             value.append("zly")
-        elif 422 < value[0] <= 469:
+        elif 520 < value[0] <= 587:
             value.append("slaby")
-        elif 469 < value[0] <= 511:
+        elif 587 < value[0] <= 646:
             value.append("umiarkowany")
-        elif 511 < value[0] <= 565:
+        elif 646 < value[0] <= 717:
             value.append("dobry")
-        elif value[0] > 565:
+        elif value[0] > 717:
             value.append("bardzo dobry")
     elif nazwa == "ekosystem_NL" and wagi == 531:
-        if value[0] <= 264:
+        if value[0] <= 440:
             value.append("zly")
-        elif 264 < value[0] <= 360:
+        elif 440 < value[0] <= 514:
             value.append("slaby")
-        elif 360 < value[0] <= 434:
+        elif 514 < value[0] <= 579:
             value.append("umiarkowany")
-        elif 434 < value[0] <= 544:
+        elif 579 < value[0] <= 658:
             value.append("dobry")
-        elif value[0] > 544:
+        elif value[0] > 658:
             value.append("bardzo dobry")
     elif nazwa == "korytarze_LS" and wagi == 321:
         if value[0] <= 95:
@@ -310,26 +310,26 @@ def przedzialy(value, nazwa, wagi):
         elif value[0] > 104:
             value.append("bardzo wysoki")
     elif nazwa == "korytarze_LS" and wagi == 531:
-        if value[0] <= 143:
+        if value[0] <= 156:
             value.append("bardzo niski")
-        elif 143 < value[0] <= 162:
+        elif 156 < value[0] <= 172:
             value.append("niski")
-        elif 162 < value[0] <= 176:
+        elif 172 < value[0] <= 186:
             value.append("umiarkowany")
-        elif 176 < value[0] <= 189:
+        elif 186 < value[0] <= 198:
             value.append("wysoki")
-        elif value[0] > 189:
+        elif value[0] > 198:
             value.append("bardzo wysoki")
     elif nazwa == "korytarze_NL" and wagi == 531:
-        if value[0] <= 116:
+        if value[0] <= 119:
             value.append("bardzo niski")
-        elif 116 < value[0] <= 127:
+        elif 119 < value[0] <= 134:
             value.append("niski")
-        elif 127 < value[0] <= 139:
+        elif 134 < value[0] <= 147:
             value.append("umiarkowany")
-        elif 139 < value[0] <= 154:
+        elif 147 < value[0] <= 161:
             value.append("wysoki")
-        elif value[0] > 154:
+        elif value[0] > 161:
             value.append("bardzo wysoki")
     return value
 
