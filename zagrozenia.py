@@ -21,26 +21,26 @@ def przedzialy(value, LS_NL):
     value = [value]
     if LS_NL == 'LS':
         if value[0] <= 28:
-            value.append(1)
+            value.append(0)
         elif 29 <= value[0] <= 35:
-            value.append(2)
+            value.append(1)
         elif 36 <= value[0] <= 44:
-            value.append(3)
+            value.append(2)
         elif 45 <= value[0] <= 55:
-            value.append(4)
+            value.append(3)
         elif value[0] > 55:
-            value.append(5)
+            value.append(4)
     elif LS_NL == 'NL':
         if value[0] <= 36:
-            value.append(1)
+            value.append(0)
         elif 37 <= value[0] <= 47:
-            value.append(2)
+            value.append(1)
         elif 48 <= value[0] <= 58:
-            value.append(3)
+            value.append(2)
         elif 59 <= value[0] <= 71:
-            value.append(4)
+            value.append(3)
         elif value[0] > 71:
-            value.append(5)
+            value.append(4)
     return value
 
 

@@ -25,19 +25,19 @@ for row_idx, row in df.iterrows():
 
 for i in range(records.__len__()):
     if records[i][2] <= 15:
-        records[i].append(1)
+        records[i].append(0)
         continue
     elif 16 <= records[i][2] <= 21:
-        records[i].append(2)
+        records[i].append(1)
         continue
     elif 22 <= records[i][2] <= 26:
-        records[i].append(3)
+        records[i].append(2)
         continue
     elif 27 <= records[i][2] <= 32:
-        records[i].append(4)
+        records[i].append(3)
         continue
     elif 33 <= records[i][2] <= 50:
-        records[i].append(5)
+        records[i].append(4)
 print(records)
 # Utworzenie tabeli
 tabela = pd.DataFrame(records)

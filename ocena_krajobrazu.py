@@ -9,6 +9,8 @@ value_cols = df.columns[1:]
 tab_weights = [2, 1, 1, 5]
 
 records = []
+records1 = []
+
 
 for row_idx, row in df.iterrows():
     record = []
@@ -27,19 +29,19 @@ print(records)
 
 for i in range(records.__len__()):
     if records[i][2] <= 20:
-        records[i].append(1)
+        records[i].append(0)
         continue
     elif 21 <= records[i][2] <= 26:
-        records[i].append(2)
+        records[i].append(1)
         continue
     elif 27 <= records[i][2] <= 31:
-        records[i].append(3)
+        records[i].append(2)
         continue
     elif 32 <= records[i][2] <= 36:
-        records[i].append(4)
+        records[i].append(3)
         continue
     elif 37 <= records[i][2] <= 45:
-        records[i].append(5)
+        records[i].append(4)
 
 print(records)
 # Utworzenie tabeli
